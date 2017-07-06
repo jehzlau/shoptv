@@ -1,0 +1,136 @@
+<style type="text/css">
+
+#stores ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#stores .list {
+    font-family: Arial;
+    margin:0;
+}
+#stores .list > li {
+    display:block;
+    background-color: #fff;
+}
+#stores h3 {
+    font-size: 12px;
+    margin:0 0 0.3rem;
+    font-weight: normal !important;
+    font-family: Arial !important;
+}
+#stores p {
+    margin:0;
+}
+#stores input {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    padding:7px 14px;
+    margin-bottom: 10px;
+    width: 95% !important;
+}
+
+#stores input:focus {
+    outline:none;
+    border-color:#aaa;
+}
+#stores .sort {
+    padding:5px 5px;
+    border-radius: 6px;
+    border:none;
+    display:inline-block;
+    color:#fff;
+    text-decoration: none;
+    background-color: #000;
+    height:35px;
+    margin-top: -10px;
+}
+#stores .sort:hover {
+    text-decoration: none;
+    background-color:#c3bea9;
+}
+#stores .sort:focus {
+    outline:none;
+}
+#stores .sort:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+}
+#stores .sort.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:10px;
+    right:-2px;
+}
+#stores .sort.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-2px;
+}
+
+</style>
+
+<?php
+   $name='tenants';
+   $attributeInfo = Mage::getResourceModel('eav/entity_attribute_collection')->setCodeFilter($name)->getFirstItem();
+   $attributeId = $attributeInfo->getAttributeId();
+   $attribute = Mage::getModel('catalog/resource_eav_attribute')->load($attributeId);
+   $ppmtenants = $attribute ->getSource()->getAllOptions(false); 
+?>
+
+   
+
+
+<div id="stores">
+    <input class="search" placeholder="Search Brands"/>
+    <div id="ppmscroll" style="overflow-y: auto; overflow-x: hidden; height: 250px; width: 95%;">
+    
+<ul class="list">
+ <?php foreach ($ppmtenants as $ppmtenant): ?> 
+        <li><span class="tenant"><a href="<?php echo $this->getUrl() ?>catalogsearch/advanced/result/?tenants=<?php echo $ppmtenant['value'] ?>"><?php echo $ppmtenant['label'] ?></a></span></li>
+    <?php endforeach; ?>
+   
+        </ul>
+    </div>
+</div>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/ppm-list.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/ppm-scroll.js"></script>
+
+<script type="text/javascript">
+
+var options = {
+    valueNames: ['tenant']
+};
+var userList = new List('stores', options);
+
+var ppmtenants = $.noConflict();
+ppmtenants(document).ready(function () {
+    ppmtenants = ppmtenants("#ppmscroll").niceScroll({
+        autohidemode: false,
+        cursorcolor: "#000",
+        cursorborderradius: "50px",
+        cursorwidth: "5px",
+        cursorborder: "0px"
+    });
+});
+
+</script>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Galore_Shipping>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>0.1.0</version>
+            <depends>Mage_Shipping</depends>
+        </Galore_Shipping>
+    </modules>
+</config>

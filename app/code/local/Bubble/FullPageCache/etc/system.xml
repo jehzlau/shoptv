@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <bubble translate="label">
+            <label>Bubble Extensions</label>
+            <sort_order>1100</sort_order>
+        </bubble>
+    </tabs>
+    <sections>
+        <bubble_fpc translate="label" module="bubble_fpc">
+            <label>Full Page Cache</label>
+            <tab>bubble</tab>
+            <sort_order>25</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>General Settings</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable_auto_generation translate="label comment">
+                            <label>Enable Cache Auto Generation</label>
+                            <comment><![CDATA[If enabled, full page cache will be auto generated as soon as a product, a category, a page has changed.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </enable_auto_generation>
+                        <enable_soft_cache_clearing translate="label comment">
+                            <label>Enable Soft Cache Clearing</label>
+                            <comment><![CDATA[If enabled, the generated cache won't be cleared when a product, a category or a page is saved. The full page cache will only be flagged as invalid and will have to be refreshed manually.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </enable_soft_cache_clearing>
+                        <cache_lifetime>
+                            <label>Cache Lifetime</label>
+                            <comment><![CDATA[In seconds. Zero or empty means unlimited.]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <validate>validate-digits</validate>
+                        </cache_lifetime>
+                        <enable_zip translate="label comment">
+                            <label>Enable Compression</label>
+                            <comment><![CDATA[If enabled, cached content will be compressed.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_zip>
+                        <enable_ajax translate="label comment">
+                            <label>Cache AJAX Requests</label>
+                            <comment><![CDATA[If enabled, AJAX requests will be cached as well.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_ajax>
+                    </fields>
+                </general>
+                <storage translate="label comment">
+                    <label>Storage Settings</label>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <backend translate="label comment">
+                            <label>Cache Backend</label>
+                            <comment><![CDATA[Default is filesystem. If custom cache backend is unreachable, the filesystem will be used.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>bubble_fpc/system_config_source_cache_backend</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </backend>
+                        <memcached_host translate="label comment">
+                            <label>Host</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <backend>memcached</backend>
+                            </depends>
+                        </memcached_host>
+                        <memcached_port translate="label comment">
+                            <label>Port</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <backend>memcached</backend>
+                            </depends>
+                        </memcached_port>
+                        <memcache_host translate="label comment">
+                            <label>Host</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <backend>memcache</backend>
+                            </depends>
+                        </memcache_host>
+                        <memcache_port translate="label comment">
+                            <label>Port</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <backend>memcache</backend>
+                            </depends>
+                        </memcache_port>
+                        <redis_host translate="label comment">
+                            <label>Host</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <backend>redis</backend>
+                            </depends>
+                        </redis_host>
+                        <redis_port translate="label comment">
+                            <label>Port</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <backend>redis</backend>
+                            </depends>
+                        </redis_port>
+                    </fields>
+                </storage>
+            </groups>
+        </bubble_fpc>
+    </sections>
+</config>

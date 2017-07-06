@@ -1,0 +1,205 @@
+<?php if (Mage::getStoreConfigFlag('plugincompany_autocomplete/general/enable')) { ?>
+    <?php $imgSize = Mage::getStoreConfig('plugincompany_autocomplete/general/imagesize'); ?>
+    <?php $display = Mage::getStoreConfig('plugincompany_autocomplete/general/search_display'); ?>
+    <style type="text/css">
+        #sResult .b img {width:<?php echo $imgSize; ?>px!important;height:<?php echo $imgSize; ?>px!important}
+    </style>
+    <script type="text/javascript">
+        if (!Date.now) {
+            Date.now = function() { return new Date().getTime(); }
+        }
+    </script>
+    <script type="text/javascript">
+        var search2 = jQuery('#search');
+        var defaultSearchVal = jQuery('#search').val();
+        var oSearchWidth = search2.outerWidth();
+        var newSearchWidth = oSearchWidth * ((100 + <?php echo $increaseWidth = Mage::getStoreConfig('plugincompany_autocomplete/general/increasewidth');?>)/100);
+        var PCProductsSearch;
+
+        function processData(data,cnt) {
+            var i = 0;
+            if(cnt) i = cnt;
+            jQuery.each(data, function (k, v){
+                if(typeof v === "undefined"){
+
+                }else{
+                    PCProductsSearch.add(v);
+                }
+                if(i >= data.length){
+                    return false;
+                }
+                i++;
+                if(i > 200){
+                    setTimeout(function() {
+                        processData(data,i);
+                    },20)
+                    return false;
+                }
+            });
+        }
+
+        function initPCAutocomplete(data){
+            var background = jQuery('#search').css('background-color');
+            jQuery('#search_autocomplete').remove();
+            PCProductsSearch = new Bloodhound({
+                datumTokenizer: Bloodhound.tokenizers.obj.whitespace('keywords'),
+                queryTokenizer: Bloodhound.tokenizers.whitespace,
+                local: [ {}],
+                limit: 5
+            });
+            PCProductsSearch.initialize();
+            processData(data);
+
+            // passing in `null` for the `options` arguments will result in the default
+            // options being used
+            jQuery('#search').typeahead(null, {
+                name: 'PCProductsSearch',
+                displayKey: 'name',
+                highlight: true,
+                hint: false,
+                // `ttAdapter` wraps the suggestion engine in an adapter that
+                // is compatible with the typeahead jQuery plugin
+                source: PCProductsSearch.ttAdapter(),
+                templates: {
+                    empty: [
+                        '<div class="empty-message" style="padding:3px;font-size:0.8em;">',
+                        'No quick results found, press the ENTER key to do a full search.',
+                        '</div>'
+                    ].join('\n'),
+                    suggestion: function(item){
+                        var url = '<?php echo Mage::getBaseUrl('link'); ?>' + item.url_path;
+                        if(item.imageurl != ''){
+                            var imageUrl = '<?php echo Mage::getBaseUrl('media'); ?>catalog/product/cache/' + item.imageurl;
+                        }else{
+                            var imageUrl = '<?php echo Mage::helper('catalog/image')->init(Mage::getSingleton('catalog/product')->setImage('no_selection'),'image'); ?>';
+                        }
+                        var tra = "<table class='a'><tr border='1'><td class='b'><a href='"+ url +"' ><img src='"+ imageUrl +"' /></a></td><td class='c'><a href='"+ url +"' ><div class='f'><p class='e'>"+ item.name +"</p>"+ item.description +"</div></a></td></tr></table>";
+                        return tra;
+                    },
+                    footer: function(query) {
+                        return '<a class="fullsearch" href="#" onclick="fullSearch(this)">Click here to perform a full search >></a>';
+                    }
+                }
+            });
+
+            jQuery('.tt-dataset-PCProductsSearch').attr('id', 'sResult')
+                <?php if(Mage::getStoreConfig('plugincompany_autocomplete/general/theme') == "2"){?>
+                .addClass('sTheme2')
+            <?php } ?>
+            ;
+            <?php if($display == 'auto'){ ?>
+                var displayType = jQuery('#search').css('display');
+            <?php }else{ ?>
+                var displayType = '<?php echo $display; ?>';
+            <?php } ?>
+            jQuery('.twitter-typeahead').css('display',displayType).css('width',oSearchWidth + 'px');
+            jQuery('.tt-dropdown-menu').css('width', newSearchWidth + 'px');
+            jQuery('.twitter-typeahead')
+                .css('float',jQuery('#search').css('float'));
+
+            jQuery('.tt-dropdown-menu,.fullsearch')
+                .css('margin-right',jQuery('#search').css('margin-right'))
+                .css('margin-left',jQuery('#search').css('margin-left'))
+            ;
+
+            jQuery('#search')
+                .css('background-color', background);
+
+            jQuery('.tt-hint').remove();
+
+            jQuery(document).on('typeahead:selected',function(e,s,d) {
+                document.location = '<?php echo Mage::getBaseUrl('link');?>' + s.url_path;
+            })
+
+            <?php if($increaseWidth){ ?>
+                jQuery(search2).on('focus', function(){
+                    if(search2.val() == ''){
+                        jQuery(this).animate({
+                            width: newSearchWidth
+                        }, 400, function(){ -lhar
+                            // callback function
+                        });
+                    }
+                });
+
+                // handling the blur event on input2
+                jQuery(search2).on('blur', function(){
+                    if(search2.val() == '' || search2.val() == defaultSearchVal) {
+                        jQuery(search2).animate({
+                            width: oSearchWidth
+                        }, 400, function(){ });
+                    }
+                });
+            <?php }else{ ?>
+                setInterval(function(){
+                    jQuery('.twitter-typeahead').css('width','100%');
+                    jQuery('.tt-dropdown-menu').width(jQuery('.twitter-typeahead').parent().innerWidth());
+                },100);
+            <?php } ?>
+        }
+
+        function getSuggestionPart(part){
+            var p = part;
+            var sJSONURL = '<?php echo $this->getUrl('searchautocomplete/index/getjson',array('cache'=>$this->getLastCacheRefresh()));?>';
+            var url = sJSONURL + 'part/' + p;
+            console.log(url);
+            if (localStorage && typeof localStorage[url] !== "undefined" && suggestCacheValid()) {
+                console.log('loading from local storage');
+                var data = JSON.parse(localStorage[url]);
+                if(typeof data !== "object"){
+                    data = JSON.parse(data);
+                }
+                addPart(p, data);
+            }else{
+                console.log('local storage not supported, or no local stored suggestions found');
+                jQuery.getJSON(url, function(data) {
+                    if(localStorage){
+                        console.log('saving to local storage');
+                        try{
+                            localStorage[url] = JSON.stringify(data);
+                            localStorage['autosuggest_cache_time'] = Date.now() / 1000 | 0;
+                        }catch(err){
+                        }
+                    }
+                    addPart(p, data);
+                })
+            }
+        }
+
+        function addPart(part,data) {
+            if(part === 1){
+                initPCAutocomplete(data);
+            }else{
+                processData(data);
+            }
+            if(part < 3){
+                getSuggestionPart(part + 1);
+            }
+        }
+
+        jQuery(document).ready(function () {
+            if (jQuery('#search').length) {
+                getSuggestionPart(1);
+            }
+        });
+        function fullSearch(element) {
+            jQuery(element).closest('form').submit();
+        }
+
+        function suggestCacheValid() {
+            if(!localStorage){
+                return false;
+            }
+            if(typeof localStorage['autosuggest_cache_time'] == 'undefined'){
+                return false;
+            }
+            var last = <?php echo $this->getLastCacheRefresh(); ?>;
+            console.log('last cache refresh: ' + last);
+            console.log('local storage timestamp: ' + localStorage['autosuggest_cache_time']);
+            if(last && last < localStorage['autosuggest_cache_time']){
+                console.log('autosuggest cache stil valid');
+                return true;
+            }
+        }
+    </script>
+<?php } ?>

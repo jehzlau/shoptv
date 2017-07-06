@@ -1,0 +1,111 @@
+<?php
+/**
+ * @category    Bubble
+ * @package     Bubble_FullPageCache
+ * @version     3.5.0
+ * @copyright   Copyright (c) 2015 BubbleShop (https://www.bubbleshop.net)
+ */
+/**
+ * @var $this Bubble_FullPageCache_Block_Adminhtml_Generate
+ */
+if (!$this->getStore()) {
+    return; // nothing to do if no valid store specified
+}
+$_urls = $this->getUrls();
+$_id = $this->getStore()->getId();
+?>
+<div class="content-header">
+    <h3>
+        <?php echo $this->__('Generating cache for store %s (%s)', $this->getStore()->getName(), $this->getStore()->getCode()) ?>
+        <?php if (count($_urls)): ?>
+            <button id="btn-pause<?php echo $_id ?>" type="button" title="<?php echo $this->escapeHtml($this->__('Pause')) ?>">
+                <span><span><span id="btn-pause-label<?php echo $_id ?>"><?php echo $this->__('Pause') ?></span></span></span>
+            </button>
+        <?php endif; ?>
+    </h3>
+</div>
+
+<?php if (!count($_urls)): ?>
+    <h4><?php echo $this->__('No URL found') ?></h4>
+<?php else: ?>
+    <h4 id="generate-progress<?php echo $_id ?>" style="display: none;"><?php echo $this->__('%s of %s', '<span id="generate-offset'. $_id .'"></span>', '<span id="generate-count'. $_id .'"></span>') ?></h4>
+    <div id="calls<?php echo $_id ?>" style="max-height: 400px; border: 1px solid #d6d6d6; background: #fafafa; padding: 10px 15px 5px; overflow: scroll; margin-bottom: 50px;"></div>
+    <script type="text/javascript">
+    //<![CDATA[
+        document.observe('dom:loaded', function () {
+            if ($('loading-mask')) {
+                $('loading-mask').remove();
+            }
+        });
+
+        var run<?php echo $_id ?> = true;
+        var generateUrl<?php echo $_id ?> = '<?php echo $this->getGenerateUrl() ?>';
+        var store<?php echo $_id ?> = '<?php echo $this->getStore()->getCode() ?>';
+        var urls<?php echo $_id ?> = '<?php echo $this->helper('core')->jsonEncode($_urls) ?>'.evalJSON();
+        var interval<?php echo $_id ?> = null;
+        var start<?php echo $_id ?> = 0;
+        var end<?php echo $_id ?> = 0;
+
+        if ($('btn-pause<?php echo $_id ?>')) {
+            $('btn-pause<?php echo $_id ?>').observe('click', function(e) {
+                run<?php echo $_id ?> = !run<?php echo $_id ?>;
+                var label = run<?php echo $_id ?> ?
+                    '<?php echo $this->jsQuoteEscape($this->__('Pause')) ?>' :
+                    '<?php echo $this->jsQuoteEscape($this->__('Resume')) ?>';
+                $('btn-pause-label<?php echo $_id ?>').innerHTML = label;
+                $('btn-pause<?php echo $_id ?>').title = label;
+            });
+        }
+
+        function processUrl<?php echo $_id ?>(i) {
+            if (!run<?php echo $_id ?>) {
+                setTimeout(function() {
+                    processUrl<?php echo $_id ?>(i);
+                }, 500);
+            } else if (urls<?php echo $_id ?>[i] && urls<?php echo $_id ?>[i].length) {
+                $('generate-progress<?php echo $_id ?>').show();
+                $('generate-offset<?php echo $_id ?>').innerHTML = i + 1;
+                $('generate-count<?php echo $_id ?>').innerHTML = urls<?php echo $_id ?>.length;
+                new Ajax.Request(generateUrl<?php echo $_id ?> + '?store=' + store<?php echo $_id ?> + '&url=' + encodeURIComponent(urls<?php echo $_id ?>[i]), {
+                    onCreate: function() {
+                        start<?php echo $_id ?> = new Date().getTime();
+                        $('calls<?php echo $_id ?>').insert({
+                            top: '<p id="generate<?php echo $_id ?>-' + i + '"><a href="' + urls<?php echo $_id ?>[i] + '" target="_blank">' + urls<?php echo $_id ?>[i] + '</a>&nbsp;</p>'
+                        });
+                        interval<?php echo $_id ?> = setInterval(function() {
+                            $('generate<?php echo $_id ?>-' + i).insert({ bottom: '.' });
+                        }, 100);
+                    },
+                    onSuccess: function(response) {
+                        var result = response.responseJSON;
+                        if (result.error) {
+                            $('generate<?php echo $_id ?>-' + i).insert({
+                                bottom: '<strong style="color:red;"> ' + result.error + '</strong>'
+                            });
+                        } else {
+                            var color = result.http_code == 200 ? 'green' : 'red';
+                            var took = (Math.round(result.total_time * 10000) / 10000);
+                            $('generate<?php echo $_id ?>-' + i).insert({
+                                bottom: '<strong style="color:'+ color +';"> ' + result.http_code + '</strong> <em>(' + took.toFixed(4) + 's)</em>'
+                            });
+                        }
+                    },
+                    onFailure: function() {
+                        $('generate<?php echo $_id ?>-' + i).insert({
+                            bottom: '<strong style="color: red;">&nbsp;<?php echo $this->__('ERROR') ?></strong>'
+                        });
+                    },
+                    onComplete: function() {
+                        clearInterval(interval<?php echo $_id ?>);
+                        setTimeout(function() {
+                            processUrl<?php echo $_id ?>(++i);
+                        }, 50);
+                    }
+                });
+            }
+        }
+
+        processUrl<?php echo $_id ?>(0);
+    //]]>
+    </script>
+<?php endif; ?>

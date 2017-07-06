@@ -1,0 +1,46 @@
+<?php
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: eadesignpc
+ * Date: 5/5/2015
+ * Time: 10:16 AM
+ */
+class Eadesigndev_Romcity_Helper_Data extends Mage_Core_Helper_Abstract
+{
+
+    public function getCities($countryId, $regionId)
+    {
+        $cityCollection = Mage::getModel('romcity/romcity')->getCollection();
+        $cityCollection->addFieldToSelect('cityname')
+            ->addFieldToFilter('country_id', $countryId)
+            ->addFieldToFilter('region_id', $regionId);
+
+        $jsonData = Mage::helper('core')->jsonEncode($cityCollection->getData());
+
+        return $jsonData;
+    }
+
+    public function getCitiesAsOptions($countryId, $regionId)
+    {
+        $cityCollection = Mage::getModel('romcity/romcity')->getCollection();
+        $cityCollection->addFieldToSelect('cityname')
+            ->addFieldToFilter('country_id', $countryId)
+            ->addFieldToFilter('region_id', $regionId);
+
+        return $cityCollection;
+    }
+    
+    public function getBarangay($cityname)
+    {
+        $barangayCollection = Mage::getModel('romcity/barangay')->getCollection();
+        $barangayCollection->addFieldToSelect('barangay')
+            ->addFieldToFilter('city', $cityname);
+
+        //$jsonData = Mage::helper('core')->jsonEncode($cityCollection->getData());
+
+        //return $jsonData;
+        return $barangayCollection->getData();
+    }    
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<layout version="1.0.0">
+	<default>
+		<reference name="head">
+			<action method="addItem" ifconfig="iwdpopup/general/newsenabled"><type>skin_css</type><name>css/newsletter_popup/newsletter.css</name></action>
+			<action method="addItem" ifconfig="iwdpopup/general/newsenabled"><type>skin_css</type><name>css/newsletter_popup/font-awesome.min.css</name></action>
+			
+			<action method="addItem" ifconfig="iwdpopup/general/newsenabled"><type>skin_js</type><name>js/newspopup/bootstrap.min.js</name></action>
+		</reference>
+		 <reference name="before_body_end">           
+            <block type="page/html" name="newspopup" after="-" template="newsletter_popup/overlay.phtml"></block>
+        </reference> 
+		<reference name="footer">
+		    <block type="page/html" name="newspopup.link" after="-" template="newsletter_popup/footer_link.phtml"></block>
+		</reference>
+	</default>
+	
+</layout>

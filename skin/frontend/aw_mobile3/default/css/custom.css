@@ -1,0 +1,39 @@
+.form__field:last-child{
+    margin-bottom: 18px;
+}
+.form__field select, .customer-dob > div input{
+    padding: 8px 10px;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #777 !important;
+    border-radius: 0;
+    background: #fff;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    
+}
+.customer-dob > div input{
+    text-align: center;
+}
+.customer-dob > div{
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+    margin-right: 5px;
+    text-align: center;
+}
+#co-billing-form .form-list .customer-dob .dob-year{
+    width: 32% !important;
+    margin-right: 0px;
+}
+#co-billing-form input.radio{
+    float: left;
+}
+#co-billing-form .control label{
+    vertical-align: baseline;
+    margin-left: 10px; 
+}
+.form__label form__label--required .form__label--required:after{
+    display: none;
+}

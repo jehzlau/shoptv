@@ -1,0 +1,5 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-03-03 02:30:37",gnnchrstn@yahoo.com,CU400015844,CUOR03CGBUB-1,,simple,5.0000,89.7500,448.7500,448.7500,,,0.0000,,free,CUDSLY100OFF-2017,100.0000,verified,100.0000,"Sitio Aldea, Brgy. Natividad
+Natividad (Pob.)","San Narciso",Zambales,2205,"Standard Delivery - Shipping Fee",0.0000,
+"2017-03-03 02:30:37",gnnchrstn@yahoo.com,CU400015844,CUOR03CGBUB-1,,simple,5.0000,89.7500,448.7500,448.7500,,,0.0000,,free,CUDSLY100OFF-2017,100.0000,verified,100.0000,"Sitio Aldea, Brgy. Natividad
+Natividad (Pob.)","San Narciso",Zambales,2205,"Standard Delivery - Shipping Fee",0.0000,

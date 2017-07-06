@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Ecommerce Approch Team
+ * @copyright Copyright (c) 2015 Ecommerce Approch (http://www.ecommerceapproach.com/)
+ * @package Ecommerceapp_Cashdelivery
+ */
+-->
+<config>
+    <modules>
+        <Ecommerceapp_Cashdelivery>
+            <version>1.0.0</version>
+        </Ecommerceapp_Cashdelivery>
+    </modules>
+    <global>
+        <models>
+            <cashdelivery>
+                <class>Ecommerceapp_Cashdelivery_Model</class>
+            </cashdelivery>
+        </models>
+        <helpers>
+            <cashdelivery>
+                <class>Ecommerceapp_Cashdelivery_Helper</class>
+            </cashdelivery>
+        </helpers>
+	</global>
+	<frontend>
+		<events>
+			<payment_method_is_active>
+				<observers>
+					<paymentfilter_payment_method_is_active>
+						<type>singleton</type>
+						<class>Ecommerceapp_Cashdelivery_Model_Observer</class>
+						<method>allowCashOnDelivery</method>
+					</paymentfilter_payment_method_is_active>
+				</observers>
+			</payment_method_is_active>
+		</events>
+	</frontend>
+</config>

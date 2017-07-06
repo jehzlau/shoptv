@@ -1,0 +1,38 @@
+<?php
+   $name='tenants';
+   $attributeInfo = Mage::getResourceModel('eav/entity_attribute_collection')->setCodeFilter($name)->getFirstItem();
+   $attributeId = $attributeInfo->getAttributeId();
+   $attribute = Mage::getModel('catalog/resource_eav_attribute')->load($attributeId);
+   $ppmtenants = $attribute ->getSource()->getAllOptions(false); 
+?>
+
+
+
+	<link rel="stylesheet" href="<?php echo $this->getUrl() ?>storegrid/css/listnav.css">
+
+<p>You are currently browsing Power Plant Mall stores that starts with: <span class="myLastClicked" style="font-size:1.5em; color:#FE51A1">?</span></p>
+			<ul id="grid" class="demo">
+				<?php foreach ($ppmtenants as $ppmtenant): ?> 
+        <li>
+        <span class="tenant"><a href="#"><?php echo $ppmtenant['label'] ?></a></span></li>
+    <?php endforeach; ?>
+			</ul>
+		
+		
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/jquery-listnav.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/vendor.js"></script>
+<script>
+$(function(){
+
+	$('#grid').listnav({
+		cookieName: 'ln-demo5',
+		includeNums: false,
+		onClick: function(letter) {
+			$(".myLastClicked").text(letter.toUpperCase());
+		}
+	});
+
+});
+</script>

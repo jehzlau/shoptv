@@ -1,0 +1,32 @@
+
+/**
+ * Abandoned Carts Alerts Pro
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Cartalert
+ * @version      3.6.2
+ * @license:     n/a
+ * @copyright:   Copyright (c) 2015 AITOC, Inc. (http://www.aitoc.com)
+ */
+.statistic
+{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.columns_statistic
+{
+    width: 25%;
+    display: inline-block;
+    font-family: "trebuchet ms";
+    font-weight: bold;
+}
+.other_font
+{
+    font-family: Arial;
+}
+.text_color
+{
+    color: #717171;
+    font-weight: normal;
+    font-size: 11px;
+}

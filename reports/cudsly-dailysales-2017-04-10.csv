@@ -1,0 +1,53 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-08 00:41:40",Kking1272@yahoo.com,CU400016019,CUHU017UXZ9-1,,simple,4.0000,480.0000,364.8000,1920.0000,,,0.0000,,banktransfer,,20.0000,bank_pending,0.0000,"44 McKinley road Forbes park
+Forbes Park","Makati City","Metro Manila",1222,"Standard Delivery - Shipping Fee",1555.2000,
+"2017-04-08 00:41:40",Kking1272@yahoo.com,CU400016019,CUHU017UXZ9-1,,simple,4.0000,480.0000,364.8000,1920.0000,,,0.0000,,banktransfer,,20.0000,bank_pending,0.0000,"32 ilongot street la vista 
+Pansol","Quezon City","Metro Manila",1108,"Standard Delivery - Shipping Fee",1555.2000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUEQ02VQVKE-1,,simple,3.0000,282.6000,161.0800,847.8000,CU400014453,3.0000,161.0800,847.8000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUEQ02VQVKE-1,,simple,3.0000,282.6000,161.0800,847.8000,CU400014453,3.0000,161.0800,847.8000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUHU01YTCRP-1,,simple,2.0000,414.0000,157.3200,828.0000,CU400014453,2.0000,157.3200,828.0000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUHU01YTCRP-1,,simple,2.0000,414.0000,157.3200,828.0000,CU400014453,2.0000,157.3200,828.0000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
+"2017-04-08 21:50:20",elimarvelgado@gmail.com,CU400016021,CUZW01V7LHU-1,,simple,3.0000,119.2500,0.0000,357.7500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"42 Cervantes st
+San Jose",Baras,Rizal,1970,"Standard Delivery - Shipping Fee",457.7500,
+"2017-04-08 21:50:20",elimarvelgado@gmail.com,CU400016021,CUZW01V7LHU-1,,simple,3.0000,119.2500,0.0000,357.7500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"42 Cervantes st
+San Jose",Baras,Rizal,1970,"Standard Delivery - Shipping Fee",457.7500,
+"2017-04-09 01:43:24",techyellen_08@yahoo.com.ph,CU400016022,CUHU01SW8ZC-1,,simple,3.0000,160.0000,0.0000,480.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Rafael Yu Building 77 General Maxilom Avenue
+Zapatera","Cebu City",Cebu,6000,"Standard Delivery - Shipping Fee",580.0000,
+"2017-04-09 01:43:24",techyellen_08@yahoo.com.ph,CU400016022,CUHU01SW8ZC-1,,simple,3.0000,160.0000,0.0000,480.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Rafael Yu Building 77 General Maxilom Avenue
+Zapatera","Cebu City",Cebu,6000,"Standard Delivery - Shipping Fee",580.0000,
+"2017-04-09 04:49:24",maria.enriquez1008@gmail.com,CU400016023,CUCE02GIQIW-1,,simple,2.0000,234.6500,0.0000,469.3000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Block 19, Lot 28, Eagle Street, Camella Homes Woodhills
+San Antonio","San Pedro",Laguna,4023,"Standard Delivery - Shipping Fee",1168.3200,
+"2017-04-09 04:49:24",maria.enriquez1008@gmail.com,CU400016023,CUCE02OUKTC-1,,simple,1.0000,699.0200,0.0000,699.0200,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Block 19, Lot 28, Eagle Street, Camella Homes Woodhills
+San Antonio","San Pedro",Laguna,4023,"Standard Delivery - Shipping Fee",1168.3200,
+"2017-04-09 04:49:24",maria.enriquez1008@gmail.com,CU400016023,CUCE02OUKTC-1,,simple,1.0000,699.0200,0.0000,699.0200,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Block 19, Lot 28, Eagle Street, Camella Homes Woodhills
+San Antonio","San Pedro",Laguna,4023,"Standard Delivery - Shipping Fee",1168.3200,
+"2017-04-09 04:49:24",maria.enriquez1008@gmail.com,CU400016023,CUCE02GIQIW-1,,simple,2.0000,234.6500,0.0000,469.3000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Block 19, Lot 28, Eagle Street, Camella Homes Woodhills
+San Antonio","San Pedro",Laguna,4023,"Standard Delivery - Shipping Fee",1168.3200,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03VWIHU-1,,configurable,1.0000,184.0000,18.4000,184.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03QZDRV-3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03NCUUA-3,,simple,2.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03QZDRV-3,,configurable,1.0000,224.0000,22.4000,224.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03NCUUA-3,,simple,2.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03QZDRV-3,,configurable,1.0000,224.0000,22.4000,224.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03NCUUA-3,,configurable,2.0000,224.0000,44.8000,448.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03VWIHU-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03NCUUA-3,,configurable,2.0000,224.0000,44.8000,448.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03VWIHU-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03VWIHU-1,,configurable,1.0000,184.0000,18.4000,184.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,
+"2017-04-09 14:10:31",ivypalencia@yahoo.com,CU400016024,CUST03QZDRV-3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Unit 1910 Tower B.Antel Seaview Tower Roxas Boulevard, next to Japanese Embassy
+Barangay 1","Pasay City","Metro Manila",1300,"Standard Delivery - Shipping Fee",870.4000,

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <default>
+
+        <reference name="head">        
+            
+            <action method="addJs">
+                <script>sociallogin/lightbox.js</script>
+            </action>
+
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/sociallogin.css</name>
+                <params/>
+            </action>
+
+        </reference>
+
+        <reference name="before_body_end">
+            <block type="sociallogin/sociallogin" before="-" name="sociallogin" template="sociallogin/sociallogin.phtml" />
+        </reference>
+
+    </default>
+
+
+</layout> 

@@ -1,0 +1,343 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+
+    $login = new Mage_Customer_Block_Form_Login();
+?>
+
+<style>
+.checkpoint {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.7; }
+}
+
+.fsb-container {
+    padding: 20px 10px;
+    border: 1px solid #e23380;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.freeshippingbar{
+    padding:10px;
+}
+.currentprogress{
+    border:1px solid #EBEBEB;
+    padding:3px;
+    border-radius:10px;
+    margin-top:10px;
+    position:relative;
+    background-color:#EFEFEF;
+}
+.currentprogress hr.progress{
+    border: 3px solid #e23380;
+    border-radius: 10px;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+}
+.checkpoint{
+    background-color: #e23380;
+    border: 3px solid #EFEFEF;    
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: -4px;
+    top: -10px;
+    border-radius: 20px;
+    background-repeat:no-repeat;
+    background-position:center; 
+}
+.arrow_box {
+    background: #88b7d5;
+    border: 2px solid #e23380;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    width: 46px;
+    padding: 2px;
+    color: #fff;
+    background-color: #e23380;
+    border-radius: 10px;
+    position: absolute;
+    top: -40px;
+    left: -16px;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #88b7d5;
+	border-width: 30px;
+	margin-left: -30px;
+    display: none;
+}
+.arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-top-color: #e23380;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+</style>
+
+<?php 
+        $minimum    = Mage::getStoreConfig("carriers/freeshipping/free_shipping_subtotal");
+        $subtotal   = Mage::helper('checkout/cart')->getQuote()->getSubtotal();
+        $valuetofreeshipping = round(($subtotal/$minimum) * 100);
+        if($valuetofreeshipping > 100){
+            $valuetofreeshipping = 100;
+        }
+        $diff = $minimum - $subtotal;
+        Mage::helper('checkout')->formatPrice(Mage::helper('checkout/cart')->getQuote()->getSubtotal())
+?>
+
+
+
+
+<!--<div class="header-language-background">
+    <div class="header-language-container">
+        <div class="store-language-container">
+            <?php echo $this->getChildHtml('store_language') ?>
+        </div>
+
+        <?php echo $this->getChildHtml('currency_switcher') ?>
+
+        <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
+    </div>
+</div>-->
+
+
+
+
+<div class="header-bg">
+    <div class="wrapper2">
+    
+ 
+    
+    
+        <header id="header" class="page-header">
+            <div class="wrapper2" id="header-wrapper">
+            <div class="page-header-container">
+                    <div class="cudsly-logo">
+                        <a class="logo" href="<?php echo $this->getUrl('') ?>">
+                            <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
+                            <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+                            <h1 class="logo-title">Shoptv</h1>
+                            <h3 class="logo-subtitle">.com.ph</h3>
+                        </a>
+                    </div>
+
+                <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
+                // See app.js for details ?>
+                <div class="store-language-container"></div>
+
+                <!-- Skip Links -->
+
+                <div class="skip-links">
+                    <a href="#header-nav" class="skip-link skip-nav">
+                        <span class="icon"></span>
+                        <span class="label"><?php echo $this->__('Menu'); ?></span>
+                    </a>
+
+                    <a href="#header-search" class="skip-link skip-search">
+                        <span class="icon"></span>
+                        <span class="label"><?php echo $this->__('Search'); ?></span>
+                    </a>
+                    <div onmouseover="document.getElementById('header-account').style.display = 'block';">
+                        <a href="#header-account" class="skip-link skip-account">
+                            <span class="icon"></span>
+                            <span class="label"  style="font-weight: 600; font-family: Bariol !important;"><?php echo $this->__('Sign in/up'); ?></span>
+                        </a>
+                    </div>
+
+
+
+
+                    <!-- Cart -->
+
+                    <div class="header-minicart">
+                        <?php echo $this->getChildHtml('minicart_head'); ?>
+                    </div>
+
+                    <div class="u-link-1">
+                        <div class="user-links">
+                            <ul>
+                                <li><a href="http://www.cudsly.com" target="_blank" ><p><img src="/skin/frontend/cudsly/default/images/cudsly-logo.png"></p></a></li>
+                                <li><a href="http://www.gourdos.com" target="_blank"><p><img src="/skin/frontend/cudsly/default/images/gourdos-logo.png"></p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="u-link-2" style="font-weight: 600; font-family: Bariol !important;">
+                        <ul>
+                            <li><a href="/shipping-policy" target="_self"><p>FREE SHIPPING AVAILABLE</p></a></li>
+                            <li><a href="/faq" target="_self"><p>CASH ON DELIVERY</p></a></li>
+                            <li><a href="/howtoshop" target="_self"><p>HOW TO SHOP</p></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+                      
+                
+                
+
+                <!-- Navigation -->
+
+                <div id="header-nav" class="skip-content">
+                    <?php echo $this->getChildHtml('topMenu') ?>
+                </div>
+
+                <!-- Search -->
+
+                <div id="header-search" class="skip-content">
+                    <?php echo $this->getChildHtml('topSearch') ?>
+                </div>
+
+                <!-- Account -->
+                <?php if (!$this->helper('customer')->isLoggedIn() ){ ?>
+                <div id="header-account" class="skip-content" onmouseover="style.display = 'block';" onmouseout="document.getElementById('header-account').style.display = 'none';" >
+
+                    <div class="block-subtitle" style="margin-bottom: -18px; margin-left:15px; ">
+                        <strong><span style="color:deeppink;"><?php echo $this->__('SIGN IN') ?>
+                            </span></strong>
+                    </div>
+
+
+                    <div id="header-items" class="block-subtitle">
+                        <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+                        <?php /* Extensions placeholder */ ?>
+                        <?php echo $this->getChildHtml('customer.form.login.extra')?>
+                        <form action="<?php echo $login->getPostActionUrl() ?>" method="post" id="login-form">
+                            <?php echo $this->getBlockHtml('formkey'); ?>
+                        <div class="block-content" style="padding: 15px;">
+                            <label for="email" class="required"><?php echo $this->__('EMAIL ADDRESS') ?><em>*</em></label>
+                            <div class="input-box">
+                                <input type="email" autocapitalize="off" autocorrect="off" spellcheck="false" name="login[username]" value="<?php echo $this->escapeHtml($this->getUsername()) ?>" id="email" class="input-text required-entry validate-email" title="<?php echo $this->__('Email Address') ?>"  style="border:1px solid #CCC !important;"/>
+                            </div>
+                            <br>
+                            <label for="pass" class="required"><?php echo $this->__('PASSWORD') ?><em>*</em></label>
+                            <div class="input-box">
+                                <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="<?php echo $this->__('Password') ?>"  style="border:1px solid #CCC !important;"/>
+                            </div>
+                        </div>
+                        <div class="col-2 registered-users">
+                            <div style="margin-left: 60px;">
+                                <a href="<?php echo $this->getBaseUrl() ?>customer/account/forgotpassword" class="f-left"><?php echo $this->__('Forgot Your Password?') ?></a>
+                                <button style="background: #EB3E7D;border: 1px solid #EB3E7D;border-radius: 5px;font-family: 'deliusregular',sans-serif;color: #FFFFFF;margin-left: -10px;-moz-border-radius: 5px;-o-border-radius: 5px;" type="submit" class="button" name="send" id="send2" title="<?php echo $this->__('Login') ?>" ><span><span><?php echo $this->__('Login') ?></span></span></button>
+                                <a href="/customer/account/login/" style="margin-left: 53px;margin-top: -35px;"><button type="button" class="button" style="background: #EB3E7D;border: 1px solid #EB3E7D;border-radius: 5px;font-family: 'deliusregular',sans-serif;color: #FFFFFF;margin-left: -10px;-moz-border-radius: 5px; -o-border-radius: 5px;-webkit-border-radius: 5px;"><span><span><?php echo $this->__("I'M NEW") ?></span></span></button></a>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <div style="clear: both;"></div>
+                            <div class="fb-login">
+                                <a href="#" onclick="fblogin();"><img width="230px;" src="/skin/frontend/cudsly/default/images/fb-login.png" ></a>
+                            </div>
+                        </div>
+                    </form>
+
+                    </div>
+                </div>
+
+
+                <!-- Cart -->
+
+                <!-- <div id="header-cart" class="skip-content">
+                    <div class="mini-cart">
+                        <div class="menu-wrapper">
+                            <div class="menu cart-menu">
+                                <div class="empty">Your cart is empty.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+                <?php }else{?>
+                    <amfpc name="custom_login">
+                        
+                    <div class="loggedin" style="position: absolute;top: 0px;right: 7px;background-color: #e5ffff;height: 19px;">
+
+                        <?php
+                        $session = Mage::getSingleton('customer/session');
+                        if($session->isLoggedIn()) {
+                            $customer = $session->getCustomer();
+                            echo 'Hello, ';
+                            echo ('<a href="/customer/account">').$customer->getName().('</a>') ;
+                            echo '!';
+                            echo '<a style="display: -webkit-inline-box;" href="/customer/account/logout"> &nbsp; &nbsp; LOGOUT </a>';
+                        }
+                        ?>
+
+                    </div>
+                        </amfpc>
+                <?php } ?>
+                
+<amfpc name="free_shipping_block">
+<div class="fsb-container">
+    <div class="freeshippingbar" id="fsb">
+      <?php
+            if($diff > 0){
+            ?>
+        Purchase
+        <?php echo Mage::helper('checkout')->formatPrice($diff) ?> more for Free Shipping
+          <?php }else{ ?>
+            Your shipping is on us!
+            <?php } ?>
+              <div class="currentprogress">
+                <hr class="progress" style="width:<?php echo $valuetofreeshipping; ?>%">
+                <div class="checkpoint">
+                  <div class="arrow_box">Free Shipping</div>
+                </div>
+              </div>
+    </div>
+</div>    
+</amfpc>      
+                
+                
+        </header>
+    </div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    var dataForm = new VarienForm('login-form', true);
+    //]]>
+</script>
+<?php echo $this->getChildHtml('topContainer'); ?>

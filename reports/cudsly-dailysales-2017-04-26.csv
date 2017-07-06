@@ -1,0 +1,57 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-24 05:56:00",ma.kristagayle_roque@yahoo.com,CU400016088,CUEQ02U3FKE-1,,simple,3.0000,130.2800,139.0800,390.8400,CU400014522,3.0000,139.0800,390.8400,cashondelivery,,10.0000,shipped,100.0000,"8 A. Martin Street Tugatog Malabon City
+Tugatog","Malabon City","Metro Manila",1470,"Standard Delivery - Shipping Fee",351.7600,351.7600
+"2017-04-24 05:56:00",ma.kristagayle_roque@yahoo.com,CU400016088,CUEQ02U3FKE-1,,simple,3.0000,130.2800,139.0800,390.8400,CU400014522,3.0000,139.0800,390.8400,cashondelivery,,10.0000,shipped,100.0000,"8 A. Martin Street Tugatog Malabon City
+Tugatog","Malabon City","Metro Manila",1470,"Standard Delivery - Shipping Fee",351.7600,351.7600
+"2017-04-24 15:18:06",josefelisa@yahoo.com,CU400016090,CUHU01IRUHC-1,,simple,1.0000,1795.5000,341.1500,1795.5000,CU400014523,1.0000,341.1500,1795.5000,paypal_express,,20.0000,shipped,0.0000,"Unit HG3 Woodside Homes Dona Hemady St 
+Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",1454.3500,1454.3500
+"2017-04-24 15:18:06",josefelisa@yahoo.com,CU400016090,CUHU01IRUHC-1,,simple,1.0000,1795.5000,341.1500,1795.5000,CU400014523,1.0000,341.1500,1795.5000,paypal_express,,20.0000,shipped,0.0000,"Unit HG3 Woodside Homes Dona Hemady St 
+Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",1454.3500,1454.3500
+"2017-04-24 15:34:42",limjoco.muriel@yahoo.com,CU400016091,CUGI018BXSI-1,,simple,1.0000,140.0000,27.7300,140.0000,CU400014524,1.0000,27.7300,140.0000,cashondelivery,,10.0000,shipped,100.0000,"Lot 16 Blk 16 Chelsea St., East Fairview, Fairview Park
+Fairview","Quezon City","Metro Manila",1118,"Standard Delivery - Shipping Fee",917.6400,917.6400
+"2017-04-24 15:34:42",limjoco.muriel@yahoo.com,CU400016091,CUGI018BXSI-1,,simple,1.0000,140.0000,27.7300,140.0000,CU400014524,1.0000,27.7300,140.0000,cashondelivery,,10.0000,shipped,100.0000,"Lot 16 Blk 16 Chelsea St., East Fairview, Fairview Park
+Fairview","Quezon City","Metro Manila",1118,"Standard Delivery - Shipping Fee",917.6400,917.6400
+"2017-04-24 15:34:42",limjoco.muriel@yahoo.com,CU400016091,CUPI01FFTBK-1,,simple,2.0000,439.8000,174.2300,879.6000,CU400014524,2.0000,174.2300,879.6000,cashondelivery,,10.0000,shipped,100.0000,"Lot 16 Blk 16 Chelsea St., East Fairview, Fairview Park
+Fairview","Quezon City","Metro Manila",1118,"Standard Delivery - Shipping Fee",917.6400,917.6400
+"2017-04-24 15:34:42",limjoco.muriel@yahoo.com,CU400016091,CUPI01FFTBK-1,,simple,2.0000,439.8000,174.2300,879.6000,CU400014524,2.0000,174.2300,879.6000,cashondelivery,,10.0000,shipped,100.0000,"Lot 16 Blk 16 Chelsea St., East Fairview, Fairview Park
+Fairview","Quezon City","Metro Manila",1118,"Standard Delivery - Shipping Fee",917.6400,917.6400
+"2017-04-24 15:34:42",limjoco.muriel@yahoo.com,CU400016091,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,CU400014524,2.0000,0.0000,0.0000,cashondelivery,,0.0000,shipped,100.0000,"Lot 16 Blk 16 Chelsea St., East Fairview, Fairview Park
+Fairview","Quezon City","Metro Manila",1118,"Standard Delivery - Shipping Fee",917.6400,917.6400
+"2017-04-24 15:34:42",limjoco.muriel@yahoo.com,CU400016091,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,CU400014524,2.0000,0.0000,0.0000,cashondelivery,,0.0000,shipped,100.0000,"Lot 16 Blk 16 Chelsea St., East Fairview, Fairview Park
+Fairview","Quezon City","Metro Manila",1118,"Standard Delivery - Shipping Fee",917.6400,917.6400
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUEQ02SGNCZ-1,,simple,1.0000,179.1000,45.7500,179.1000,CU400014525,1.0000,45.7500,179.1000,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUZW01H5INY-1,,simple,1.0000,34.7500,8.8700,34.7500,CU400014525,1.0000,8.8700,34.7500,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,CU400014525,1.0000,0.0000,0.0000,cashondelivery,AVENT500,0.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUNU05BGYWF-1,,simple,1.0000,89.5400,22.8700,89.5400,CU400014525,1.0000,22.8700,89.5400,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,CU400014525,1.0000,0.0000,0.0000,cashondelivery,AVENT500,0.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUNU05BGYWF-1,,simple,1.0000,89.5400,22.8700,89.5400,CU400014525,1.0000,22.8700,89.5400,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUPH02BFENY-1,,simple,1.0000,949.5200,742.5500,949.5200,CU400014525,1.0000,742.5500,949.5200,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUHU012KTPB-1,,simple,1.0000,255.0000,65.1400,255.0000,CU400014525,1.0000,65.1400,255.0000,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUZW01FPPJG-1,,simple,1.0000,20.0500,5.1300,20.0500,CU400014525,1.0000,5.1300,20.0500,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUPH02BFENY-1,,simple,1.0000,949.5200,742.5500,949.5200,CU400014525,1.0000,742.5500,949.5200,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUHU012KTPB-1,,simple,1.0000,255.0000,65.1400,255.0000,CU400014525,1.0000,65.1400,255.0000,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUZW01FPPJG-1,,simple,1.0000,20.0500,5.1300,20.0500,CU400014525,1.0000,5.1300,20.0500,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUEQ02SGNCZ-1,,simple,1.0000,179.1000,45.7500,179.1000,CU400014525,1.0000,45.7500,179.1000,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 02:08:13",lauriceannepangilinan@yahoo.com,CU400016092,CUZW01H5INY-1,,simple,1.0000,34.7500,8.8700,34.7500,CU400014525,1.0000,8.8700,34.7500,cashondelivery,AVENT500,20.0000,shipped,100.0000,"105 p sevilla st 4th ave grace park
+Barangay 50","Caloocan City","Metro Manila",1400,"Standard Delivery - Shipping Fee",737.6500,737.6500
+"2017-04-25 06:46:01",f_gonzales@acestarinc.com,CU400016093,CUCE03LSXLN-1,,simple,1.0000,114.3000,25.1900,114.3000,CU400014526,1.0000,25.1900,114.3000,cashondelivery,EXTRA10,0.0000,invoiced,100.0000,"#21 Upper Scout Barrio
+Scout Barrio","Baguio City",Benguet,2600,"Standard Delivery - Shipping Fee",419.8300,419.8300
+"2017-04-25 06:46:01",f_gonzales@acestarinc.com,CU400016093,CUZW01XMNCZ-1,,simple,6.0000,56.5800,108.7600,339.4800,CU400014526,6.0000,108.7600,339.4800,cashondelivery,EXTRA10,10.0000,invoiced,100.0000,"#21 Upper Scout Barrio
+Scout Barrio","Baguio City",Benguet,2600,"Standard Delivery - Shipping Fee",419.8300,419.8300
+"2017-04-25 06:46:01",f_gonzales@acestarinc.com,CU400016093,CUZW01XMNCZ-1,,simple,6.0000,56.5800,108.7600,339.4800,CU400014526,6.0000,108.7600,339.4800,cashondelivery,EXTRA10,10.0000,invoiced,100.0000,"#21 Upper Scout Barrio
+Scout Barrio","Baguio City",Benguet,2600,"Standard Delivery - Shipping Fee",419.8300,419.8300
+"2017-04-25 06:46:01",f_gonzales@acestarinc.com,CU400016093,CUCE03LSXLN-1,,simple,1.0000,114.3000,25.1900,114.3000,CU400014526,1.0000,25.1900,114.3000,cashondelivery,EXTRA10,0.0000,invoiced,100.0000,"#21 Upper Scout Barrio
+Scout Barrio","Baguio City",Benguet,2600,"Standard Delivery - Shipping Fee",419.8300,419.8300

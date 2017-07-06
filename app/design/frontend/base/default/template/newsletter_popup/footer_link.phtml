@@ -1,0 +1,7 @@
+<?php if( Mage::getStoreConfig('iwdpopup/general/newslink', Mage::app()->getStore())):?>
+	<?php if((!Mage::getStoreConfig('iwdpopup/device/newsmobile', Mage::app()->getStore()) && Mage::helper('iwdpopup')->isMobile()) ||
+			 (!Mage::getStoreConfig('iwdpopup/device/newstablet', Mage::app()->getStore()) && Mage::helper('iwdpopup')->isTablet()) ||
+			 (!Mage::helper('iwdpopup')->isMobile() && !Mage::helper('iwdpopup')->isTablet())):?>
+				<a href="#" class="newsletter_popup"><?php echo Mage::getStoreConfig('iwdpopup/general/newslinktext', Mage::app()->getStore())?></a>
+	<?php endif;?>
+<?php endif;?>

@@ -1,0 +1,36 @@
+<?php
+/**
+ * @category    Bubble
+ * @package     Bubble_FullPageCache
+ * @version     3.5.0
+ * @copyright   Copyright (c) 2015 BubbleShop (https://www.bubbleshop.net)
+ */
+?>
+<?php if ($this->helper('bubble_fpc')->isStoreCacheable()): ?>
+<script type="text/javascript">
+//<![CDATA[
+document.observe('dom:loaded', function() {
+    var blocks = $H();
+    $$('div.fpc-block').each(function(el) {
+        blocks.set(el.id, el);
+    });
+    if (blocks.keys().length) {
+        var url = document.location.href;
+        new Ajax.Request(url, {
+            method: 'post',
+            parameters: {
+                fpc: 1,
+                blocks: blocks.keys().join(',')
+            },
+            onSuccess: function(response) {
+                var result = response.responseJSON;
+                blocks.each(function(pair) {
+                    $(pair.key).update(result.blocks[pair.key]);
+                });
+            }
+        });
+    }
+});
+//]]>
+</script>
+<?php endif; ?>

@@ -1,0 +1,40 @@
+<div class="ajax-text-and-image white-popup-block">
+	<style type="text/css">
+	.popupbt {
+		background: #000;
+		color: #fff;
+		padding: 5px;
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 5px;
+		text-align: center;
+	}
+	.ajax-text-and-image {
+		max-width:800px; margin: 20px auto; background: #FFF; padding: 0; line-height: 0;
+	}
+	.ajcol {
+		width: 50%; float:left;
+	}
+	.ajcol img {
+		width: 100%; height: auto;
+	}
+	@media all and (max-width:30em) {
+		.ajcol { 
+			width: 100%;
+			float:none;
+		}
+	}
+	</style>
+	<div class="ajcol">
+		<img src="https://powerplantv2.jehzlau.net/media/rockwell/stores/7forallmankind.png"/>
+	</div>
+	<div class="ajcol" style="line-height: 1.231;">
+		<div style="padding: 1em">
+			<h1>7 For All Mankind</h1>
+		    <p>The leader in premium denim now offers its collections online! Shop for womens, mens and kids products now!</p>
+		    <div class="popupbt">Shop Online Now</div>
+		    <div class="popupbt">View in Map</div>
+		</div>
+	</div>
+	<div style="clear:both; line-height: 0;"></div>
+</div>

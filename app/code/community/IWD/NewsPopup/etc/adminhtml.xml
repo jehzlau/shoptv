@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <system>
+           <children>
+             <iwdall>
+         		 <children>
+         	 		<iwdpopup translate="title" module="iwdpopup">
+            			<title>Newsletter Popup</title>
+            			<sort_order>110</sort_order>
+            			<action>/system_config/edit/section/iwdpopup</action>
+         			</iwdpopup>
+        		 </children>
+        	 </iwdall>
+    	  </children>
+	    </system>
+    </menu>
+    <acl>
+    	<resources>
+    		<admin>
+              <children>
+               <system>
+                 <children>
+                   <iwdall>
+	         		 <children>
+	         	 		<iwdpopup translate="title" module="iwdpopup">
+	            			<title>Newsletter Popup</title>
+	            			<sort_order>110</sort_order>
+	         			</iwdpopup>
+	        	 	</children>
+	        	 </iwdall>
+	        	</children> 
+	        </system>
+	        </children>
+	       </admin>
+    	</resources>
+    </acl>
+</config>

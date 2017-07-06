@@ -1,0 +1,31 @@
+<config>
+    <modules>
+        <Atwix_Cmsattr>
+            <version>0.1.0</version>
+        </Atwix_Cmsattr>
+    </modules>
+    <global>
+        <blocks>
+            <atwix_cmsattr>
+                <class>Atwix_Cmsattr_Block</class>
+            </atwix_cmsattr>
+        </blocks>
+        <models>
+            <atwix_cmsattr>
+                <class>Atwix_Cmsattr_Model</class>
+            </atwix_cmsattr>
+
+            <catalog>
+                <rewrite>
+                    <product_visibility>Atwix_Cmsattr_Model_Visibility</product_visibility>
+                </rewrite>
+            </catalog>
+            <cataloginventory>
+                <rewrite>
+                    <instockonly>Atwix_Cmsattr_Model_Stock</instockonly>
+                </rewrite>
+            </cataloginventory>
+        </models>
+    </global>
+</config>
+

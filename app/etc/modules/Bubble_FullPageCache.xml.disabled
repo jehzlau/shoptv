@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bubble_FullPageCache>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog/>
+                <Mage_Cms/>
+                <Mage_Core/>
+            </depends>
+        </Bubble_FullPageCache>
+        <Bubble_FPC> <!-- Disable old v1 if present -->
+            <active>false</active>
+            <codePool>local</codePool>
+        </Bubble_FPC>
+    </modules>
+</config>

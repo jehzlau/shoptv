@@ -1,0 +1,48 @@
+<?php
+
+$attribute_code = "brand";
+$attribute_details = Mage::getSingleton("eav/config")->getAttribute("catalog_product", $attribute_code);
+$options = $attribute_details->getSource()->getAllOptions(false);
+?>
+
+<link rel="stylesheet" href="<?php echo $this->getUrl() ?>storegrid/css/listnav.css">
+
+
+<ul id="grid" class="demo">
+    <?php foreach ($options as $option): ?>
+        <li>
+        <span class="tenant">
+
+            <a href="<?php echo $this->getURL() ?><?php
+            $cudslynospace = preg_replace("/[+\s_]/", "",$option['label']);
+            $cudslyamp = str_replace("&", "and", $cudslynospace);
+            $cudslyclean = str_replace("'", "", $cudslyamp);
+            echo strtolower($cudslyclean);
+            ?>"><?php echo $option['label'] ?></a>
+
+            <a href="<?php echo $this->getURL() ?><?php
+            $cudslynospace = preg_replace("/[+\s_]/", "",$option['label']);
+            $cudslyamp = str_replace("&", "and", $cudslynospace);
+            $cudslyclean = str_replace("'", "", $cudslyamp);
+            echo strtolower($cudslyclean);
+            ?>"></a></span></li>
+    <?php endforeach; ?>
+</ul>
+
+
+<script src="<?php echo $this->getUrl() ?>storegrid/js/jquery-listnav.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/vendor.js"></script>
+
+<script>
+    jQuery(function(){
+
+        jQuery('#grid').listnav({
+            cookieName: 'ln-demo5',
+            includeNums: false,
+            onClick: function(letter) {
+                jQuery(".myLastClicked").text(letter.toUpperCase());
+            }
+        });
+
+    });
+</script>

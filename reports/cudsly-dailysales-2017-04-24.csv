@@ -1,0 +1,197 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-23 01:37:48",mclalchandani@yahoo.com,CU400015791,CUEQ02AXT1P-1,,simple,1.0000,1193.2000,119.3200,1193.2000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"2231 Zafiro St., San Andres Bukid
+Barangay 802","Santa Ana","Metro Manila",1017,"Standard Delivery - Shipping Fee",1073.8800,
+"2017-04-23 01:37:48",mclalchandani@yahoo.com,CU400015791,CUEQ02AXT1P-1,,simple,1.0000,1193.2000,119.3200,1193.2000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"2231 Zafiro St., San Andres Bukid
+Barangay 802","Santa Ana","Metro Manila",1017,"Standard Delivery - Shipping Fee",1073.8800,
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUPA02PJRLX-1,,simple,3.0000,420.0000,296.1000,1260.0000,CU400014507,3.0000,296.1000,1260.0000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUPA02PJRLX-1,,simple,3.0000,420.0000,296.1000,1260.0000,CU400014507,3.0000,296.1000,1260.0000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUPA029PWQ5-1,,simple,1.0000,617.0000,145.0000,617.0000,CU400014507,1.0000,145.0000,617.0000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUDO03DUEMH-1,,simple,2.0000,102.9200,48.3800,205.8400,CU400014507,2.0000,48.3800,205.8400,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUPA029PWQ5-1,,simple,1.0000,617.0000,145.0000,617.0000,CU400014507,1.0000,145.0000,617.0000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUDO03DUEMH-1,,simple,2.0000,102.9200,48.3800,205.8400,CU400014507,2.0000,48.3800,205.8400,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUHU01QWATP-1,,simple,2.0000,450.0000,211.5000,900.0000,CU400014507,2.0000,211.5000,900.0000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUJO03YWNEO-1,,simple,1.0000,72.2000,16.9600,72.2000,CU400014507,1.0000,16.9600,72.2000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUHU01QWATP-1,,simple,2.0000,450.0000,211.5000,900.0000,CU400014507,2.0000,211.5000,900.0000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 01:19:08",cjnc15@yahoo.com,CU400016072,CUJO03YWNEO-1,,simple,1.0000,72.2000,16.9600,72.2000,CU400014507,1.0000,16.9600,72.2000,paypal_express,,25.0000,shipped,0.0000,"11 Katipunan Ave. Kingspoint Subd. Brgy. Bagbag Novaliches, Quezon City
+Bagbag","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",2337.1000,2337.1000
+"2017-04-22 11:19:02",gracydelima@gmail.com,CU400016075,CUHU01EZTKE-1,,simple,3.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,0.0000,"Lot 32 Cluster N Bagong Nayon 1 Antipolo City
+Bagong Nayon","Antipolo City",Rizal,1870,"Standard Delivery - Shipping Fee",1307.1100,
+"2017-04-22 11:19:02",gracydelima@gmail.com,CU400016075,CUPH02ATXKI-1,,simple,3.0000,370.8300,163.7500,1112.4900,,,0.0000,,cashondelivery,Avent500,10.0000,verified,0.0000,"Lot 32 Cluster N Bagong Nayon 1 Antipolo City
+Bagong Nayon","Antipolo City",Rizal,1870,"Standard Delivery - Shipping Fee",1307.1100,
+"2017-04-22 11:19:02",gracydelima@gmail.com,CU400016075,CUPH02ATXKI-1,,simple,3.0000,370.8300,163.7500,1112.4900,,,0.0000,,cashondelivery,Avent500,10.0000,verified,0.0000,"Lot 32 Cluster N Bagong Nayon 1 Antipolo City
+Bagong Nayon","Antipolo City",Rizal,1870,"Standard Delivery - Shipping Fee",1307.1100,
+"2017-04-22 11:19:02",gracydelima@gmail.com,CU400016075,CUPH026WXCP-1,,simple,1.0000,1006.5200,648.1500,1006.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,0.0000,"Lot 32 Cluster N Bagong Nayon 1 Antipolo City
+Bagong Nayon","Antipolo City",Rizal,1870,"Standard Delivery - Shipping Fee",1307.1100,
+"2017-04-22 11:19:02",gracydelima@gmail.com,CU400016075,CUPH026WXCP-1,,simple,1.0000,1006.5200,648.1500,1006.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,0.0000,"Lot 32 Cluster N Bagong Nayon 1 Antipolo City
+Bagong Nayon","Antipolo City",Rizal,1870,"Standard Delivery - Shipping Fee",1307.1100,
+"2017-04-22 11:19:02",gracydelima@gmail.com,CU400016075,CUHU01EZTKE-1,,simple,3.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,0.0000,"Lot 32 Cluster N Bagong Nayon 1 Antipolo City
+Bagong Nayon","Antipolo City",Rizal,1870,"Standard Delivery - Shipping Fee",1307.1100,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE02EH7RL-1,,simple,1.0000,656.2000,168.2600,656.2000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUPH02LKNOE-1,,simple,1.0000,1329.5200,840.8900,1329.5200,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUPH020RIMG-1,,simple,1.0000,279.8300,71.7500,279.8300,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE03GGNJJ-1,,simple,1.0000,404.1000,103.6200,404.1000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE02EH7RL-1,,simple,1.0000,656.2000,168.2600,656.2000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE02OUKTC-1,,simple,1.0000,699.0200,179.2300,699.0200,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUPH020RIMG-1,,simple,1.0000,279.8300,71.7500,279.8300,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUJO03MBAGI-1,,simple,1.0000,169.5800,43.4800,169.5800,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCU05OKULL-1,,simple,1.0000,135.2000,34.6600,135.2000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE02OUKTC-1,,simple,1.0000,699.0200,179.2300,699.0200,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUST03BANWL-2,,simple,2.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,avent500,15.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUJO03MBAGI-1,,simple,1.0000,169.5800,43.4800,169.5800,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCU05OKULL-1,,simple,1.0000,135.2000,34.6600,135.2000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUST03BANWL-2,,simple,2.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,avent500,15.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,avent500,0.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE03IKKPH-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,avent500,0.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUST03BANWL-2,,configurable,2.0000,184.0000,94.3600,368.0000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,avent500,0.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUPH02868WG-1,,simple,1.0000,629.8300,161.4900,629.8300,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE03IKKPH-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,avent500,0.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUST03BANWL-2,,configurable,2.0000,184.0000,94.3600,368.0000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUPH02LKNOE-1,,simple,1.0000,1329.5200,840.8900,1329.5200,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUPH02868WG-1,,simple,1.0000,629.8300,161.4900,629.8300,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 16:16:36",vsarmiento31@gmail.com,CU400016076,CUCE03GGNJJ-1,,simple,1.0000,404.1000,103.6200,404.1000,,,0.0000,,cashondelivery,avent500,25.0000,verified,0.0000,"123 M Cruz St.
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",2973.5400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,AVENT500,0.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUVA01NXCTL-1,,simple,1.0000,89.1000,21.0700,89.1000,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUNI01BRKUP-1,,simple,1.0000,209.0000,49.4200,209.0000,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUEQ02NE7TG-1,,simple,4.0000,191.4800,181.1100,765.9200,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUNI01BRKUP-1,,simple,1.0000,209.0000,49.4200,209.0000,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUEQ02NE7TG-1,,simple,4.0000,191.4800,181.1100,765.9200,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUJO03NTHBD-1,,simple,1.0000,138.2300,32.6900,138.2300,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUPH02BFENY-1,,simple,1.0000,949.5200,724.5400,949.5200,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUJO03NTHBD-1,,simple,1.0000,138.2300,32.6900,138.2300,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUPH02BFENY-1,,simple,1.0000,949.5200,724.5400,949.5200,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,AVENT500,0.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-22 22:44:36",rocelchris@yahoo.com,CU400016077,CUVA01NXCTL-1,,simple,1.0000,89.1000,21.0700,89.1000,,,0.0000,,cashondelivery,AVENT500,20.0000,verified,0.0000,"15141 Goodness St Multinational Village Parañaque City
+Moonwalk","Paranaque City","Metro Manila",1708,"Standard Delivery - Shipping Fee",1142.9400,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUST03MVJXY-2,,configurable,1.0000,192.0000,36.4800,192.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUCI02FPVLM-1,,simple,1.0000,121.3000,23.0500,121.3000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUST03MVJXY-2,,configurable,1.0000,192.0000,36.4800,192.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUSA05EHOML-1,,simple,1.0000,99.0000,18.8100,99.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUNE04VJPVC-1,,simple,1.0000,643.8600,122.3300,643.8600,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUCI02NWBWN-1,,simple,1.0000,539.7800,102.5500,539.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUSA05EHOML-1,,simple,1.0000,99.0000,18.8100,99.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUNE04VJPVC-1,,simple,1.0000,643.8600,122.3300,643.8600,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUCI02NWBWN-1,,simple,1.0000,539.7800,102.5500,539.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUSA05GMKEY-1,,simple,1.0000,348.1000,66.1400,348.1000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUST03MVJXY-2,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUSA05GMKEY-1,,simple,1.0000,348.1000,66.1400,348.1000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUST03MVJXY-2,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 02:35:24",cerise168@yahoo.com,CU400016078,CUCI02FPVLM-1,,simple,1.0000,121.3000,23.0500,121.3000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"9F Robinsons Equitable Tower
+ADB Ave., Ortigas Center","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1574.6800,
+"2017-04-23 08:20:09",jomadeltan@ymail.com,CU400016079,CUEQ02XJHFF-1,,simple,1.0000,1718.0100,426.4200,1718.0100,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Block 13 Lot 18 phase 7 package 11 crystal st. Bagong Silang
+Barangay 176","Caloocan City","Metro Manila",1428,"Standard Delivery - Shipping Fee",1291.5900,
+"2017-04-23 08:20:09",jomadeltan@ymail.com,CU400016079,CUEQ02XJHFF-1,,simple,1.0000,1718.0100,426.4200,1718.0100,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Block 13 Lot 18 phase 7 package 11 crystal st. Bagong Silang
+Barangay 176","Caloocan City","Metro Manila",1428,"Standard Delivery - Shipping Fee",1291.5900,
+"2017-04-23 09:27:33",katrina.cabrera@gmail.com,CU400016080,CUPH02VL951-1,,simple,1.0000,1424.2800,742.4300,1424.2800,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:27:33",katrina.cabrera@gmail.com,CU400016080,CUPH02VL951-1,,simple,1.0000,1424.2800,742.4300,1424.2800,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:27:33",katrina.cabrera@gmail.com,CU400016080,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:27:33",katrina.cabrera@gmail.com,CU400016080,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:29:57",katrina.cabrera@gmail.com,CU400016081,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:29:57",katrina.cabrera@gmail.com,CU400016081,CUPH02OCQ9H-1,,simple,1.0000,1139.5200,713.9500,1139.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:29:57",katrina.cabrera@gmail.com,CU400016081,CUPH02OCQ9H-1,,simple,1.0000,1139.5200,713.9500,1139.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:29:57",katrina.cabrera@gmail.com,CU400016081,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:31:52",katrina.cabrera@gmail.com,CU400016082,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:31:52",katrina.cabrera@gmail.com,CU400016082,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:31:52",katrina.cabrera@gmail.com,CU400016082,CUPH02VL951-1,,simple,1.0000,1424.2800,742.4300,1424.2800,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:31:52",katrina.cabrera@gmail.com,CU400016082,CUPH02VL951-1,,simple,1.0000,1424.2800,742.4300,1424.2800,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",781.8500,
+"2017-04-23 09:33:39",katrina.cabrera@gmail.com,CU400016083,CUPH02LPDJV-1,,simple,1.0000,1139.5200,713.9500,1139.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:33:39",katrina.cabrera@gmail.com,CU400016083,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:33:39",katrina.cabrera@gmail.com,CU400016083,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:33:39",katrina.cabrera@gmail.com,CU400016083,CUPH02LPDJV-1,,simple,1.0000,1139.5200,713.9500,1139.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",525.5700,
+"2017-04-23 09:36:15",katrina.cabrera@gmail.com,CU400016084,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 09:36:15",katrina.cabrera@gmail.com,CU400016084,CUPH02BFENY-1,,simple,1.0000,949.5200,694.9500,949.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 09:36:15",katrina.cabrera@gmail.com,CU400016084,CUPH02BFENY-1,,simple,1.0000,949.5200,694.9500,949.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 09:36:15",katrina.cabrera@gmail.com,CU400016084,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 09:38:42",katrina.cabrera@gmail.com,CU400016085,CUPH02BFENY-1,,simple,1.0000,949.5200,694.9500,949.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 09:38:42",katrina.cabrera@gmail.com,CU400016085,CUPH02BFENY-1,,simple,1.0000,949.5200,694.9500,949.5200,,,0.0000,,cashondelivery,Avent500,10.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 09:38:42",katrina.cabrera@gmail.com,CU400016085,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 09:38:42",katrina.cabrera@gmail.com,CU400016085,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,Avent500,0.0000,verified,100.0000,"Block 43 Lot27 W. Clavecilla St., NSHA 
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",354.5700,
+"2017-04-23 14:58:01",maricelyamat@gmail.com,CU400016086,CUDR02FYYGC-1,,simple,1.0000,579.1050,146.8200,579.1100,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"19 San Fernando St., New Haven Village, Novaliches
+Kaligayahan","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",586.1800,
+"2017-04-23 14:58:01",maricelyamat@gmail.com,CU400016086,CUDR02FYYGC-1,,simple,1.0000,579.1050,146.8200,579.1100,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"19 San Fernando St., New Haven Village, Novaliches
+Kaligayahan","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",586.1800,
+"2017-04-23 14:58:01",maricelyamat@gmail.com,CU400016086,CUJO03YWNEO-1,,simple,1.0000,72.2000,18.3100,72.2000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"19 San Fernando St., New Haven Village, Novaliches
+Kaligayahan","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",586.1800,
+"2017-04-23 14:58:01",maricelyamat@gmail.com,CU400016086,CUJO03YWNEO-1,,simple,1.0000,72.2000,18.3100,72.2000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"19 San Fernando St., New Haven Village, Novaliches
+Kaligayahan","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",586.1800,

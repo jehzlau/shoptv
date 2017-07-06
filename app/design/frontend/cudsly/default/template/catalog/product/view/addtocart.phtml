@@ -1,0 +1,84 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php $_product = $this->getProduct(); ?>
+
+<?php
+$CudslyStock = Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product)->getQty();
+$CudslyStock_clean = intval($CudslyStock);
+?>
+
+<?php $buttonTitle = $this->__('Add to Bag'); ?>
+<?php if($_product->isSaleable()): ?>
+    <div class="add-to-cart">
+        <?php if(!$_product->isGrouped()): ?>
+        <div class="qty-wrapper">
+            <!--<label for="qty"><?php echo $this->__('Qty:') ?></label>-->
+            <input type="text" pattern="\d*" name="qty" id="qty" maxlength="12" value="<?php echo max($this->getProductDefaultQty() * 1, 1) ?>" title="<?php echo $this->__('Qty') ?>" class="input-text-qty" placeholder="Select Quantity" />
+            <div class="selector-icon">
+                <a href="javascript:void()" class="caret-up" data-max="<?php echo $CudslyStock_clean; ?>" data-id="qty"><img src="/skin/frontend/cudsly/default/images/icon-up.png" class="icon-caret-up" ></a>
+                <a href="javascript:void()" class="caret-down" data-id="qty"><img src="/skin/frontend/cudsly/default/images/icon-down.png" class="icon-caret-down"></a>
+            </div>
+        </div>
+        <?php endif; ?>
+        <div class="add-to-cart-buttons">
+            <button type="button" title="<?php echo $buttonTitle ?>" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span><?php echo $buttonTitle ?></span></span></button>
+            <?php echo $this->getChildHtml('', true, true) ?>
+        </div>
+    </div>
+<?php endif; ?>
+
+
+<script type="text/javascript">
+    jQuery(function($) {
+        /* Add Quantity */
+        $('a.caret-up').on('click', function() {
+            var id  = $(this).attr('data-id');
+            var i   = $('input[name="qty"]');
+            i.val(parseInt(i.val(), 10)+1);
+        });
+
+        /* Reduce Quantity */
+        $('a.caret-down').on('click', function() {
+            var id  = $(this).attr('data-id');
+            var i   = $('input[name="qty"]');
+            var qty = parseInt(i.val(), 10);
+            if(qty == 1) {
+                return false;
+            }
+
+            i.val(qty-1);
+        });
+        
+        $('a.caret-up').on('click', function() 
+        {
+          if ($("#qty").val() > $(this).data("max")) {
+          $("#qty").val(parseInt($("#qty").val())-1);
+        }
+      });  
+
+    });
+</script>

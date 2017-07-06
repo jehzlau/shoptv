@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Bubble
+ * @package     Bubble_FullPageCache
+ * @version     3.5.0
+ * @copyright   Copyright (c) 2015 BubbleShop (https://www.bubbleshop.net)
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <remove name="right.reports.product.viewed" />
+        <reference name="before_body_end">
+            <block type="core/template" name="bubble.fpc.js" template="bubble/fpc/js.phtml" />
+        </reference>
+    </default>
+</layout>

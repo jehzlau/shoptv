@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @author Ecommerce Approch Team
+ * @copyright Copyright (c) 2015 Ecommerce Approch (http://www.ecommerceapproach.com/)
+ * @package Ecommerceapp_Cashdelivery
+ */
+-->
+<config>
+    <modules>
+        <Ecommerceapp_Cashdelivery>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Ecommerceapp_Cashdelivery>
+    </modules>
+</config>

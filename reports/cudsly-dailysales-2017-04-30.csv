@@ -1,0 +1,63 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01H5INY-1,,simple,2.0000,34.7500,44.4500,69.5000,CU400014537,2.0000,44.4500,69.5000,cashondelivery,EXTRA10,10.0000,shipped,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,166.8100
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01YJWBX-1,,simple,2.0000,57.9200,74.0800,115.8400,CU400014537,2.0000,74.0800,115.8400,cashondelivery,EXTRA10,10.0000,shipped,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,166.8100
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01YJWBX-1,,simple,2.0000,57.9200,74.0800,115.8400,CU400014537,2.0000,74.0800,115.8400,cashondelivery,EXTRA10,10.0000,shipped,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,166.8100
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01H5INY-1,,simple,2.0000,34.7500,44.4500,69.5000,CU400014537,2.0000,44.4500,69.5000,cashondelivery,EXTRA10,10.0000,shipped,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,166.8100
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUEQ02ZQCQO-1,,simple,1.0000,386.5500,93.5300,386.5500,CU400014535,1.0000,93.5300,386.5500,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUSA05ZTTUT-1,,simple,1.0000,269.7800,65.2700,269.7800,CU400014535,1.0000,65.2700,269.7800,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUEQ02ZQCQO-1,,simple,1.0000,386.5500,93.5300,386.5500,CU400014535,1.0000,93.5300,386.5500,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUSA05ZTTUT-1,,simple,1.0000,269.7800,65.2700,269.7800,CU400014535,1.0000,65.2700,269.7800,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUGI01SX4H0-1,,simple,2.0000,156.0000,75.4900,312.0000,CU400014535,2.0000,75.4900,312.0000,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUGR05BOLXA-1,,simple,2.0000,240.3000,116.2700,480.6000,CU400014535,2.0000,116.2700,480.6000,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUGI01SX4H0-1,,simple,2.0000,156.0000,75.4900,312.0000,CU400014535,2.0000,75.4900,312.0000,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUGR05BOLXA-1,,simple,2.0000,240.3000,116.2700,480.6000,CU400014535,2.0000,116.2700,480.6000,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUBE05NCEBKEY-150ML,,simple,1.0000,476.2800,115.2300,476.2800,CU400014535,1.0000,115.2300,476.2800,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-28 20:20:32",diana.guevarra@gmail.com,CU400016109,CUBE05NCEBKEY-150ML,,simple,1.0000,476.2800,115.2300,476.2800,CU400014535,1.0000,115.2300,476.2800,cashondelivery,,20.0000,shipped,0.0000,"B1L26 Cilantro St., Mahogany Place 3, Acacia Estates",Taguig,"Metro Manila",1636,"Standard Delivery - Shipping Fee",1459.4200,1459.4200
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01RH4QQ-1,,simple,1.0000,239.8000,61.4000,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01FUOBM-1,,simple,1.0000,239.8000,61.4100,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPH02JE0ZE-1,,simple,1.0000,370.8300,94.9500,370.8300,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01RBJRZ-1,,simple,1.0000,239.8000,61.4000,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01NCEBAHL-ONE,,simple,1.0000,183.8000,47.0700,183.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPH02JE0ZE-1,,simple,1.0000,370.8300,94.9500,370.8300,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01RBJRZ-1,,simple,1.0000,239.8000,61.4000,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01NCEBAHL-ONE,,simple,1.0000,183.8000,47.0700,183.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI016BSBJ-1,,simple,1.0000,239.8000,61.4000,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI016BSBJ-1,,simple,1.0000,239.8000,61.4000,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01RH4QQ-1,,simple,1.0000,239.8000,61.4000,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 07:06:39",steppysteph@gmail.com,CU400016110,CUPI01FUOBM-1,,simple,1.0000,239.8000,61.4100,239.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"21 C. Benitez Street Interstate Townhouse Unit 34
+Horseshoe","Quezon City","Metro Manila",1109,"Standard Delivery - Shipping Fee",1126.2000,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUPA02T6IXC-1,,simple,1.0000,254.0000,75.9500,254.0000,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUEQ02QJHPA-1,,simple,6.0000,130.2800,233.7300,781.6800,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUPA02T6IXC-1,,simple,1.0000,254.0000,75.9500,254.0000,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUEQ02QJHPA-1,,simple,6.0000,130.2800,233.7300,781.6800,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUEQ02STP4M-1,,simple,2.0000,1724.1200,1031.0700,3448.2400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUEQ02STP4M-1,,simple,2.0000,1724.1200,1031.0700,3448.2400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUEQ02PTGWK-1,,simple,3.0000,258.6200,231.9900,775.8600,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,
+"2017-04-29 11:01:45",shane_me27@yahoo.com,CU400016111,CUEQ02PTGWK-1,,simple,3.0000,258.6200,231.9900,775.8600,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3687.0400,

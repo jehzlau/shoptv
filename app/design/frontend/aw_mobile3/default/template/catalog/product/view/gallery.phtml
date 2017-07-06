@@ -1,0 +1,78 @@
+<?php
+/**
+ * aheadWorks Co.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ *
+ * =================================================================
+ *                 MAGENTO EDITION USAGE NOTICE
+ * =================================================================
+ * This software is designed to work with Magento community edition and
+ * its use on an edition other than specified is prohibited. aheadWorks does not
+ * provide extension support in case of incorrect edition use.
+ * =================================================================
+ *
+ * @category   AW
+ * @package    AW_Mobile3
+ * @version    3.0.1
+ * @copyright  Copyright (c) 2010-2012 aheadWorks Co. (http://www.aheadworks.com)
+ * @license    http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ */
+?><?php
+    $_product = $this->getProduct();
+    $imgCount = 12;    
+    $imgCdn = '//s3.cudsly.com/images/';
+    
+    $_sku = explode('-', $_product->getSku());
+    $sku = $_sku[0];
+    $host = Mage::getUrl('');;
+?>
+
+<div class="gallery">
+    <ul class="gallery__list">
+        <?php if (count($this->getGalleryImages()) == 0 || ($_product->getImage() != 'no_selection' && $_product->getImage())): ?>
+            <?php
+                $firstImage = $host."/scripts/mini.php?src=http:". $imgCdn . $sku . '/' . $sku ."-1.jpg&w=1000";
+                list($width, $height) = getimagesize($firstImage);
+
+                
+                $firstImageThumbnail = $host."/scripts/mini.php?src=http:". $imgCdn . $sku . '/' . $sku ."-1.jpg&w=200";
+                list($thumbnailWidth, $thumbnailHeight) = getimagesize($firstImageThumbnail);
+            ?>
+
+            <li class="gallery__item">
+                <a class="gallery__link" href="<?php echo $firstImage ?>" data-size="<?php echo $width ?>x<?php echo $height ?>">
+                    <img class="gallery__image" src="<?php echo $firstImageThumbnail ?>" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" width="<?php echo $thumbnailWidth ?>" height="<?php echo $thumbnailHeight ?>">
+                </a>
+            </li>
+        <?php endif; ?>
+		<?php
+			$_imageUrls = array();
+			for($x=1; $x<=$imgCount; $x++):
+				$_imageUrl1 = $host.'/scripts/mini.php?src=http:' . $imgCdn . $sku . '/' . $sku . '-' . $x .'.jpg&w=1000';
+				$_imageUrl2 = $host.'/scripts/mini.php?src=http:' . $imgCdn . $sku . '/' . $sku . '-' . $x .'.jpg&w=200';
+
+                        $_imgSrc = $_imageUrl1;
+                        list($width, $height) = getimagesize($_imgSrc);
+
+                        $thumbnail = $_imageUrl2;
+                        list($thumbnailWidth, $thumbnailHeight) = getimagesize($thumbnail);
+                        
+			  if($width && $height && $thumbnailWidth && $thumbnailHeight):
+		?>
+			      <li class="gallery__item">
+				  <a class="gallery__link" href="<?php echo $_imgSrc ?>" data-size="<?php echo $width ?>x<?php echo $height ?>">
+				      <img class="gallery__image" src="<?php echo $thumbnail ?>" width="<?php echo $thumbnailWidth ?>" height="<?php echo $thumbnailHeight ?>">
+				  </a>
+			      </li>
+		<?php			
+			  endif;
+		       endfor;
+		?>	
+    </ul>
+</div>

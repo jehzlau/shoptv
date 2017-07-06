@@ -1,0 +1,263 @@
+<script type="text/javascript" src="<?php echo $this->getUrl() ?>js/pace.min.js"></script>
+
+<style type="text/css">
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  -webkit-perspective: 12rem;
+  -moz-perspective: 12rem;
+  -ms-perspective: 12rem;
+  -o-perspective: 12rem;
+  perspective: 12rem;
+
+  z-index: 2000;
+  position: fixed;
+  height: 6rem;
+  width: 6rem;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pace.pace-inactive .pace-progress {
+  display: none;
+}
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 6rem;
+  width: 6rem !important;
+  line-height: 6rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background: rgba(0, 190, 221, 0.8);
+  color: #fff;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  text-align: center;
+
+  -webkit-animation: pace-3d-spinner linear infinite 2s;
+  -moz-animation: pace-3d-spinner linear infinite 2s;
+  -ms-animation: pace-3d-spinner linear infinite 2s;
+  -o-animation: pace-3d-spinner linear infinite 2s;
+  animation: pace-3d-spinner linear infinite 2s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.pace .pace-progress:after {
+  content: attr(data-progress-text);
+  display: block;
+}
+
+@-webkit-keyframes pace-3d-spinner {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+
+@-moz-keyframes pace-3d-spinner {
+  from {
+    -moz-transform: rotateY(0deg);
+  }
+  to {
+    -moz-transform: rotateY(360deg);
+  }
+}
+
+@-ms-keyframes pace-3d-spinner {
+  from {
+    -ms-transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+  }
+}
+
+@-o-keyframes pace-3d-spinner {
+  from {
+    -o-transform: rotateY(0deg);
+  }
+  to {
+    -o-transform: rotateY(360deg);
+  }
+}
+
+@keyframes pace-3d-spinner {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.hide{display: none;}
+#stores input.search {
+	width: 100%;
+	line-height: 40px;
+	font-size: 20px;
+	padding: 3px;
+	border: solid 1px #ccc;
+}
+.filterbyletter {
+float: left; 
+padding: 6px 12.4px; 
+margin: 2px; 
+border: 1px solid #ccc;
+}
+
+.filterbyletter:hover {
+background: #000;
+color: #fff;
+}
+
+.filterbyletter-container {
+display: block;
+margin-bottom: 50px;
+margin-top: 10px;
+}
+
+</style>
+
+	<link rel="stylesheet" type="text/css" href="<?php echo $this->getUrl() ?>storegrid/css/default.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $this->getUrl() ?>storegrid/css/listnav.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $this->getUrl() ?>storegrid/css/component.css" />
+		<script src="<?php echo $this->getUrl() ?>storegrid/js/modernizr.custom.js"></script>
+
+<?php
+   $name='deals';
+   $attributeInfo = Mage::getResourceModel('eav/entity_attribute_collection')->setCodeFilter($name)->getFirstItem();
+   $attributeId = $attributeInfo->getAttributeId();
+   $attribute = Mage::getModel('catalog/resource_eav_attribute')->load($attributeId);
+   $ppmtenants = $attribute ->getSource()->getAllOptions(false); 
+?>
+
+   <script type="text/javascript">
+            $(document).ready(function(){
+                $('.ln-letters a').click(function(){
+                    alert('hi');
+                });
+            });
+
+        </script>
+
+
+		<div id="stores" class="gridcontainer">
+
+		    	
+		  
+<div style="clear: both;">
+
+<p class="all-results showing-results hide"><input class="search" placeholder="Search Deals"/></p>
+<p class="showing-results hide">You are currently browsing Power Plant Mall deals that starts with: <span class="myLastClicked" style="font-size:1.5em; color:#0080a4">?</span></p>
+<p class="no-results-found hide">There are NO Power Plant Mall deals that starts with: <span class="myLastClicked" style="font-size:1.5em; color:#0080a4;"></span></p>
+<p class="all-results">You are currently browsing <span class="myLastClicked" style="font-size:1.5em; color:#0080a4;">ALL</span> Power Plant Mall deals. Please scroll down to see all.</p>
+
+
+<ul class="list grid effect-6" id="grid">
+ <?php foreach ($ppmtenants as $ppmtenant): ?> 
+        <li id="pp_deals_box">
+        <span class="tenant"><span style="display: none;"><?php echo $ppmtenant['label'] ?></span>
+        <a href="<?php echo $this->getURL() ?><?php 
+        $ppmtenantnospace = preg_replace('/\s+/','',$ppmtenant['label']);
+        $ppmtenantamp = str_replace("&", "and", $ppmtenantnospace);
+        $ppmtenantclean = str_replace("'", "", $ppmtenantamp);
+        echo strtolower($ppmtenantclean); 
+        ?>">
+        
+        <?php 
+        $dealsimagepath = Mage::getBaseDir().'/media/wysiwyg/Deals/'.strtolower($ppmtenantclean).'.png';
+        if(file_exists($dealsimagepath)) { ?>
+        
+        
+       <img src="<?php echo $this->getUrl() ?>media/wysiwyg/Deals/<?php echo strtolower($ppmtenantclean); ?>.png"></a>
+     <?php } else { ?>
+            <img src="<?php echo $this->getUrl() ?>media/wysiwyg/Deals/default.png"></a>
+      <?php } ?>
+               
+        
+        </span>
+        </li>
+    <?php endforeach; ?>
+        </ul>
+</div>
+
+</div>
+
+		
+<script src="<?php echo $this->getUrl() ?>storegrid/js/jquery-1.11.0.min.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/jquery-listnav-grid.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/list.js"></script>
+
+<script type="text/javascript">
+$.noConflict();
+jQuery( document ).ready(function( $ ) {
+$('#grid').listnav({
+		cookieName: 'ln-demo5',
+		includeNums: false,
+		onClick: function(letter) {
+			$(".myLastClicked").text(letter.toUpperCase());
+            $('.grid > li').removeAttr('style');
+            $('.grid').css('height','auto');
+            if(letter != 'all'){
+                var x=parseInt($('.ln-'+letter).length);
+                if(x == 0){
+                    $('.no-results-found').removeClass('hide');
+                    $('.showing-results').addClass('hide');
+                    $('.all-results').addClass('hide');
+                }
+                else{
+                    $('.all-results').addClass('hide');
+                    $('.no-results-found').addClass('hide');
+                    $('.showing-results').removeClass('hide');
+                }
+            }
+            else{
+                $('.no-results-found').addClass('hide');
+                $('.showing-results').addClass('hide');
+                $('.all-results').removeClass('hide');
+            }
+		}
+	});
+
+});
+
+var options = {
+    valueNames: ['tenant']
+};
+var userList = new List('stores', options);
+
+</script>
+
+<script src="<?php echo $this->getUrl() ?>storegrid/js/masonry.pkgd.min.js"></script>
+		<script src="<?php echo $this->getUrl() ?>storegrid/js/imagesloaded.js"></script>
+		<script src="<?php echo $this->getUrl() ?>storegrid/js/classie.js"></script>
+		<script src="<?php echo $this->getUrl() ?>storegrid/js/AnimOnScroll.js"></script>
+		<script type="text/javascript">
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+		</script>

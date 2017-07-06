@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<cudsly translate="label" module="mediasource">
+            <label>Cudsly</label>
+            <sort_order>0</sort_order>
+        </cudsly>
+	  </tabs>
+	  <sections>
+		<mediaurl  translate="label" module="mediasource">                    
+		<label>Media Remote Server</label>
+		<tab>cudsly</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>0</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <mediasource translate="label"> 
+					  <label>Media Source</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <mediaurlfield translate="label">
+                            <label>Media URL</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </mediaurlfield>
+					   </fields>
+					   </mediasource>
+					</groups>
+		</mediaurl>
+	  </sections>
+</config>

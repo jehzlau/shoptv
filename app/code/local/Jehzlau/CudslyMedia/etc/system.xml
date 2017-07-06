@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Ecommerce Approch Team
+ * @copyright Copyright (c) 2015 Ecommerce Approch (http://www.ecommerceapproach.com/)
+ * @package Ecommerceapp_cudslymedia
+ */
+-->
+<config>
+    <tabs>
+        <jehzlau_extensions>
+            <label>Cudsly Modules</label>
+            <sort_order>0</sort_order>
+        </jehzlau_extensions>
+    </tabs>
+    <sections>
+        <cudslymedia translate="label">
+            <class>separator-top</class>
+            <label>Cudsly Media</label>
+            <tab>jehzlau_extensions</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <cudslymedia translate="label">
+                    <label>Configuration Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <cudsly_fields>
+                        <enable translate="label">
+                            <label>Enable Extension</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable>
+                        <cudsly_mode translate="label">
+                            <label>Region Mode</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>cudslymedia/system_config_source_mode</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<span class="notice">In Include Mode, Cash on delivery option only availble in below entered Regions. <br />  In Exclude Mode, Cash on delivery option availble to every Region except below mentioned Regions. </span>]]></comment>
+                        </cudsly_mode>
+
+                    </cudsly_fields>
+                </cudslymedia>
+            </groups>
+        </cudslymedia>
+    </sections>
+</config> 

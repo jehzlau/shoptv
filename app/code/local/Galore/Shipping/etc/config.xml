@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <default>
+        <carriers>
+            <galore>
+                <active>1</active>
+                <model>Galore_Shipping_Model_Carrier_Galore</model>
+                <title>Standard Rate</title>
+                <name>Galore Shipping</name>
+                <sallowspecific>0</sallowspecific>
+                <allowed_methods>delivery</allowed_methods>
+                <flatrate>70.00</flatrate>
+                <mm_min>500.00</mm_min>
+                <mm_fee>50.00</mm_fee>
+                <pr_min>1000.00</pr_min>
+                <pr_fee>100.00</pr_fee>
+                <bulkyfee>0.00</bulkyfee>
+                <specificerrmsg>This shipping method is currently unavailable.</specificerrmsg>
+            </galore>
+        </carriers>
+    </default>
+</config>

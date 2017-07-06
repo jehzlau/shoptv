@@ -1,0 +1,169 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2016-11-25 05:03:25",gen.ongchi@gmail.com,CU400014069,CUHU01NU99W-1,,simple,1.0000,1909.5000,0.0000,1909.5000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Unit 6C, Greenrich Mansion, Lourdes corner Pearl Drive
+San Antonio","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1909.5000,
+"2016-11-25 05:03:25",gen.ongchi@gmail.com,CU400014069,CUHU01NU99W-1,,simple,1.0000,1909.5000,0.0000,1909.5000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Unit 6C, Greenrich Mansion, Lourdes corner Pearl Drive
+San Antonio","Pasig City","Metro Manila",1600,"Standard Delivery - Shipping Fee",1909.5000,
+"2016-11-24 02:40:23",leahrubypecson@gmail.com,CU400014212,CUPA02AERYW-1,,simple,2.0000,178.0000,0.0000,356.0000,CU400012830,2.0000,0.0000,356.0000,paypal_express,,0.0000,shipped,100.0000,"14B Amago townhouse Simon Street Multinational Village Paranaque City
+Moonwalk","Paranaque City","Metro Manila",1700,"Standard Delivery - Shipping Fee",456.0000,456.0000
+"2016-11-24 02:40:23",leahrubypecson@gmail.com,CU400014212,CUPA02AERYW-1,,simple,2.0000,178.0000,0.0000,356.0000,CU400012830,2.0000,0.0000,356.0000,paypal_express,,0.0000,shipped,100.0000,"14B Amago townhouse Simon Street Multinational Village Paranaque City
+Moonwalk","Paranaque City","Metro Manila",1700,"Standard Delivery - Shipping Fee",456.0000,456.0000
+"2016-11-24 02:42:10",cs@cudsly.com,CU400014213,CUEN01NCEAABQ-100G,,simple,1.0000,39.7500,7.9500,39.7500,CU400012836,1.0000,7.9500,39.7500,cashondelivery,EMPDISC,20.0000,invoiced,0.0000,"Upper Basement Solar Century Tower 100 Tordesillas St Cor HV Dela Costa St
+Bel-air","Makati City","Metro Manila",1207,"Standard Delivery - Shipping Fee",31.8000,31.8000
+"2016-11-24 02:42:10",cs@cudsly.com,CU400014213,CUEN01NCEAABQ-100G,,simple,1.0000,39.7500,7.9500,39.7500,CU400012836,1.0000,7.9500,39.7500,cashondelivery,EMPDISC,20.0000,invoiced,0.0000,"Upper Basement Solar Century Tower 100 Tordesillas St Cor HV Dela Costa St
+Bel-air","Makati City","Metro Manila",1207,"Standard Delivery - Shipping Fee",31.8000,31.8000
+"2016-11-24 03:27:52",annaperez16@yahoo.com,CU400014214,CUBE11X5ZPT-1,,simple,1.0000,79.7500,0.0000,79.7500,CU400012832,1.0000,0.0000,79.7500,paypal_express,,0.0000,shipped,0.0000,"65 Orchids St. South Greenheights Village
+Putatan","Muntinlupa City","Metro Manila",1772,"Standard Delivery - Shipping Fee",1044.9500,1044.9500
+"2016-11-24 03:27:52",annaperez16@yahoo.com,CU400014214,CUBE11X5ZPT-1,,simple,1.0000,79.7500,0.0000,79.7500,CU400012832,1.0000,0.0000,79.7500,paypal_express,,0.0000,shipped,0.0000,"65 Orchids St. South Greenheights Village
+Putatan","Muntinlupa City","Metro Manila",1772,"Standard Delivery - Shipping Fee",1044.9500,1044.9500
+"2016-11-24 03:27:52",annaperez16@yahoo.com,CU400014214,CUPA02UBONX-1,,simple,1.0000,965.2000,0.0000,965.2000,CU400012832,1.0000,0.0000,965.2000,paypal_express,,0.0000,shipped,0.0000,"65 Orchids St. South Greenheights Village
+Putatan","Muntinlupa City","Metro Manila",1772,"Standard Delivery - Shipping Fee",1044.9500,1044.9500
+"2016-11-24 03:27:52",annaperez16@yahoo.com,CU400014214,CUPA02UBONX-1,,simple,1.0000,965.2000,0.0000,965.2000,CU400012832,1.0000,0.0000,965.2000,paypal_express,,0.0000,shipped,0.0000,"65 Orchids St. South Greenheights Village
+Putatan","Muntinlupa City","Metro Manila",1772,"Standard Delivery - Shipping Fee",1044.9500,1044.9500
+"2016-11-24 04:54:17",lerma_eve@yahoo.com,CU400014216,CUST03PGSFL-1,,simple,1.0000,499.0000,0.0000,499.0000,CU400012819,1.0000,0.0000,499.0000,cashondelivery,,0.0000,shipped,100.0000,"Luisa E. Lafuente St., Poblacion 4, Clarin, Misamis Occidental
+Poblacion Iv",Clarin,"Misamis Occidental",7201,"Standard Delivery - Shipping Fee",599.0000,599.0000
+"2016-11-24 04:54:17",lerma_eve@yahoo.com,CU400014216,CUST03PGSFL-1,,simple,1.0000,499.0000,0.0000,499.0000,CU400012819,1.0000,0.0000,499.0000,cashondelivery,,0.0000,shipped,100.0000,"Luisa E. Lafuente St., Poblacion 4, Clarin, Misamis Occidental
+Poblacion Iv",Clarin,"Misamis Occidental",7201,"Standard Delivery - Shipping Fee",599.0000,599.0000
+"2016-11-24 05:54:56",shievdomsammy23@gmail.com,CU400014217,CUSA02UUURV-1,,simple,1.0000,2999.7500,0.0000,2999.7500,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Apartment door # 2 Phase 2-b Block 4 Lot 16 Sta.Barbara street Laverna Hills Subdivision
+Buhangin (Pob.)","Davao City","Davao Del Sur",8000,"Standard Delivery - Shipping Fee",2999.7500,
+"2016-11-24 05:54:56",shievdomsammy23@gmail.com,CU400014217,CUSA02UUURV-1,,simple,1.0000,2999.7500,0.0000,2999.7500,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Apartment door # 2 Phase 2-b Block 4 Lot 16 Sta.Barbara street Laverna Hills Subdivision
+Buhangin (Pob.)","Davao City","Davao Del Sur",8000,"Standard Delivery - Shipping Fee",2999.7500,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUPL01RBCLP-1,,simple,1.0000,299.7500,202.2300,299.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUCI02FPVLM-1,,simple,1.0000,149.7500,101.0300,149.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUCI02FPVLM-1,,simple,1.0000,149.7500,101.0300,149.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUTH01QNSXP-1,,simple,1.0000,399.7500,269.7000,399.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUTI01NCWALFP-ONE,,simple,1.0000,159.0000,107.2700,159.0000,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUTH01QNSXP-1,,simple,1.0000,399.7500,269.7000,399.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUTI01NCWALFP-ONE,,simple,1.0000,159.0000,107.2700,159.0000,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUTO01NCNAASU-ONE,,simple,1.0000,199.7500,134.7700,199.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUPL01RBCLP-1,,simple,1.0000,299.7500,202.2300,299.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:14:12",irenelabarro@yahoo.com,CU400014218,CUTO01NCNAASU-ONE,,simple,1.0000,199.7500,134.7700,199.7500,,,0.0000,,cashondelivery,REFCU400013360,0.0000,verified,100.0000,"833D marquez st.,corner villanueva gatchalian subd.
+Manuyo Dos","Las Pinas City","Metro Manila",1744,"Standard Delivery - Shipping Fee",493.0000,
+"2016-11-24 07:51:59",emttravelandtours@gmail.com,CU400014219,CUHU0183L1D-1,0.0000,simple,2.0000,237.5000,0.0000,475.0000,CU400012838,2.0000,0.0000,475.0000,cashondelivery,,0.0000,closed,100.0000,"B3 L34 ROXAS ST VILLA SAN JOSE SUBD GRACEVILLE
+Graceville","San Jose Del Monte City",Bulacan,3023,"Standard Delivery - Shipping Fee",575.0000,575.0000
+"2016-11-24 07:51:59",emttravelandtours@gmail.com,CU400014219,CUHU0183L1D-1,0.0000,simple,2.0000,237.5000,0.0000,475.0000,CU400012838,2.0000,0.0000,475.0000,cashondelivery,,0.0000,closed,100.0000,"B3 L34 ROXAS ST VILLA SAN JOSE SUBD GRACEVILLE
+Graceville","San Jose Del Monte City",Bulacan,3023,"Standard Delivery - Shipping Fee",575.0000,575.0000
+"2016-11-25 07:03:52",krystelle0909@yahoo.com.ph,CU400014221,CUHU01ONUFO-1,,simple,1.0000,1767.0000,0.0000,1767.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Ipac street
+Rang-ay (Pob.)",Sinait,"Ilocos Sur",2733,"Standard Delivery - Shipping Fee",1767.0000,
+"2016-11-25 07:03:52",krystelle0909@yahoo.com.ph,CU400014221,CUHU01ONUFO-1,,simple,1.0000,1767.0000,0.0000,1767.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Ipac street
+Rang-ay (Pob.)",Sinait,"Ilocos Sur",2733,"Standard Delivery - Shipping Fee",1767.0000,
+"2016-11-24 09:00:56",shanleymodesto@gmail.com,CU400014222,CUSA04PNGOD-1,,simple,1.0000,399.0000,0.0000,399.0000,CU400012840,1.0000,0.0000,399.0000,cashondelivery,,0.0000,invoiced,100.0000,"Blk.12 Lot 101 Apalit Resettlement Floridablanca Pampanga
+Apalit",Floridablanca,Pampanga,2006,"Standard Delivery - Shipping Fee",499.0000,499.0000
+"2016-11-24 09:00:56",shanleymodesto@gmail.com,CU400014222,CUSA04PNGOD-1,,simple,1.0000,399.0000,0.0000,399.0000,CU400012840,1.0000,0.0000,399.0000,cashondelivery,,0.0000,invoiced,100.0000,"Blk.12 Lot 101 Apalit Resettlement Floridablanca Pampanga
+Apalit",Floridablanca,Pampanga,2006,"Standard Delivery - Shipping Fee",499.0000,499.0000
+"2016-11-24 10:09:04",denisejuliamedina@gmail.com,CU400014223,CUOR03AHIMI-1,,simple,4.0000,538.5000,0.0000,2154.0000,CU400012841,4.0000,0.0000,2154.0000,cashondelivery,,0.0000,invoiced,0.0000,"3F 1132 Normandy South St. Parkhomes Subdivision
+Tunasan","Muntinlupa City","Metro Manila",1773,"Standard Delivery - Shipping Fee",2154.0000,2154.0000
+"2016-11-24 10:09:04",denisejuliamedina@gmail.com,CU400014223,CUOR03AHIMI-1,,simple,4.0000,538.5000,0.0000,2154.0000,CU400012841,4.0000,0.0000,2154.0000,cashondelivery,,0.0000,invoiced,0.0000,"3F 1132 Normandy South St. Parkhomes Subdivision
+Tunasan","Muntinlupa City","Metro Manila",1773,"Standard Delivery - Shipping Fee",2154.0000,2154.0000
+"2016-11-24 13:05:13",michaelle_18annmusngi@yahoo.com,CU400014224,CUHU016VF80-1,,simple,1.0000,902.5000,0.0000,902.5000,CU400012839,1.0000,0.0000,902.5000,cashondelivery,,0.0000,invoiced,0.0000,"505 A. Valino Street Brgy Aduas Sur Cabanatuan City
+Aduas Sur","Cabanatuan City","Nueva Ecija",3100,"Standard Delivery - Shipping Fee",1316.5000,1316.5000
+"2016-11-24 13:05:13",michaelle_18annmusngi@yahoo.com,CU400014224,CUHU01YTCRP-1,,simple,1.0000,414.0000,0.0000,414.0000,CU400012839,1.0000,0.0000,414.0000,cashondelivery,,0.0000,invoiced,0.0000,"505 A. Valino Street Brgy Aduas Sur Cabanatuan City
+Aduas Sur","Cabanatuan City","Nueva Ecija",3100,"Standard Delivery - Shipping Fee",1316.5000,1316.5000
+"2016-11-24 13:05:13",michaelle_18annmusngi@yahoo.com,CU400014224,CUHU01YTCRP-1,,simple,1.0000,414.0000,0.0000,414.0000,CU400012839,1.0000,0.0000,414.0000,cashondelivery,,0.0000,invoiced,0.0000,"505 A. Valino Street Brgy Aduas Sur Cabanatuan City
+Aduas Sur","Cabanatuan City","Nueva Ecija",3100,"Standard Delivery - Shipping Fee",1316.5000,1316.5000
+"2016-11-24 13:05:13",michaelle_18annmusngi@yahoo.com,CU400014224,CUHU016VF80-1,,simple,1.0000,902.5000,0.0000,902.5000,CU400012839,1.0000,0.0000,902.5000,cashondelivery,,0.0000,invoiced,0.0000,"505 A. Valino Street Brgy Aduas Sur Cabanatuan City
+Aduas Sur","Cabanatuan City","Nueva Ecija",3100,"Standard Delivery - Shipping Fee",1316.5000,1316.5000
+"2016-11-24 14:04:28",Bhezzy_13@yahoo.com,CU400014225,CUHA03FDECLBJ-ONE,,simple,1.0000,315.0000,0.0000,315.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"369 JP Rizal St Poblacion
+Banaba","Padre Garcia",Batangas,4224,"Standard Delivery - Shipping Fee",535.0000,
+"2016-11-24 14:04:28",Bhezzy_13@yahoo.com,CU400014225,CUBA05FDEBIAO-ONE,,simple,1.0000,120.0000,0.0000,120.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"369 JP Rizal St Poblacion
+Banaba","Padre Garcia",Batangas,4224,"Standard Delivery - Shipping Fee",535.0000,
+"2016-11-24 14:04:28",Bhezzy_13@yahoo.com,CU400014225,CUBA05FDEBIAO-ONE,,simple,1.0000,120.0000,0.0000,120.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"369 JP Rizal St Poblacion
+Banaba","Padre Garcia",Batangas,4224,"Standard Delivery - Shipping Fee",535.0000,
+"2016-11-24 14:04:28",Bhezzy_13@yahoo.com,CU400014225,CUHA03FDECLBJ-ONE,,simple,1.0000,315.0000,0.0000,315.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"369 JP Rizal St Poblacion
+Banaba","Padre Garcia",Batangas,4224,"Standard Delivery - Shipping Fee",535.0000,
+"2016-11-24 15:48:16",jackie.bdc@gmail.com,CU400014226,CUGI015SPWC-1,,simple,2.0000,545.0000,0.0000,1090.0000,CU400012845,2.0000,0.0000,1090.0000,paypal_express,,0.0000,invoiced,0.0000,"180 Ma. Clara Street, Between 8th and 9th Avenue,
+Barangay 102","Caloocan City","Metro Manila",1403,"Standard Delivery - Shipping Fee",1320.0000,1320.0000
+"2016-11-24 15:48:16",jackie.bdc@gmail.com,CU400014226,CUGI015SPWC-1,,simple,2.0000,545.0000,0.0000,1090.0000,CU400012845,2.0000,0.0000,1090.0000,paypal_express,,0.0000,invoiced,0.0000,"180 Ma. Clara Street, Between 8th and 9th Avenue,
+Barangay 102","Caloocan City","Metro Manila",1403,"Standard Delivery - Shipping Fee",1320.0000,1320.0000
+"2016-11-24 15:48:16",jackie.bdc@gmail.com,CU400014226,CUGI01VOAST-1,,simple,2.0000,115.0000,0.0000,230.0000,CU400012845,2.0000,0.0000,230.0000,paypal_express,,0.0000,invoiced,0.0000,"180 Ma. Clara Street, Between 8th and 9th Avenue,
+Barangay 102","Caloocan City","Metro Manila",1403,"Standard Delivery - Shipping Fee",1320.0000,1320.0000
+"2016-11-24 15:48:16",jackie.bdc@gmail.com,CU400014226,CUGI01VOAST-1,,simple,2.0000,115.0000,0.0000,230.0000,CU400012845,2.0000,0.0000,230.0000,paypal_express,,0.0000,invoiced,0.0000,"180 Ma. Clara Street, Between 8th and 9th Avenue,
+Barangay 102","Caloocan City","Metro Manila",1403,"Standard Delivery - Shipping Fee",1320.0000,1320.0000
+"2016-11-25 00:48:54",swit_nreval@yahoo.com,CU400014228,CULU04SKUXT-1,,configurable,1.0000,749.0000,0.0000,749.0000,CU400012842,1.0000,0.0000,749.0000,cashondelivery,,0.0000,invoiced,100.0000,"8 Iris St Moonwalk Village Barangay Talon Singko
+Talon Singko","Las Pinas City","Metro Manila",1747,"Standard Delivery - Shipping Fee",849.0000,849.0000
+"2016-11-25 00:48:54",swit_nreval@yahoo.com,CU400014228,CULU04SKUXT-1,,simple,1.0000,0.0000,0.0000,0.0000,CU400012842,1.0000,0.0000,,cashondelivery,,0.0000,invoiced,100.0000,"8 Iris St Moonwalk Village Barangay Talon Singko
+Talon Singko","Las Pinas City","Metro Manila",1747,"Standard Delivery - Shipping Fee",849.0000,849.0000
+"2016-11-25 00:48:54",swit_nreval@yahoo.com,CU400014228,CULU04SKUXT-1,,simple,1.0000,0.0000,0.0000,0.0000,CU400012842,1.0000,0.0000,,cashondelivery,,0.0000,invoiced,100.0000,"8 Iris St Moonwalk Village Barangay Talon Singko
+Talon Singko","Las Pinas City","Metro Manila",1747,"Standard Delivery - Shipping Fee",849.0000,849.0000
+"2016-11-25 00:48:54",swit_nreval@yahoo.com,CU400014228,CULU04SKUXT-1,,configurable,1.0000,749.0000,0.0000,749.0000,CU400012842,1.0000,0.0000,749.0000,cashondelivery,,0.0000,invoiced,100.0000,"8 Iris St Moonwalk Village Barangay Talon Singko
+Talon Singko","Las Pinas City","Metro Manila",1747,"Standard Delivery - Shipping Fee",849.0000,849.0000
+"2016-11-25 01:49:43",jannysimbajon@yahoo.com,CU400014229,CUBA21T6QCA-1,,simple,1.0000,1599.0000,0.0000,1599.0000,CU400012843,1.0000,0.0000,1599.0000,cashondelivery,,0.0000,invoiced,0.0000,"JGM Finance Corporation 302 goding ramos st kalibo aklan
+Andagaw",Kalibo,Aklan,5600,"Standard Delivery - Shipping Fee",1599.0000,1599.0000
+"2016-11-25 01:49:43",jannysimbajon@yahoo.com,CU400014229,CUBA21T6QCA-1,,simple,1.0000,1599.0000,0.0000,1599.0000,CU400012843,1.0000,0.0000,1599.0000,cashondelivery,,0.0000,invoiced,0.0000,"JGM Finance Corporation 302 goding ramos st kalibo aklan
+Andagaw",Kalibo,Aklan,5600,"Standard Delivery - Shipping Fee",1599.0000,1599.0000
+"2016-11-25 05:22:19",zyra_matibag@yahoo.com,CU400014230,CUBA05FDEBIAO-ONE,,simple,1.0000,120.0000,0.0000,120.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Block 1 Lot 7 My Homes Subdivision Sta. Anastacia Sto. Tomas Batangas
+Santa Anastacia","Santo Tomas",Batangas,4234,"Standard Delivery - Shipping Fee",340.0000,
+"2016-11-25 05:22:19",zyra_matibag@yahoo.com,CU400014230,CUBA05FDEBFRV-ONE,,simple,1.0000,120.0000,0.0000,120.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Block 1 Lot 7 My Homes Subdivision Sta. Anastacia Sto. Tomas Batangas
+Santa Anastacia","Santo Tomas",Batangas,4234,"Standard Delivery - Shipping Fee",340.0000,
+"2016-11-25 05:22:19",zyra_matibag@yahoo.com,CU400014230,CUBA05FDEBFRV-ONE,,simple,1.0000,120.0000,0.0000,120.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Block 1 Lot 7 My Homes Subdivision Sta. Anastacia Sto. Tomas Batangas
+Santa Anastacia","Santo Tomas",Batangas,4234,"Standard Delivery - Shipping Fee",340.0000,
+"2016-11-25 05:22:19",zyra_matibag@yahoo.com,CU400014230,CUBA05FDEBIAO-ONE,,simple,1.0000,120.0000,0.0000,120.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Block 1 Lot 7 My Homes Subdivision Sta. Anastacia Sto. Tomas Batangas
+Santa Anastacia","Santo Tomas",Batangas,4234,"Standard Delivery - Shipping Fee",340.0000,
+"2016-11-25 05:50:34",maraspineda@gmail.com,CU400014231,CUOR03AHIMI-1,,simple,1.0000,538.5000,0.0000,538.5000,,,0.0000,,paypal_express,,0.0000,verified,100.0000,"19836 Cherry St., Executive Heights Subdivision
+Sun Valley","Paranaque City","Metro Manila",1710,"Standard Delivery - Shipping Fee",793.5000,
+"2016-11-25 05:50:34",maraspineda@gmail.com,CU400014231,CUOR03AHIMI-1,,simple,1.0000,538.5000,0.0000,538.5000,,,0.0000,,paypal_express,,0.0000,verified,100.0000,"19836 Cherry St., Executive Heights Subdivision
+Sun Valley","Paranaque City","Metro Manila",1710,"Standard Delivery - Shipping Fee",793.5000,
+"2016-11-25 05:50:34",maraspineda@gmail.com,CU400014231,CUTI01WYQCH-1,,simple,1.0000,155.0000,0.0000,155.0000,,,0.0000,,paypal_express,,0.0000,verified,100.0000,"19836 Cherry St., Executive Heights Subdivision
+Sun Valley","Paranaque City","Metro Manila",1710,"Standard Delivery - Shipping Fee",793.5000,
+"2016-11-25 05:50:34",maraspineda@gmail.com,CU400014231,CUTI01WYQCH-1,,simple,1.0000,155.0000,0.0000,155.0000,,,0.0000,,paypal_express,,0.0000,verified,100.0000,"19836 Cherry St., Executive Heights Subdivision
+Sun Valley","Paranaque City","Metro Manila",1710,"Standard Delivery - Shipping Fee",793.5000,
+"2016-11-25 05:40:03",iane_ayen@yahoo.com,CU400014232,CUHU01SIRRQ-1,,simple,1.0000,1909.5000,0.0000,1909.5000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Naic Rural Health Unit, Capt. C. Nazareno St. 
+Capt. C. Nazareno (Pob.)",Naic,Cavite,4110,"Standard Delivery - Shipping Fee",1909.5000,
+"2016-11-25 05:40:03",iane_ayen@yahoo.com,CU400014232,CUHU01SIRRQ-1,,simple,1.0000,1909.5000,0.0000,1909.5000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"006 Bucana Sasahan
+Naic",Naic,Cavite,4110,"Standard Delivery - Shipping Fee",1909.5000,
+"2016-11-25 05:46:20",qahprelle@yahoo.com,CU400014233,CUMY02NCBADZR-ONE,,simple,1.0000,799.0000,0.0000,799.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"unit3g tower4 the xavier hills condo, n.domingo st. corner gilmore st.
+Horseshoe","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",899.0000,
+"2016-11-25 05:46:20",qahprelle@yahoo.com,CU400014233,CUMY02NCBADZR-ONE,,simple,1.0000,799.0000,0.0000,799.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"unit3g tower4 the xavier hills condo, n.domingo st. corner gilmore st.
+Horseshoe","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",899.0000,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUMU02NCPAAPB-ONE,,simple,1.0000,389.7500,0.0000,389.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUBO04NV1AW-1,,simple,1.0000,1199.7500,0.0000,1199.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUMU02NCPAAPB-ONE,,simple,1.0000,389.7500,0.0000,389.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUBO04NV1AW-1,,simple,1.0000,1199.7500,0.0000,1199.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUCR01WMEED-1,,simple,2.0000,478.0000,0.0000,956.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUTO01ZHROE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUCR01WMEED-1,,simple,2.0000,478.0000,0.0000,956.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUTO01ZHROE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUBO049HGFR-1,,simple,1.0000,579.7500,0.0000,579.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:00:56",mishal_88@yahoo.com,CU400014234,CUBO049HGFR-1,,simple,1.0000,579.7500,0.0000,579.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"12C2 Woodside Homes Doña Hemady St.
+Brgy. Kristong Hari","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",3125.2500,
+"2016-11-25 07:25:35",clara_0329@yahoo.com,CU400014235,CUEQ02MPCKJ-1,,simple,1.0000,287.3500,0.0000,287.3500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"L10 b33 Lj Ledesma subd. 2 
+Buhang","Iloilo City",Iloilo,5000,"Standard Delivery - Shipping Fee",799.1000,
+"2016-11-25 07:25:35",clara_0329@yahoo.com,CU400014235,CUPA02X1XDE-1,,simple,1.0000,282.7500,0.0000,282.7500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"L10 b33 Lj Ledesma subd. 2 
+Buhang","Iloilo City",Iloilo,5000,"Standard Delivery - Shipping Fee",799.1000,
+"2016-11-25 07:25:35",clara_0329@yahoo.com,CU400014235,CUPA02X1XDE-1,,simple,1.0000,282.7500,0.0000,282.7500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"L10 b33 Lj Ledesma subd. 2 
+Buhang","Iloilo City",Iloilo,5000,"Standard Delivery - Shipping Fee",799.1000,
+"2016-11-25 07:25:35",clara_0329@yahoo.com,CU400014235,CUPA02PGKNQ-1,,simple,1.0000,129.0000,0.0000,129.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"L10 b33 Lj Ledesma subd. 2 
+Buhang","Iloilo City",Iloilo,5000,"Standard Delivery - Shipping Fee",799.1000,
+"2016-11-25 07:25:35",clara_0329@yahoo.com,CU400014235,CUPA02PGKNQ-1,,simple,1.0000,129.0000,0.0000,129.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"L10 b33 Lj Ledesma subd. 2 
+Buhang","Iloilo City",Iloilo,5000,"Standard Delivery - Shipping Fee",799.1000,
+"2016-11-25 07:25:35",clara_0329@yahoo.com,CU400014235,CUEQ02MPCKJ-1,,simple,1.0000,287.3500,0.0000,287.3500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"L10 b33 Lj Ledesma subd. 2 
+Buhang","Iloilo City",Iloilo,5000,"Standard Delivery - Shipping Fee",799.1000,
+"2016-11-25 08:52:43",lvtorio@gmail.com,CU400014236,CUBA01ACUCFXZ-ONE,,simple,1.0000,395.0000,113.7600,395.0000,CU400012846,1.0000,113.7600,395.0000,cashondelivery,REORDER28124,0.0000,invoiced,0.0000,"324W Sofia Bellevue, 11 Capitol Hills, 
+Matandang Balara","Quezon City","Metro Manila",1101,"Standard Delivery - Shipping Fee",281.2400,281.2400
+"2016-11-25 08:52:43",lvtorio@gmail.com,CU400014236,CUBA01ACUCFXZ-ONE,,simple,1.0000,395.0000,113.7600,395.0000,CU400012846,1.0000,113.7600,395.0000,cashondelivery,REORDER28124,0.0000,invoiced,0.0000,"324W Sofia Bellevue, 11 Capitol Hills, 
+Matandang Balara","Quezon City","Metro Manila",1101,"Standard Delivery - Shipping Fee",281.2400,281.2400
+"2016-11-25 09:07:03",joycegotamco@gmail.com,CU400014237,CUTI01D2IWR-1,,simple,10.0000,189.0000,914.3700,1890.0000,,,0.0000,,paypal_express,ilovecudsly,0.0000,verified,0.0000,"Unit K Greenhills Courtyard 2, 180 J.asinas st.
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",1067.0000,
+"2016-11-25 09:07:03",joycegotamco@gmail.com,CU400014237,CUTI01D2IWR-1,,simple,10.0000,189.0000,914.3700,1890.0000,,,0.0000,,paypal_express,ilovecudsly,0.0000,verified,0.0000,"Unit K Greenhills Courtyard 2, 180 J.asinas st.
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",1067.0000,
+"2016-11-25 09:07:03",joycegotamco@gmail.com,CU400014237,CUTI01NCWASOU-ONE,,simple,3.0000,59.0000,85.6300,177.0000,,,0.0000,,paypal_express,ilovecudsly,0.0000,verified,0.0000,"Unit K Greenhills Courtyard 2, 180 J.asinas st.
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",1067.0000,
+"2016-11-25 09:07:03",joycegotamco@gmail.com,CU400014237,CUTI01NCWASOU-ONE,,simple,3.0000,59.0000,85.6300,177.0000,,,0.0000,,paypal_express,ilovecudsly,0.0000,verified,0.0000,"Unit K Greenhills Courtyard 2, 180 J.asinas st.
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",1067.0000,

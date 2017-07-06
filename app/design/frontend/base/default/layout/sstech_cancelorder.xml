@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <customer_account_index>
+        <reference name="customer_account_dashboard_top">
+            <action method="setTemplate">
+                <template>cancelorder/recent.phtml</template>
+            </action>
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/cancelorder.css</stylesheet>
+            </action>
+        </reference>
+    </customer_account_index>
+    <sales_order_history>
+        <reference name="sales.order.history">
+            <action method="setTemplate">
+                <template>cancelorder/history.phtml</template>
+            </action>
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/cancelorder.css</stylesheet>
+            </action>
+        </reference>
+    </sales_order_history>
+    <sales_order_view>
+        <reference name="sales.order.info.buttons">
+            <action method="setTemplate">
+                <template>cancelorder/buttons.phtml</template>
+            </action>
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/cancelorder.css</stylesheet>
+            </action>
+        </reference>
+    </sales_order_view>
+</layout>

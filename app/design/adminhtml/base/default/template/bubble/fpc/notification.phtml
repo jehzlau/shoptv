@@ -1,0 +1,24 @@
+<?php
+/**
+ * @category    Bubble
+ * @package     Bubble_FullPageCache
+ * @version     3.5.0
+ * @copyright   Copyright (c) 2015 BubbleShop (https://www.bubbleshop.net)
+ */
+/**
+ * @var $this Bubble_FullPageCache_Block_Adminhtml_Notification
+ */
+?>
+<?php if (!$this->checkFpcFile()): ?>
+<div class="notification-global">
+    <strong><?php echo $this->helper('bubble_fpc')->__('Bubble Full Page Cache:') ?></strong>
+    <?php echo $this->helper('bubble_fpc')->__('Please copy fpc.php file in Magento root folder and include it in top of index.php file.'); ?>
+</div>
+<?php endif; ?>
+<?php if (!$this->checkFpcDir()): ?>
+    <div class="notification-global">
+        <strong><?php echo $this->helper('bubble_fpc')->__('Bubble Full Page Cache:') ?></strong>
+        <?php echo $this->helper('bubble_fpc')->__('Cache directory does not exist or is not writeable.');?>
+        <?php echo $this->helper('bubble_fpc')->__('Please create "%s" folder with enough permissions.', $this->getFpcDir());?>
+    </div>
+<?php endif; ?>

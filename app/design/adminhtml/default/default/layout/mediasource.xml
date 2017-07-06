@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <mediasource_adminhtml_mediasourcebackend_index>
+	<reference name="content">
+	  <block type="mediasource/adminhtml_mediasourcebackend" name="mediasourcebackend" template="mediasource/mediasourcebackend.phtml"/>
+	</reference>
+  </mediasource_adminhtml_mediasourcebackend_index>
+</layout>

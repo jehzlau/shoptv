@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Bubble
+ * @package     Bubble_FullPageCache
+ * @version     3.5.0
+ * @copyright   Copyright (c) 2015 BubbleShop (https://www.bubbleshop.net)
+ */
+-->
+<layout>
+    <default>
+        <reference name="before_body_end">
+            <block type="bubble_fpc/adminhtml_generate_auto" name="bubble_fpc_generate_auto" template="bubble/fpc/generate/auto.phtml" />
+        </reference>
+        <reference name="notifications">
+            <block type="bubble_fpc/adminhtml_notification" name="bubble_fpc_notification" template="bubble/fpc/notification.phtml" />
+        </reference>
+    </default>
+    <ajax>
+        <reference name="root">
+            <action method="setTemplate"><template>bubble/fpc/ajax.phtml</template></action>
+        </reference>
+    </ajax>
+    <adminhtml_fpc_index>
+        <reference name="left">
+            <block type="bubble_fpc/adminhtml_tabs" name="bubble_fpc_tabs" />
+        </reference>
+    </adminhtml_fpc_index>
+    <adminhtml_fpc_actions>
+        <update handle="ajax" />
+        <reference name="content">
+            <block type="bubble_fpc/adminhtml_actions" name="bubble_fpc_actions" />
+        </reference>
+    </adminhtml_fpc_actions>
+    <adminhtml_fpc_stores>
+        <update handle="ajax" />
+        <reference name="content">
+            <block type="bubble_fpc/adminhtml_stores" name="bubble_fpc_stores" />
+        </reference>
+    </adminhtml_fpc_stores>
+    <adminhtml_fpc_blocks>
+        <update handle="ajax" />
+        <reference name="content">
+            <block type="bubble_fpc/adminhtml_blocks" name="bubble_fpc_blocks" />
+        </reference>
+    </adminhtml_fpc_blocks>
+    <adminhtml_fpc_generate>
+        <reference name="content">
+            <block type="bubble_fpc/adminhtml_generate" name="bubble_fpc_generate" template="bubble/fpc/generate.phtml" />
+        </reference>
+    </adminhtml_fpc_generate>
+</layout>

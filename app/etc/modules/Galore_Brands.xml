@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Galore_Brands>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>0.1.0</version>
+        </Galore_Brands>
+    </modules>
+</config>

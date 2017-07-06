@@ -1,0 +1,89 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-27 06:30:04",shane_me27@yahoo.com,CU400016103,CUEQ02DZDJD-1,,simple,7.0000,258.6200,540.2300,1810.3400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3810.3400,
+"2017-04-27 06:30:04",shane_me27@yahoo.com,CU400016103,CUEQ02DZDJD-1,,simple,7.0000,258.6200,540.2300,1810.3400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3810.3400,
+"2017-04-27 06:30:04",shane_me27@yahoo.com,CU400016103,CUEQ02M6QED-1,,simple,7.0000,258.6200,540.2300,1810.3400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3810.3400,
+"2017-04-27 06:30:04",shane_me27@yahoo.com,CU400016103,CUEQ02M6QED-1,,simple,7.0000,258.6200,540.2300,1810.3400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3810.3400,
+"2017-04-27 06:30:04",shane_me27@yahoo.com,CU400016103,CUEQ02PTGWK-1,,simple,7.0000,258.6200,540.2200,1810.3400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3810.3400,
+"2017-04-27 06:30:04",shane_me27@yahoo.com,CU400016103,CUEQ02PTGWK-1,,simple,7.0000,258.6200,540.2200,1810.3400,,,0.0000,,cashondelivery,,30.0000,verified,0.0000,"Blk 1B Lot 33 Phase 3 E-1 Kaunlaran Village, Dagat-dagatan, Caloocan City
+Barangay 14","Caloocan City","Metro Manila",1409,"Standard Delivery - Shipping Fee",3810.3400,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUBA11CLPBUHT-24M,,simple,1.0000,245.0000,23.2500,245.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUBA11NC4BNSE-2Y5,,simple,1.0000,139.3000,13.2200,139.3000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUPH02GSQBX-1,,simple,1.0000,538.8300,51.1300,538.8300,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUGI013MEGU-1,,simple,1.0000,76.0000,7.2100,76.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUPH02GSQBX-1,,simple,1.0000,538.8300,51.1300,538.8300,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUGI013MEGU-1,,simple,1.0000,76.0000,7.2100,76.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUGY01KXROK-1,,simple,1.0000,54.6800,5.1900,54.6800,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUGY01KXROK-1,,simple,1.0000,54.6800,5.1900,54.6800,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUBA11CLPBUHT-24M,,simple,1.0000,245.0000,23.2500,245.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 06:57:13",chelledcmitch@yahoo.com,CU400016104,CUBA11NC4BNSE-2Y5,,simple,1.0000,139.3000,13.2200,139.3000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Phase 2 Blk. AR Lot 1D Sta. Lucia Resettlement Magalang Pampanga
+San Isidro",Magalang,Pampanga,2011,"Standard Delivery - Shipping Fee",1053.8100,
+"2017-04-27 08:24:55",arlenecanja87@gmail.com,CU400016105,CUZW01XMNCZ-1,,simple,3.0000,56.5800,55.3700,169.7400,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"#19E año96 Hagdang bato libis Mandaluyong city
+Hagdang Bato Libis","Mandaluyong City","Metro Manila",1006,"Standard Delivery - Shipping Fee",397.7900,
+"2017-04-27 08:24:55",arlenecanja87@gmail.com,CU400016105,CUDO03VBMNK-1,,simple,1.0000,153.0000,49.9200,153.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"#19E año96 Hagdang bato libis Mandaluyong city
+Hagdang Bato Libis","Mandaluyong City","Metro Manila",1006,"Standard Delivery - Shipping Fee",397.7900,
+"2017-04-27 08:24:55",arlenecanja87@gmail.com,CU400016105,CUDO03VBMNK-1,,simple,1.0000,153.0000,49.9200,153.0000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"#19E año96 Hagdang bato libis Mandaluyong city
+Hagdang Bato Libis","Mandaluyong City","Metro Manila",1006,"Standard Delivery - Shipping Fee",397.7900,
+"2017-04-27 08:24:55",arlenecanja87@gmail.com,CU400016105,CUZW01V7LHU-1,,simple,1.0000,119.2500,38.9100,119.2500,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"#19E año96 Hagdang bato libis Mandaluyong city
+Hagdang Bato Libis","Mandaluyong City","Metro Manila",1006,"Standard Delivery - Shipping Fee",397.7900,
+"2017-04-27 08:24:55",arlenecanja87@gmail.com,CU400016105,CUZW01V7LHU-1,,simple,1.0000,119.2500,38.9100,119.2500,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"#19E año96 Hagdang bato libis Mandaluyong city
+Hagdang Bato Libis","Mandaluyong City","Metro Manila",1006,"Standard Delivery - Shipping Fee",397.7900,
+"2017-04-27 08:24:55",arlenecanja87@gmail.com,CU400016105,CUZW01XMNCZ-1,,simple,3.0000,56.5800,55.3700,169.7400,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"#19E año96 Hagdang bato libis Mandaluyong city
+Hagdang Bato Libis","Mandaluyong City","Metro Manila",1006,"Standard Delivery - Shipping Fee",397.7900,
+"2017-04-27 14:22:25",villarealjanineangela@gmail.com,CU400016106,CUZW01XMNCZ-1,,simple,1.0000,56.5800,56.5800,56.5800,,,0.0000,,cashondelivery,EXTRA10,10.0000,verified,100.0000,"968 Everlasting St., San Francisco, Iriga City
+San Francisco (Pob.)","Iriga City","Camarines Sur",4431,"Standard Delivery - Shipping Fee",100.0000,
+"2017-04-27 14:22:25",villarealjanineangela@gmail.com,CU400016106,CUZW01XMNCZ-1,,simple,1.0000,56.5800,56.5800,56.5800,,,0.0000,,cashondelivery,EXTRA10,10.0000,verified,100.0000,"968 Everlasting St., San Francisco, Iriga City
+San Francisco (Pob.)","Iriga City","Camarines Sur",4431,"Standard Delivery - Shipping Fee",100.0000,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUJO03NTHBD-1,,simple,1.0000,138.2300,34.8100,138.2300,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUST03UMORP-3,,configurable,1.0000,224.0000,56.4200,224.0000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUDO03WZPZT-1,,simple,1.0000,186.1700,46.8900,186.1700,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUJO03NTHBD-1,,simple,1.0000,138.2300,34.8100,138.2300,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUST03UMORP-3,,configurable,1.0000,224.0000,56.4200,224.0000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUDO03WZPZT-1,,simple,1.0000,186.1700,46.8900,186.1700,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUVA01XJNFU-1,,simple,1.0000,67.5000,17.0100,67.5000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUST03PGSFL-1,,simple,1.0000,520.0000,130.9700,520.0000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUPH02WS9IF-1,,simple,1.0000,300.8300,75.7600,300.8300,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUVA01XJNFU-1,,simple,1.0000,67.5000,17.0100,67.5000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUST03PGSFL-1,,simple,1.0000,520.0000,130.9700,520.0000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUPH02WS9IF-1,,simple,1.0000,300.8300,75.7600,300.8300,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUCI02LEUED-1,,simple,1.0000,179.7750,45.2800,179.7800,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUST03UMORP-3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUCI02LEUED-1,,simple,1.0000,179.7750,45.2800,179.7800,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-27 16:02:52",Eileene_c@yahoo.com,CU400016107,CUST03UMORP-3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Unit C6 Otis 888 Residences
+PM Guazon St.,",Paco,"Metro Manila",1007,"Standard Delivery - Shipping Fee",1209.3700,
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01H5INY-1,,simple,2.0000,34.7500,44.4500,69.5000,,,0.0000,,cashondelivery,EXTRA10,10.0000,verified,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01YJWBX-1,,simple,2.0000,57.9200,74.0800,115.8400,,,0.0000,,cashondelivery,EXTRA10,10.0000,verified,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01YJWBX-1,,simple,2.0000,57.9200,74.0800,115.8400,,,0.0000,,cashondelivery,EXTRA10,10.0000,verified,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,
+"2017-04-28 06:53:00",hazelannroadilla20@gmail.com,CU400016108,CUZW01H5INY-1,,simple,2.0000,34.7500,44.4500,69.5000,,,0.0000,,cashondelivery,EXTRA10,10.0000,verified,100.0000,"0312 Upper Luklukan Conpound Tagpos Binangonan Rizal
+Tagpos",Binangonan,Rizal,1940,"Standard Delivery - Shipping Fee",166.8100,

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Galore_Brands>
+            <version>1.0.0</version>
+        </Galore_Brands>
+    </modules>
+    <global>
+        <blocks>
+            <crusader_home>
+                <class>Crusader_Home_Block</class>
+            </crusader_home>
+        </blocks>
+    </global>
+</config>

@@ -1,0 +1,94 @@
+<?php $order_id = $this->getRequest()->getParam('order_id');
+$order = Mage::getModel('sales/order')->load($order_id);
+$increment_id = $order->getIncrementId();
+$customer_id = $order->getCustomerId();
+$current_customer = Mage::getModel('customer/customer')->load($customer_id);
+$current_customer_name = $current_customer->getFirstname().' '.$current_customer->getLastname();
+$current_customer_email = $current_customer->getEmail();
+
+$form_key = Mage::getSingleton("core/session")->getFormKey(); 
+$form_action_url = Mage::helper('adminhtml')->getUrl("assignorder/adminhtml_assignorder/rollback", array('order_id'=>$order_id));
+?>
+<div class="entry-edit">
+    <fieldset>
+        <ul class="note-list">
+            <?php 
+            $assignorder_history_collection = Mage::getModel('assignorder/history')->getCollection()->addFieldToFilter('order_id', array('eq'=>$order_id));
+            if(count($assignorder_history_collection) > 1){
+            ?>
+                <?php $i=0;foreach($assignorder_history_collection as $assignorder_history){ $i++;
+                    if($i == 1){continue;}
+                    ?>
+                    <li>
+                        <strong><?php echo Mage::helper('core')->formatDate($assignorder_history['created_at'], 'medium', true);?></strong>
+                        <span class="separator">|</span>
+                        <?php 
+                            $customer = Mage::getModel('customer/customer')->load($assignorder_history['customer_id']);
+                            $customer_firstname = $customer->getFirstname();
+                            $customer_lastname = $customer->getLastname();
+                            $customer_name = $customer_firstname.' '.$customer_lastname;
+                        ?>
+                        <strong><?php echo $this->__('Assigned to ');?><a target="_blank" href="<?php echo Mage::helper('adminhtml')->getUrl("adminhtml/customer/edit", array('id'=>$assignorder_history['customer_id']));?>"><?php echo $customer_name;?></a></strong>
+                        <?php if($assignorder_history['notify_customer']){?>
+                            <br>
+                            <small>Customer 
+                                <strong class="subdue">Notified
+                                    <img width="16" height="16" src="<?php echo $this->getSkinUrl('images/ico_success.gif');?>" alt="">
+                                </strong>
+                            </small>
+                        <?php } ?>
+                    </li>
+                <?php } ?>                     
+            <br>
+            <button style="" onclick="rollbackOrder();" class="scalable scalable rollback delete" type="adminhtml/widget_button" title="Rollback" id="id_e41bc6875733e69d60c64d176c9141ba"><span><span><span>Rollback</span></span></span></button>
+            <?php }else{?>
+                <div class="no-history"><?php echo $this->__('There are no history of assignment yet.');?></div>
+            <?php }?> 
+        </ul>
+    </fieldset>
+</div>
+<script type="text/javascript">
+    var templatePattern =
+        '<div class="assignorder-dialog">' +
+        '<div class="assignorder-message">' +
+        '<div class="order"><span title="Order: #{{increment_id}}">Order: #{{increment_id}}</span></div>' +
+        '<div class="arrow rollback">&nbsp;</div>' +
+        '<div class="customer"><span class="left-hover"></span><span class="name" title="{{customer_name}}">{{customer_name}}</span><br/><span class="email" title="{{customer_email}}">{{customer_email}}</span><span class="right-hover"></span></div>' +
+        '<div class="fixed"></div>' +
+        '</div>' +
+        '<div class="assignorder-checkboxes" >' +
+        '<form id="assignorder-form" action="<?php echo $form_action_url;?>" method="POST">' +
+        '<input type="hidden" class="hidden" name="form_key" value="<?php echo $form_key;?>">' +
+        '</form>' +
+        '</div>' +
+        '</div>';
+    var templateMessage = new Template(templatePattern, new RegExp('(^|.|\\r|\\n)({{\\s*(\\w+)\\s*}})', ""));
+    var rollbackOrder = function () {
+    var data = {
+        'order_id': '<?php echo $order_id;?>',
+        'increment_id': '<?php echo $increment_id;?>',
+        'customer_name': '<?php echo $current_customer_name;?>',
+        'customer_email': '<?php echo $current_customer_email;?>'
+    };
+    var message = templateMessage.evaluate(data);
+    Dialog.confirm(message, {
+    className: "magento",
+    id: "mp_assignorder_dialog",
+            width: 390,
+            height: 165,
+            title: 'Confirmation',
+            destroyOnClose: true,
+            closable: true,
+            draggable: true,
+            okLabel: 'Rollback Order',
+            cancelLabel: 'Cancel',
+            onOk: function (event) {
+                $$('#mp_assignorder_dialog_content button.ok_button, #mp_assignorder_dialog_content input.ok_button').each(function (el) {
+                    el.disabled = true;
+                    el.addClassName('disabled');
+                });
+                $('assignorder-form').submit();
+            }
+        });
+    };
+</script>

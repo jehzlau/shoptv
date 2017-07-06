@@ -1,0 +1,458 @@
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/* ============================================ *
+ * Homepage
+ * ============================================ */
+
+/* -------------------------------------------- *
+ * Primary Banner
+ */
+
+body.cms-home {
+
+    .main-container {
+        padding: $trim-none;
+        /*padding-top: 20px;*/
+
+    }
+
+    .slideshow-container {
+        margin-top: 0;
+    }
+}
+
+.slideshow .banner-msg {
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    top: 30%;
+    @include not-selectable;
+}
+
+.slideshow .banner-msg h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    @include single-text-shadow(1px, 1px, 3px, false, #555555);
+}
+
+.slideshow .banner-msg h2 strong {
+    font-weight: bold;
+    display: block;
+    font-size: 36px;
+}
+
+@include bp(max-width, 960px) {
+
+    .slideshow .banner-msg h2 {
+        font-size: 20px;
+    }
+
+    .slideshow .banner-msg h2 strong {
+        font-size: 24px;
+    }
+
+    .skinny img {
+      display: none;
+    }
+
+    .feature-grid .main-feature {
+      position: relative;
+      top: -20px;
+    }
+
+    .feature-row .column1 img {
+      display: none;
+    }
+
+    .feature-row .column2 img {
+      display: none;
+    }
+
+    .feature-row .column3 img {
+      display: none;
+    }
+
+    .lifestyle-row .lr-column1 img {
+      display: none;
+    }
+
+    .lifestyle-row .lr-column2 img {
+      display: none;
+    }
+
+    .skinny-banner2 img {
+      display: none;
+    }
+
+    .footer .social_links .bunny img {
+      display: none;
+    }
+
+    .footer .footer-info {
+      display: none;
+
+    }
+
+    .brands{
+      display: none;
+    }
+
+    .footer-container {
+       /* padding: 30px; */
+      padding: 0 !important;
+    }
+
+    .footer .links {
+      width: 21%;
+    }
+}
+
+@include bp(max-width, $bp-xsmall) {
+
+    .slideshow .banner-msg {
+        top: 20%;
+    }
+
+    .slideshow .banner-msg h2 {
+        font-size: 14px;
+    }
+
+    .slideshow .banner-msg h2 strong {
+        font-size: 16px;
+    }
+}
+
+/* -------------------------------------------- *
+ * Promotion Banner Section
+ */
+
+.promos {
+    margin: 0 0 $gap 0;
+    padding: 0;
+    width: 100%;
+}
+
+.promos:after {
+    @include clearfix;
+}
+
+/* Specifying the body only in order to override the .std ul li styling */
+
+body .promos > li {
+    margin: 0 0 10px 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    border: 1px solid $c-module-border;
+    @include not-selectable;
+}
+
+.promos > li:last-child {
+    margin-bottom: 0;
+}
+
+.promos img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.promos a:hover {
+    @include opacity(0.8);
+    display: block;
+}
+
+.promos span {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 10%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: $f-stack-special;
+    @include single-text-shadow(1px, 1px, 3px, false, #555555);
+}
+
+.promos strong {
+    font-weight: 600;
+    font-size: 26px;
+    display: block;
+}
+
+@include bp(min-width, 960px) {
+
+    .promos span {
+        font-size: 16px;
+    }
+
+    .promos strong {
+        font-size: 17px;
+    }
+
+    /* Config: Three columns + flexible gutter */
+    // Container: 480 - (2 * 30 trim wide) = 420
+    // Math: (420 - (2 * 10 gutter)) / 3 items = 133.333333333
+    body .promos > li {
+        float: left;
+        width: percentage(133.333333333 / 420);
+        margin-right: percentage(10 / 420);
+    }
+
+    .promos > li:nth-child(3n) {
+        margin-right: 0;
+    }
+
+
+
+}
+
+@include bp(min-width, 880px) {
+    .promos span {
+        font-size: 18px;
+    }
+
+    .promos strong {
+        font-size: 24px;
+    }
+
+}
+
+/* -------------------------------------------- *
+ * New Products Section
+ */
+
+/* Hiding the reviews content via CSS because we can't modify the template, */
+/* since it may be used in other places where those elements are needed */
+.cms-index-index .products-grid .ratings,
+.cms-index-index .products-grid .actions,
+.cms-index-noroute .products-grid .ratings,
+.cms-index-noroute .products-grid .actions {
+    display: none;
+}
+
+.cms-index-index h2.subtitle {
+    padding: 6px 0;
+    text-align: center;
+    color: $c-text-primary;
+    font-weight: 600;
+    border-bottom: 1px solid $c-module-border;
+    border-top: 1px solid $c-module-border;
+}
+
+.cms-index-noroute h2.subtitle {
+    display: none;
+}
+
+.feature-grid {
+    /*width: 100%;*/
+    clear: both;
+
+    .main-feature {
+        /*width: 480px;
+        height: 600px;*/
+        float: left;
+    }
+
+    .main-feature img{
+      max-width: 100%;
+    }
+
+    .ur-feature, .lr-feature {
+        /*width: 480px;
+        height: 300px;*/
+        padding-left: 12px;
+        display: table;
+    }
+
+    .ur-feature img {
+        display: table-cell;
+        vertical-align: top;
+        max-width: 100%;
+
+    }
+
+    .lr-feature img {
+        display: table-cell;
+        vertical-align: bottom;
+        padding-top: 8px;
+        max-width: 100%;
+    }
+
+}
+
+.skinny {
+  margin-bottom: 2px;
+  /*background: url("/skin/frontend/cudsly/default/images/skinnybg.png") no-repeat;*/
+
+  .first-banner {
+    display: -webkit-inline-box;
+    margin: 13px;
+  }
+
+  .skinnylink {
+    margin-right: 24px;
+  }
+}
+
+.skinny img{
+  max-width: 100%;
+}
+
+.skinny-banner2 img {
+  padding: 10px 0 10px 0;
+  max-width: 100%;
+}
+
+.feature-row {
+
+  margin-bottom: 10px;
+  /*width: 100%;*/
+  clear: both;
+
+  .column1 {
+    float: left;
+    /*width: 311px;
+    height: 291px;*/
+  }
+
+  .column2 {
+    display: table-cell;
+    padding-left: 13px;
+  }
+
+  .column3 {
+    display: table-cell;
+    padding-left: 13px;
+  }
+
+  .column1 img{
+    max-width: 100%;
+  }
+
+  .column2 img{
+    max-width: 100%;
+  }
+
+  .column3 img {
+   /* margin-left: 20px;*/
+    max-width: 100%;
+  }
+}
+
+.lifestyle-row {
+  /*width: 100%;*/
+  clear: both;
+  padding: 10px 0px 20px 0px;
+
+  .lr-column1 img{
+    float: left;
+    /*width: 471px;
+    height: 389px;*/
+    margin-right: 17px;
+    max-width: 100%;
+  }
+
+  .lr-column2 img{
+    max-width: 100%;
+  }
+}
+
+.list {
+  list-style: none !important;
+
+      a{
+        color: #996666;
+        text-decoration: none;
+
+      }
+      a:active, :hover {
+        color: #660000;
+        background-color: #ffcccc;
+      }
+
+      a:visited {
+        background-color: #ffcccc;
+      }
+
+
+      .alpha {
+        padding-top: 4px;
+        text-align: center;
+        width: 29px;
+        font-weight: 600;
+        height: 30px;
+      }
+
+
+        li {
+          float: left;
+          padding: 0px 1.3px 0px 0px;
+          background: url('/skin/frontend/cudsly/default/images/letter-bg.png') no-repeat;
+          width: 29px;
+          height: 29px;
+          margin-left: 1.2px !important;
+        }
+
+
+}
+
+.shopbyage img {
+    max-width: 100%;
+}
+
+.ourbrands {
+  width: 149px;
+  height: 29px;
+  background: url('/skin/frontend/cudsly/default/images/brands-bg.png') no-repeat;
+  padding: 6px 0 0 17px;
+
+  h4 {
+    color: #000;
+    text-decoration: underline;
+    margin-top: 0px;
+  }
+}
+.letter {
+  position: absolute;
+  left: 15%;
+  top: 73.4%;
+}
+
+.col-bottom {
+  margin-top: 0px;
+}
+
+#a-brand, #g-brand {
+  display: none;
+}
+
+.brands {
+  margin-top: 20px;
+
+}
+

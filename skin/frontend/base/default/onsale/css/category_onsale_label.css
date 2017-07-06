@@ -1,0 +1,51 @@
+div.onsale-category-container-grid {
+    position: relative;
+}
+
+div.onsale-category-container-list {
+    position: relative;
+    float: left;
+}
+
+.onsale-category-container {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+
+div.onsale-category-label {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    margin-left: -2px;
+    text-align: center;
+}
+
+div.onsale-onsale-category-label-text {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: bold;
+    transform: rotate(44deg);
+    -ms-transform: rotate(44deg); /* IE 9 */
+    -webkit-transform: rotate(44deg); /* Chrome, Safari, Opera */
+    left: 27.5px !important;
+    top: 10.5px !important;
+}
+
+div.new-onsale-category-label-text {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div.custom-onsale-category-label-text {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+

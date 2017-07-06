@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ropo_CodFilter>
+            <version>1.0.0</version>
+        </Ropo_CodFilter>
+    </modules>
+    <frontend>
+        <events>
+            <payment_method_is_active>
+                <observers>
+                    <paymentfilter_payment_method_is_active>
+                        <type>singleton</type>
+                        <class>codfilter/observer</class>
+                        <method>filterpaymentmethod</method>
+                    </paymentfilter_payment_method_is_active>
+                </observers>
+            </payment_method_is_active>
+        </events>
+    </frontend>
+</config>    

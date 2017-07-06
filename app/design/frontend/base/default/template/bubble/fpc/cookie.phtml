@@ -1,0 +1,26 @@
+<?php
+/**
+ * @category    Bubble
+ * @package     Bubble_FullPageCache
+ * @version     3.5.0
+ * @copyright   Copyright (c) 2015 BubbleShop (https://www.bubbleshop.net)
+ */
+?>
+<script type="text/javascript">
+//<![CDATA[
+if (!Mage.Cookies.path) {
+    Mage.Cookies.path = '<?php echo Mage::getSingleton('core/cookie')->getPath() ?>';
+}
+if (!Mage.Cookies.domain) {
+    Mage.Cookies.domain = '<?php echo Mage::getSingleton('core/cookie')->getDomain() ?>';
+}
+var json = Mage.Cookies.get('<?php echo $this->getNameInLayout() ?>');
+if (json) {
+    var html = JSON && JSON.parse(json) || json.evalJSON();
+    document.write(decodeURIComponent((html + '').replace(/\+/g, '%20')));
+    <?php if ($this->getClearCookie()): ?>
+        Mage.Cookies.set('<?php echo $this->getNameInLayout() ?>', '');
+    <?php endif; ?>
+}
+//]]>
+</script>

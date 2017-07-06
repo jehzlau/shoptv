@@ -1,0 +1,130 @@
+<?php if( Mage::getStoreConfig('iwdpopup/general/newsenabled', Mage::app()->getStore())):?>
+<?php $helper = Mage::helper('iwdpopup');?>
+	<?php if((!Mage::getStoreConfig('iwdpopup/device/newsmobile', Mage::app()->getStore()) && $helper->isMobile()) ||
+			 (!Mage::getStoreConfig('iwdpopup/device/newstablet', Mage::app()->getStore()) && $helper->isTablet()) ||
+			 (!$helper->isMobile() && !$helper->isTablet())):
+		?>
+		<div id="popup-newssubscribe" class="modal <?if ($helper->isMobileStyle()):?> mobile-style <?endif;?>"  aria-labelledby="myModalLabel" aria-hidden="false" role="dialog">
+		<div class="modal-dialog" style="max-width:<?php echo $helper->getPopupWidth()?>px;margin-top:<?php echo $helper->getPopupTopMargin()?>px;">
+		<div class="modal-content">
+			<div class="modal-header">
+	        	<button aria-hidden="true" data-dismiss="modal" class="close" type="button"></button>	        
+	      	</div>
+			<div class="modal-body">
+				<div class="news_content">
+				 	<div class = 'news_popup'>
+					    <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('iwd_newsletter_top')->toHtml()?>
+					    <form action="<?php echo Mage::getBaseUrl() ?>newsletter/subscriber/new/" method="post" id="newsletter-validate-data" >
+					        <div class="block-content">
+					            <div class="input-box">
+					               <input type="text" name="email" id="newsletter_input" title="<?php echo $this->__('Enter Email Address') ?>" class="input-text required-entry validate-email newsletter-input"  placeholder="Enter Email Address"/>
+					            </div>
+					            <button type="button" onclick="iwdpopup.submit(this)" id="newsletter_submit" title="<?php echo $this->__('Subscribe') ?>" class="button"><span><?php echo $this->__('Subscribe') ?></span></button>
+					            <div class="clearer"></div>
+					        </div>
+					    </form>
+					     <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('iwd_newsletter_bottom')->toHtml()?>
+					     <div class="clearer"></div>
+					</div>
+	 			</div>
+	 		</div>
+ 		</div>
+ 		</div>
+ 		</div>
+		<?php echo $helper->getPopupCss();?>
+ 		<script type="text/javascript">
+		//<![CDATA[
+			;
+			var iwdpopup = new VarienForm('newsletter-validate-data', true);
+			$q = jQuery;
+			if (!window.hasOwnProperty('IWD')) {
+				IWD = {};
+			};
+			IWD.Newspopup = {
+
+				popupSelector: "#popup-newssubscribe",
+				popupLinkClass: ".newsletter_popup",
+				popupLoadDelay: <?php echo Mage::getStoreConfig('iwdpopup/general/newspopupdelay', Mage::app()->getStore())?>,
+
+				popupNewsletterLink: "<?php echo Mage::getStoreConfig('iwdpopup/general/newslinkclass', Mage::app()->getStore())?>",
+				
+				popupValidation: function(form){
+					 
+					iwdpopup.submit = function(form)
+					{ 
+					  if (this.validator.validate())
+					  {
+						try {
+						  $q('.overlay_news_popup').remove();
+						  $q('.news-form').fadeOut('fast');
+						  setTimeout(function(){$q(popupSelector).modal('hide')},1000)
+					         this.form.submit();
+					         } catch (e) { }
+						  }
+					   }.bind(iwdpopup);
+				},
+					
+				loadPopup: function(){
+					var options = {"backdrop":true};
+					$q(IWD.Newspopup.popupSelector).modal(options);
+				},
+
+				readCookie: function(name){
+					var nameEQ = escape(name) + "=";
+					var ca = document.cookie.split(';');
+					for(var i=0;i < ca.length;i++) {
+						var c = ca[i];
+						while (c.charAt(0)==' ') c = c.substring(1,c.length);
+						if (c.indexOf(nameEQ) == 0) return unescape(c.substring(nameEQ.length,c.length));
+					}
+					return null;
+				},
+
+				createCookie: function(name,value,days){
+					if (days) {
+						var date = new Date();
+						date.setTime(date.getTime()+(days*24*60*60*1000));
+						var expires = "; expires="+date.toGMTString();
+					}
+					else var expires = "";
+					document.cookie = escape(name)+"="+escape(value)+expires+"; path=/";
+				},
+				
+				popupInit: function(){
+					$q(IWD.Newspopup.popupLinkClass).click(function(event){
+						event.preventDefault();
+						IWD.Newspopup.loadPopup();
+					});
+			
+					if($q(IWD.Newspopup.popupNewsletterLink).length)
+					{
+						$q(IWD.Newspopup.popupNewsletterLink).click(function(event){
+							event.preventDefault();
+							IWD.Newspopup.loadPopup();
+						});
+					}
+				}
+				
+			};
+				
+			$q(document).ready(function(){
+
+				IWD.Newspopup.popupInit();
+				IWD.Newspopup.popupValidation();
+				if(!IWD.Newspopup.readCookie('Subscribe'))
+				{
+					if(!IWD.Newspopup.popupLoadDelay)
+						IWD.Newspopup.popupLoadDelay = 1;
+					setTimeout(function() {
+						IWD.Newspopup.loadPopup();
+					}, IWD.Newspopup.popupLoadDelay*1000);
+					
+					IWD.Newspopup.createCookie('Subscribe', 1);
+				}
+			});
+
+			
+			//]]>
+		</script>	
+	<?php endif;?>
+<?php endif;?>

@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Atwix_Cmsattr>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Atwix_Cmsattr>
+    </modules>
+</config>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <system>
+            <children>
+                <fpc translate="title" module="bubble_fpc">
+                    <title>Full Page Cache</title>
+                    <action>adminhtml/fpc</action>
+                    <sort_order>91</sort_order>
+                </fpc>
+            </children>
+        </system>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <fpc translate="title" module="bubble_fpc">
+                                <title>Full Page Cache</title>
+                            </fpc>
+                            <config>
+                                <children>
+                                    <bubble_fpc>
+                                        <title>Bubble FullPageCache</title>
+                                    </bubble_fpc>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,89 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-03 06:23:43",borjakatherine16@gmail.com,CU400015999,CUDR02JJ30G-1,,simple,3.0000,475.2000,270.8600,1425.6000,CU400014432,3.0000,270.8600,1425.6000,cashondelivery,,20.0000,shipped,0.0000,"NHA INDUSTRIAL BUILDING 1 LAPU-LAPU AVE.
+DAGAT-DAGATAN","Navotas City","Metro Manila",1485,"Standard Delivery - Shipping Fee",2092.9000,2092.9000
+"2017-04-03 06:23:43",borjakatherine16@gmail.com,CU400015999,CUDR02FYYGC-1,,simple,2.0000,579.1050,220.0600,1158.2200,CU400014432,2.0000,220.0600,1158.2200,cashondelivery,,20.0000,shipped,0.0000,"NHA INDUSTRIAL BUILDING 1 LAPU-LAPU AVE.
+DAGAT-DAGATAN","Navotas City","Metro Manila",1485,"Standard Delivery - Shipping Fee",2092.9000,2092.9000
+"2017-04-03 06:23:43",borjakatherine16@gmail.com,CU400015999,CUDR02FYYGC-1,,simple,2.0000,579.1050,220.0600,1158.2200,CU400014432,2.0000,220.0600,1158.2200,cashondelivery,,20.0000,shipped,0.0000,"NHA INDUSTRIAL BUILDING 1 LAPU-LAPU AVE.
+DAGAT-DAGATAN","Navotas City","Metro Manila",1485,"Standard Delivery - Shipping Fee",2092.9000,2092.9000
+"2017-04-03 06:23:43",borjakatherine16@gmail.com,CU400015999,CUDR02JJ30G-1,,simple,3.0000,475.2000,270.8600,1425.6000,CU400014432,3.0000,270.8600,1425.6000,cashondelivery,,20.0000,shipped,0.0000,"NHA INDUSTRIAL BUILDING 1 LAPU-LAPU AVE.
+DAGAT-DAGATAN","Navotas City","Metro Manila",1485,"Standard Delivery - Shipping Fee",2092.9000,2092.9000
+"2017-04-03 12:21:59",castro.angelica12marie@gmail.com,CU400016001,CUZW01V7LHU-1,,simple,3.0000,119.2500,35.7700,357.7500,CU400014433,3.0000,35.7700,357.7500,cashondelivery,,10.0000,shipped,100.0000,"223 amethyst st. Greenheights subd. Novaliches
+San Bartolome","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",467.8700,467.8700
+"2017-04-03 12:21:59",castro.angelica12marie@gmail.com,CU400016001,CUZW01V7LHU-1,,simple,3.0000,119.2500,35.7700,357.7500,CU400014433,3.0000,35.7700,357.7500,cashondelivery,,10.0000,shipped,100.0000,"223 amethyst st. Greenheights subd. Novaliches
+San Bartolome","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",467.8700,467.8700
+"2017-04-03 12:21:59",castro.angelica12marie@gmail.com,CU400016001,CUZW01QOLHX-1,,simple,1.0000,50.9900,5.1000,50.9900,CU400014433,1.0000,5.1000,50.9900,cashondelivery,,10.0000,shipped,100.0000,"223 amethyst st. Greenheights subd. Novaliches
+San Bartolome","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",467.8700,467.8700
+"2017-04-03 12:21:59",castro.angelica12marie@gmail.com,CU400016001,CUZW01QOLHX-1,,simple,1.0000,50.9900,5.1000,50.9900,CU400014433,1.0000,5.1000,50.9900,cashondelivery,,10.0000,shipped,100.0000,"223 amethyst st. Greenheights subd. Novaliches
+San Bartolome","Quezon City","Metro Manila",1116,"Standard Delivery - Shipping Fee",467.8700,467.8700
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUCE03XFRNZ-1,,simple,1.0000,0.0000,0.0000,0.0000,CU400014435,1.0000,0.0000,0.0000,cashondelivery,,0.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUSA01VAJBM-1,,simple,1.0000,85.5000,16.2400,85.5000,CU400014435,1.0000,16.2400,85.5000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUIN01QRD37-1,,simple,1.0000,62.7800,11.9300,62.7800,CU400014435,1.0000,11.9300,62.7800,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUJO03MEMEH-1,,simple,2.0000,146.3000,55.5900,292.6000,CU400014435,2.0000,55.5900,292.6000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUCE03SLETL-1,,simple,1.0000,118.0000,22.4200,118.0000,CU400014435,1.0000,22.4200,118.0000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUSA01HRMOF-1,,simple,1.0000,88.3500,16.8000,88.3500,CU400014435,1.0000,16.8000,88.3500,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUIN01QRD37-1,,simple,1.0000,62.7800,11.9300,62.7800,CU400014435,1.0000,11.9300,62.7800,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUJO03AMEHA-1,,simple,1.0000,186.4400,35.4200,186.4400,CU400014435,1.0000,35.4200,186.4400,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUCE03SLETL-1,,simple,1.0000,118.0000,22.4200,118.0000,CU400014435,1.0000,22.4200,118.0000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUSA01HRMOF-1,,simple,1.0000,88.3500,16.8000,88.3500,CU400014435,1.0000,16.8000,88.3500,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUIN01IUUYL-1,,simple,1.0000,449.7800,85.4600,449.7800,CU400014435,1.0000,85.4600,449.7800,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUJO03AMEHA-1,,simple,1.0000,186.4400,35.4200,186.4400,CU400014435,1.0000,35.4200,186.4400,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUBE05NCEBSIU-100ML,,simple,1.0000,449.1000,85.3300,449.1000,CU400014435,1.0000,85.3300,449.1000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUNI01PVNZB-1,,simple,2.0000,178.6000,67.8600,357.2000,CU400014435,2.0000,67.8600,357.2000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUIN01IUUYL-1,,simple,1.0000,449.7800,85.4600,449.7800,CU400014435,1.0000,85.4600,449.7800,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUBI01NCEBUZJ-100ML,,simple,2.0000,48.6500,18.4900,97.3000,CU400014435,2.0000,18.4900,97.3000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUBE05NCEBSIU-100ML,,simple,1.0000,449.1000,85.3300,449.1000,CU400014435,1.0000,85.3300,449.1000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUJO03NXUSD-1,,simple,1.0000,210.4300,39.9800,210.4300,CU400014435,1.0000,39.9800,210.4300,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUNI01PVNZB-1,,simple,2.0000,178.6000,67.8600,357.2000,CU400014435,2.0000,67.8600,357.2000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUBI01NCEBUZJ-100ML,,simple,2.0000,48.6500,18.4900,97.3000,CU400014435,2.0000,18.4900,97.3000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUEQ02ITRDA-1,,simple,2.0000,191.4800,72.7600,382.9600,CU400014435,2.0000,72.7600,382.9600,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUJO03NXUSD-1,,simple,1.0000,210.4300,39.9800,210.4300,CU400014435,1.0000,39.9800,210.4300,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUCE03XFRNZ-1,,simple,1.0000,0.0000,0.0000,0.0000,CU400014435,1.0000,0.0000,0.0000,cashondelivery,,0.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUSA01VAJBM-1,,simple,1.0000,85.5000,16.2400,85.5000,CU400014435,1.0000,16.2400,85.5000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUEQ02ITRDA-1,,simple,2.0000,191.4800,72.7600,382.9600,CU400014435,2.0000,72.7600,382.9600,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 02:20:26",shirley.pedrera@cudsly.com,CU400016002,CUJO03MEMEH-1,,simple,2.0000,146.3000,55.5900,292.6000,CU400014435,2.0000,55.5900,292.6000,cashondelivery,,20.0000,shipped,0.0000,"#79 EDSA 2nd Floor Astro Advertising
+Maysilo","Mandaluyong City","Metro Manila",1500,"Standard Delivery - Shipping Fee",2252.1600,2252.1600
+"2017-04-04 03:35:45",eulamarielicuanan@yahoo.com,CU400016003,CUCY02NCEBYVZ-500ML,,simple,1.0000,300.6000,30.0600,300.6000,CU400014434,1.0000,30.0600,300.6000,cashondelivery,,10.0000,shipped,100.0000,"21 Ramon magsaysay st t.s cruz subdivision novaliches quezon city
+San Agustin","Quezon City","Metro Manila",1117,"Standard Delivery - Shipping Fee",370.5400,370.5400
+"2017-04-04 03:35:45",eulamarielicuanan@yahoo.com,CU400016003,CUCY02NCEBYVZ-500ML,,simple,1.0000,300.6000,30.0600,300.6000,CU400014434,1.0000,30.0600,300.6000,cashondelivery,,10.0000,shipped,100.0000,"21 Ramon magsaysay st t.s cruz subdivision novaliches quezon city
+San Agustin","Quezon City","Metro Manila",1117,"Standard Delivery - Shipping Fee",370.5400,370.5400
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUMA08G9BZW-1,,simple,1.0000,135.8000,25.8000,135.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUMA08G9BZW-1,,simple,1.0000,135.8000,25.8000,135.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUPH02ATXKI-1,,simple,1.0000,423.8000,80.5300,423.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUPH02ATXKI-1,,simple,1.0000,423.8000,80.5300,423.8000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUPH02LKNOE-1,,simple,1.0000,1119.6000,212.7200,1119.6000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,
+"2017-04-04 15:03:13",lovymae.jaula@gmail.com,CU400016005,CUPH02LKNOE-1,,simple,1.0000,1119.6000,212.7200,1119.6000,,,0.0000,,cashondelivery,,20.0000,verified,0.0000,"DSWD, Pantawid, Pamilyang Pilipino Program, Mahusay Building, 2nd floor, Beneficiary Data Management Division, IBP Road, Batasan Pambansa Complex, 
+Batasan Hills","Quezon City","Metro Manila",1126,"Standard Delivery - Shipping Fee",1360.1500,

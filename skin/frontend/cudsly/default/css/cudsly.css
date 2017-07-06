@@ -1,0 +1,1224 @@
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/*
+// ----------------------------------------------
+// Usage example:
+// For IE set $mq-support to false.
+// Set the fixed value.
+// Then use mixins to test whether styles should be applied.
+// ----------------------------------------------
+
+$mq-support: false;
+$mq-fixed-value: 1024;
+
+// Renders at fixed value
+@include bp (min-width, 300px) {
+    div { color:#000; }
+}
+
+// Doesn't render without MQ support
+@include bp (min-width, 1200px) {
+    div { color:#FFF; }
+}
+
+// Doesn't render without MQ support
+@include bp (max-width, 300px) {
+    div { color:#444; }
+}
+
+// Renders at fixed value
+@include bp (max-width, 1200px) {
+    div { color:#888; }
+}
+
+// ----------------------------------------------
+*/
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/* ============================================ *
+ * Homepage
+ * ============================================ */
+/* -------------------------------------------- *
+ * Primary Banner
+ */
+/* line 36, ../scss/content/_home.scss */
+body.cms-home .main-container {
+  padding: 0;
+  /*padding-top: 20px;*/
+}
+/* line 42, ../scss/content/_home.scss */
+body.cms-home .slideshow-container {
+  margin-top: 0;
+}
+
+/* line 47, ../scss/content/_home.scss */
+.slideshow .banner-msg {
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  top: 30%;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 56, ../scss/content/_home.scss */
+.slideshow .banner-msg h2 {
+  color: #FFFFFF;
+  font-size: 24px;
+  text-shadow: 1px 1px 3px #555555;
+}
+
+/* line 62, ../scss/content/_home.scss */
+.slideshow .banner-msg h2 strong {
+  font-weight: bold;
+  display: block;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 960px) {
+  /* line 70, ../scss/content/_home.scss */
+  .slideshow .banner-msg h2 {
+    font-size: 20px;
+  }
+
+  /* line 74, ../scss/content/_home.scss */
+  .slideshow .banner-msg h2 strong {
+    font-size: 24px;
+  }
+
+  /* line 78, ../scss/content/_home.scss */
+  .skinny img {
+    display: none;
+  }
+
+  /* line 82, ../scss/content/_home.scss */
+  .feature-grid .main-feature {
+    position: relative;
+    top: -20px;
+  }
+
+  /* line 87, ../scss/content/_home.scss */
+  .feature-row .column1 img {
+    display: none;
+  }
+
+  /* line 91, ../scss/content/_home.scss */
+  .feature-row .column2 img {
+    display: none;
+  }
+
+  /* line 95, ../scss/content/_home.scss */
+  .feature-row .column3 img {
+    display: none;
+  }
+
+  /* line 99, ../scss/content/_home.scss */
+  .lifestyle-row .lr-column1 img {
+    display: none;
+  }
+
+  /* line 103, ../scss/content/_home.scss */
+  .lifestyle-row .lr-column2 img {
+    display: none;
+  }
+
+  /* line 107, ../scss/content/_home.scss */
+  .skinny-banner2 img {
+    display: none;
+  }
+
+  /* line 111, ../scss/content/_home.scss */
+  .footer .social_links .bunny img {
+    display: none;
+  }
+
+  /* line 115, ../scss/content/_home.scss */
+  .footer .footer-info {
+    display: none;
+  }
+
+  /* line 120, ../scss/content/_home.scss */
+  .brands {
+    display: none;
+  }
+
+  /* line 124, ../scss/content/_home.scss */
+  .footer-container {
+    /* padding: 30px; */
+    padding: 0 !important;
+  }
+
+  /* line 129, ../scss/content/_home.scss */
+  .footer .links {
+    width: 21%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 136, ../scss/content/_home.scss */
+  .slideshow .banner-msg {
+    top: 20%;
+  }
+
+  /* line 140, ../scss/content/_home.scss */
+  .slideshow .banner-msg h2 {
+    font-size: 14px;
+  }
+
+  /* line 144, ../scss/content/_home.scss */
+  .slideshow .banner-msg h2 strong {
+    font-size: 16px;
+  }
+}
+/* -------------------------------------------- *
+ * Promotion Banner Section
+ */
+/* line 153, ../scss/content/_home.scss */
+.promos {
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 159, ../scss/content/_home.scss */
+.promos:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Specifying the body only in order to override the .std ul li styling */
+/* line 165, ../scss/content/_home.scss */
+body .promos > li {
+  margin: 0 0 10px 0;
+  list-style: none;
+  text-align: center;
+  position: relative;
+  border: 1px solid #CCCCCC;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 174, ../scss/content/_home.scss */
+.promos > li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 178, ../scss/content/_home.scss */
+.promos img {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 183, ../scss/content/_home.scss */
+.promos a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: block;
+}
+
+/* line 188, ../scss/content/_home.scss */
+.promos span {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 10%;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  text-shadow: 1px 1px 3px #555555;
+}
+
+/* line 201, ../scss/content/_home.scss */
+.promos strong {
+  font-weight: 600;
+  font-size: 26px;
+  display: block;
+}
+
+@media only screen and (min-width: 960px) {
+  /* line 209, ../scss/content/_home.scss */
+  .promos span {
+    font-size: 16px;
+  }
+
+  /* line 213, ../scss/content/_home.scss */
+  .promos strong {
+    font-size: 17px;
+  }
+
+  /* Config: Three columns + flexible gutter */
+  /* line 220, ../scss/content/_home.scss */
+  body .promos > li {
+    float: left;
+    width: 31.74603%;
+    margin-right: 2.38095%;
+  }
+
+  /* line 226, ../scss/content/_home.scss */
+  .promos > li:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 880px) {
+  /* line 235, ../scss/content/_home.scss */
+  .promos span {
+    font-size: 18px;
+  }
+
+  /* line 239, ../scss/content/_home.scss */
+  .promos strong {
+    font-size: 24px;
+  }
+}
+/* -------------------------------------------- *
+ * New Products Section
+ */
+/* Hiding the reviews content via CSS because we can't modify the template, */
+/* since it may be used in other places where those elements are needed */
+/* line 251, ../scss/content/_home.scss */
+.cms-index-index .products-grid .ratings,
+.cms-index-index .products-grid .actions,
+.cms-index-noroute .products-grid .ratings,
+.cms-index-noroute .products-grid .actions {
+  display: none;
+}
+
+/* line 258, ../scss/content/_home.scss */
+.cms-index-index h2.subtitle {
+  padding: 6px 0;
+  text-align: center;
+  color: #3399CC;
+  font-weight: 600;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+}
+
+/* line 267, ../scss/content/_home.scss */
+.cms-index-noroute h2.subtitle {
+  display: none;
+}
+
+/* line 271, ../scss/content/_home.scss */
+.feature-grid {
+  /*width: 100%;*/
+  clear: both;
+}
+/* line 275, ../scss/content/_home.scss */
+.feature-grid .main-feature {
+  /*width: 480px;
+  height: 600px;*/
+  float: left;
+}
+/* line 281, ../scss/content/_home.scss */
+.feature-grid .main-feature img {
+  max-width: 100%;
+}
+/* line 285, ../scss/content/_home.scss */
+.feature-grid .ur-feature, .feature-grid .lr-feature {
+  /*width: 480px;
+  height: 300px;*/
+  padding-left: 12px;
+  display: table;
+}
+/* line 292, ../scss/content/_home.scss */
+.feature-grid .ur-feature img {
+  display: table-cell;
+  vertical-align: top;
+  max-width: 100%;
+}
+/* line 299, ../scss/content/_home.scss */
+.feature-grid .lr-feature img {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-top: 8px;
+  max-width: 100%;
+}
+
+/* line 308, ../scss/content/_home.scss */
+.skinny {
+  margin-bottom: 2px;
+  /*background: url("/skin/frontend/cudsly/default/images/skinnybg.png") no-repeat;*/
+}
+/* line 312, ../scss/content/_home.scss */
+.skinny .first-banner {
+  display: -webkit-inline-box;
+  margin: 13px;
+}
+/* line 317, ../scss/content/_home.scss */
+.skinny .skinnylink {
+  margin-right: 24px;
+}
+
+/* line 322, ../scss/content/_home.scss */
+.skinny img {
+  max-width: 100%;
+}
+
+/* line 326, ../scss/content/_home.scss */
+.skinny-banner2 img {
+  padding: 10px 0 10px 0;
+  max-width: 100%;
+}
+
+/* line 331, ../scss/content/_home.scss */
+.feature-row {
+  margin-bottom: 10px;
+  /*width: 100%;*/
+  clear: both;
+}
+/* line 337, ../scss/content/_home.scss */
+.feature-row .column1 {
+  float: left;
+  /*width: 311px;
+  height: 291px;*/
+}
+/* line 343, ../scss/content/_home.scss */
+.feature-row .column2 {
+  display: table-cell;
+  padding-left: 13px;
+}
+/* line 348, ../scss/content/_home.scss */
+.feature-row .column3 {
+  display: table-cell;
+  padding-left: 13px;
+}
+/* line 353, ../scss/content/_home.scss */
+.feature-row .column1 img {
+  max-width: 100%;
+}
+/* line 357, ../scss/content/_home.scss */
+.feature-row .column2 img {
+  max-width: 100%;
+}
+/* line 361, ../scss/content/_home.scss */
+.feature-row .column3 img {
+  /* margin-left: 20px;*/
+  max-width: 100%;
+}
+
+/* line 367, ../scss/content/_home.scss */
+.lifestyle-row {
+  /*width: 100%;*/
+  clear: both;
+  padding: 10px 0px 20px 0px;
+}
+/* line 372, ../scss/content/_home.scss */
+.lifestyle-row .lr-column1 img {
+  float: left;
+  /*width: 471px;
+  height: 389px;*/
+  margin-right: 17px;
+  max-width: 100%;
+}
+/* line 380, ../scss/content/_home.scss */
+.lifestyle-row .lr-column2 img {
+  max-width: 100%;
+}
+
+/* line 385, ../scss/content/_home.scss */
+.list {
+  list-style: none !important;
+}
+/* line 388, ../scss/content/_home.scss */
+.list a {
+  color: #996666;
+  text-decoration: none;
+}
+/* line 393, ../scss/content/_home.scss */
+.list a:active, .list :hover {
+  color: #660000;
+  background-color: #ffcccc;
+}
+/* line 398, ../scss/content/_home.scss */
+.list a:visited {
+  background-color: #ffcccc;
+}
+/* line 403, ../scss/content/_home.scss */
+.list .alpha {
+  padding-top: 4px;
+  text-align: center;
+  width: 29px;
+  font-weight: 600;
+  height: 30px;
+}
+/* line 412, ../scss/content/_home.scss */
+.list li {
+  float: left;
+  padding: 0px 1.3px 0px 0px;
+  background: url("/skin/frontend/cudsly/default/images/letter-bg.png") no-repeat;
+  width: 29px;
+  height: 29px;
+  margin-left: 1.2px !important;
+}
+
+/* line 424, ../scss/content/_home.scss */
+.shopbyage img {
+  max-width: 100%;
+}
+
+/* line 428, ../scss/content/_home.scss */
+.ourbrands {
+  width: 149px;
+  height: 29px;
+  background: url("/skin/frontend/cudsly/default/images/brands-bg.png") no-repeat;
+  padding: 6px 0 0 17px;
+}
+/* line 434, ../scss/content/_home.scss */
+.ourbrands h4 {
+  color: #000;
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+/* line 440, ../scss/content/_home.scss */
+.letter {
+  position: absolute;
+  left: 15%;
+  top: 73.4%;
+}
+
+/* line 446, ../scss/content/_home.scss */
+.col-bottom {
+  margin-top: 0px;
+}
+
+/* line 450, ../scss/content/_home.scss */
+#a-brand, #g-brand {
+  display: none;
+}
+
+/* line 454, ../scss/content/_home.scss */
+.brands {
+  margin-top: 20px;
+}
+
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/* ============================================ *
+ * Category Landing Pages
+ * ============================================ */
+/* line 30, ../scss/content/_category.scss */
+.category-image {
+  position: relative;
+}
+
+/* line 34, ../scss/content/_category.scss */
+.categorylandingMainblock {
+  border: 1px solid #E2E2E2;
+  padding: 7px;
+}
+
+/* line 39, ../scss/content/_category.scss */
+.catblocks {
+  float: left;
+  padding: 0 0 20px 0;
+  width: 100%;
+}
+
+/* line 45, ../scss/content/_category.scss */
+.catblocks li {
+  position: relative;
+  float: left !important;
+  width: 23% !important;
+  margin-right: 2.66667% !important;
+  margin-bottom: 10px;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+/* line 55, ../scss/content/_category.scss */
+.catblocks li:hover {
+  border-color: #3399CC;
+}
+
+@media only screen and (max-width: 770px) {
+  /* line 60, ../scss/content/_category.scss */
+  .catblocks li {
+    width: 49% !important;
+    margin-right: 2% !important;
+  }
+
+  /* line 65, ../scss/content/_category.scss */
+  .catblocks li:nth-child(even) {
+    margin-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 71, ../scss/content/_category.scss */
+  .catblocks li {
+    width: 100% !important;
+    margin-right: 0 !important;
+    float: none;
+  }
+
+  /* line 77, ../scss/content/_category.scss */
+  .block-layered-nav .block-content > dl > dd {
+    border: 0 !important;
+  }
+
+  /* line 81, ../scss/content/_category.scss */
+  .block-layered-nav .block-subtitle--filter:hover {
+    background-color: #E23380 !important;
+  }
+
+  /* line 85, ../scss/content/_category.scss */
+  .block-layered-nav .block-subtitle--filter {
+    background-color: #E23380 !important;
+  }
+
+  /* line 89, ../scss/content/_category.scss */
+  #sidebar-nav {
+    display: none;
+  }
+}
+/* line 95, ../scss/content/_category.scss */
+.catblocks li:last-child {
+  margin-right: 0 !important;
+}
+
+/* line 99, ../scss/content/_category.scss */
+.catblocks li img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 104, ../scss/content/_category.scss */
+.catblocks li a span {
+  color: #FFFFFF;
+  position: absolute;
+  background-color: #7B7C7B;
+  font-family: raleway;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* line 120, ../scss/content/_category.scss */
+.catblocklinks a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* line 125, ../scss/content/_category.scss */
+.catlandingbottomPromoblock {
+  float: left;
+  width: 100%;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 100px;
+}
+
+/* line 132, ../scss/content/_category.scss */
+.catalog-category-view div.categoryland-caption {
+  display: block;
+  margin: 0;
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+}
+
+/* line 143, ../scss/content/_category.scss */
+.catalog-category-view div.categoryland-caption span.blue-big-text {
+  color: #3399CC;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 0 0 0 8px;
+}
+
+/* line 150, ../scss/content/_category.scss */
+.catalog-category-view div.categoryland-caption span.blue-big-text {
+  padding: 0 !important;
+}
+
+/* line 154, ../scss/content/_category.scss */
+.catalog-category-view div.categoryland-caption span.three-dots {
+  background: url(../images/bg_threeDots.png) no-repeat center center;
+  display: block;
+  height: 20px;
+}
+
+/* line 160, ../scss/content/_category.scss */
+.catalog-category-view div.categoryland-caption p.desc {
+  font: italic 18px/28px Georgia, "Times New Roman", Times, serif;
+  color: #656565;
+}
+
+/* line 165, ../scss/content/_category.scss */
+.cms-home #homepage-main-slides div.slides_control div div.slideshow-caption a.link:hover,
+.cms-home #homepage-main-slides div.slides_control div div.slideshow-caption span.link:hover {
+  text-decoration: underline;
+  color: #1189C5;
+}
+
+/* line 171, ../scss/content/_category.scss */
+.cms-home #homepage-main-slides div.slides_control div div.slideshow-caption span.blue-big-text,
+.catalog-category-view div.categoryland-caption span.blue-big-text {
+  color: #3399CC;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 0 0 0 8px;
+}
+
+/* line 179, ../scss/content/_category.scss */
+.catalog-category-view div.categoryland-caption span.blue-big-text {
+  padding: 0 !important;
+}
+
+/* line 183, ../scss/content/_category.scss */
+.cms-home #homepage-main-slides div.slides_control div div.slideshow-caption span.three-dots,
+.catalog-category-view div.categoryland-caption span.three-dots {
+  background: url(../images/bg_threeDots.png) no-repeat center center;
+  display: block;
+  height: 20px;
+}
+
+/* line 190, ../scss/content/_category.scss */
+.cms-home #homepage-main-slides div.slides_control div div.slideshow-caption p.desc,
+.catalog-category-view div.categoryland-caption p.desc {
+  font: italic 18px/28px Georgia, "Times New Roman", Times, serif;
+  color: #656565;
+}
+
+/* line 41, ../scss/cudsly.scss */
+.hr-dotted {
+  background: url(../images/green-dot.png) repeat-x;
+  border: none;
+}
+
+/* tooltip, obviously. http://www.webdesignerdepot.com/2012/11/how-to-create-a-simple-css3-tooltip/ */
+/**
+ * Tooltips!
+ */
+
+/* Base styles for the element that has a tooltip */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Base styles for the entire tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition:
+      opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+/* Show the entire tooltip on hover and focus */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  text-decoration: none;
+}
+
+
+
+/* Base styles for the tooltip's content area */
+.tooltip:after,
+[data-tooltip]:after {
+  width: 150px;
+  z-index: 1000;
+  padding: 8px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+/* Directions */
+
+/* Top (default) */
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 70%;
+  left: 75%;
+}
+
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+
+/* Horizontally align top/bottom tooltips */
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+  -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px);
+}

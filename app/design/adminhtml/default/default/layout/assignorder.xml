@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <assignorder_adminhtml_assignorder_index>
+        <reference name="head">
+            <action method="addItem"><type>js_css</type><name>prototype/windows/themes/default.css</name><params/></action>
+            <action method="addItem"><type>skin_css</type><name>lib/prototype/windows/themes/magento.css</name><params/></action>
+            <action method="addItem"><type>skin_css</type><name>assignorder/css/assignorder.css</name><params/></action>
+        </reference>
+        <reference name="content">
+            <block type="assignorder/adminhtml_assignorder" name="assignorder" />
+        </reference>
+    </assignorder_adminhtml_assignorder_index>
+    
+    <adminhtml_sales_order_view>
+        <reference name="head">
+            <action method="addItem"><type>js_css</type><name>prototype/windows/themes/default.css</name><params/></action>
+            <action method="addItem"><type>skin_css</type><name>lib/prototype/windows/themes/magento.css</name><params/></action>
+            <action method="addItem"><type>skin_css</type><name>assignorder/css/assignorder.css</name><params/></action>
+        </reference>
+        <reference name="sales_order_tabs">
+            <action method="addTab" ifconfig="assignorder/assignorder_settings/enabled">
+                <name>history_of_assignment</name>
+                <block>assignorder/adminhtml_sales_order_historyofassignment</block>
+            </action>
+        </reference>
+    </adminhtml_sales_order_view>    
+</layout>

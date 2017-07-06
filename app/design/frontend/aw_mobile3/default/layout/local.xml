@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addJs">
+                <script>jquery-1.11.1.min.js</script>
+            </action>
+            <action method="addJs">
+                <script>noconflict.js</script>
+            </action>            
+            <action method="addCss">
+                <stylesheet>css/custom.css</stylesheet>
+            </action>
+        </reference>
+    </default>
+</layout>

@@ -1,0 +1,49 @@
+@include font-face('Bariol', font-files(
+                'bariol/bariol_regular-webfont.woff2',
+                'bariol/bariol_regular-webfont.woff',
+                'bariol/bariol_regular-webfont.ttf',
+                'bariol/Bariol_Regular.otf',
+                'bariol/bariol_regular-webfont.svg'),
+        'bariol/bariol_regular-webfont.eot',
+        normal, regular
+);
+
+@include font-face('Bariol', font-files(
+                'bariol/bariol_bold-webfont.woff2',
+                'bariol/bariol_bold-webfont.woff',
+                'bariol/bariol_bold-webfont.ttf',
+                'bariol/Bariol_Bold.otf',
+                'bariol/bariol_bold-webfont.svg'),
+        'bariol/bariol_bold-webfont.eot',
+        bold, regular
+);
+
+@include font-face('Bariol', font-files(
+                'bariol/bariol_light-webfont.woff2',
+                'bariol/bariol_light-webfont.woff',
+                'bariol/bariol_light-webfont.ttf',
+                'bariol/Bariol_Light.otf',
+                'bariol/bariol_light-webfont.svg'),
+        'bariol/bariol_light-webfont.eot',
+        lighter, regular
+);
+
+@include font-face('Bariol', font-files(
+                'bariol/bariol_thin-webfont.woff2',
+                'bariol/bariol_thin-webfont.woff',
+                'bariol/bariol_thin-webfont.ttf',
+                'bariol/Bariol_Thin.otf',
+                'bariol/bariol_thin-webfont.svg'),
+        'bariol/bariol_thin-webfont.eot',
+        100, regular
+);
+
+@include font-face('Bariol', font-files(
+                'bariol/bariol_regular_italic-webfont.woff2',
+                'bariol/bariol_regular_italic-webfont.woff',
+                'bariol/bariol_regular_italic-webfont.ttf',
+                'bariol/Bariol_Regular_Italic.otf',
+                'bariol/bariol_regular_italic-webfont.svg'),
+        'bariol/bariol_regular_italic-webfont.eot',
+        normal, italic
+);

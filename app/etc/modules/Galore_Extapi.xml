@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+	Copy or move this file at app/etc/modules on production
+-->
+<config>
+    <modules>
+        <Galore_Extapi>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Galore_Extapi>
+    </modules>
+</config>

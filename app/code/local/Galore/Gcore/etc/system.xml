@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <gcore translate="label" module="gcore">
+            <label>GCore</label>
+            <sort_order>100</sort_order>
+        </gcore>
+    </tabs>
+    <sections>
+        <gcore_config translate="label" module="gcore">
+            <label>Configurations</label>
+            <tab>gcore</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <basic translate="label" module="gcore">
+                    <label>Basic</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <gcore_endpoint translate="label">
+                            <label>GCore Endpoint</label>
+                            <comment>Live should point to "https://api.gcore.galoretv.com". QA and testing should point to "http://qa.api.gcore.galoretv.com"</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </gcore_endpoint>                    	
+                        <api_key translate="label">
+                            <label>GCore API Key</label>
+                            <comment>Get your API Key from your friendly neighbourhood GCore Administrator.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_key>
+                        <api_secret translate="label">
+                            <label>GCore API Secret</label>
+                            <comment>Get your API Secret from your friendly neighbourhood GCore Administrator.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_secret>
+                        <store_code translate="label">
+                            <label>GCore Store Code</label>
+                            <comment>Get your Store Code from your friendly neighbourhood GCore Administrator. This is usually derived from the domain name of the current store front.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </store_code>                        
+                        <app_id translate="label">
+                            <label>Globelabs SMS App ID</label>
+                            <comment>This is the last 4 digits of the "Short Code" of the Globelabs SMS API.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </app_id>                                                                         
+                    </fields>
+                </basic>
+            </groups>
+        </gcore_config>
+    </sections>
+</config>

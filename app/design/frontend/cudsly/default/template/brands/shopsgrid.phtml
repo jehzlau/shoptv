@@ -1,0 +1,162 @@
+<style type="text/css">
+#cudslybrand-bestter {
+display: none !important;
+}
+    .hide{display: none;}
+    #stores input.search {
+        width: 100%;
+        line-height: 40px;
+        font-size: 20px;
+        padding: 3px;
+        border: solid 1px #ccc;
+    }
+    .filterbyletter {
+        float: left;
+        padding: 6px 12.4px;
+        margin: 2px;
+        border: 1px solid #ccc;
+    }
+
+    .filterbyletter:hover {
+        background: #000;
+        color: #fff;
+    }
+
+    .filterbyletter-container {
+        display: block;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    .list li{
+        height: auto;
+        margin-left: 0 !important;
+    }
+    .listNavHide {
+        display: none!important;
+    }
+    .listNavShow {
+        display: inline-block!important;
+    }
+    .grid li a, .grid li img{
+        margin: 0 auto;
+    }
+    .grid li:hover, .grid a:active, .grid :hover{
+        background-color: transparent;
+    }
+    .grid li{
+        background:none!important;
+        float:none!important;
+    }
+</style>
+
+<?php
+$name='brand';
+$attributeInfo = Mage::getResourceModel('eav/entity_attribute_collection')->setCodeFilter($name)->getFirstItem();
+$attributeId = $attributeInfo->getAttributeId();
+$attribute = Mage::getModel('catalog/resource_eav_attribute')->load($attributeId);
+$ppmtenants = $attribute ->getSource()->getAllOptions(false);
+?>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getUrl() ?>storegrid/css/default.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getUrl() ?>storegrid/css/listnav.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getUrl() ?>storegrid/css/component.css" />
+<script src="<?php echo $this->getUrl() ?>storegrid/js/modernizr.custom.js"></script>
+
+<div id="stores" class="gridcontainer">
+
+    <div style="clear: both;">
+        <p class="all-results showing-results hide"><input class="search" placeholder="Search Brands"/></p>
+
+        <p class="showing-results hide">You are currently browsing brands that starts with:
+            <span class="myLastClicked" style="font-size:1.5em; color:#0080a4">?</span>
+        </p>
+        <p class="no-results-found hide">There are NO brands that starts with:
+            <span class="myLastClicked" style="font-size:1.5em; color:#0080a4;"></span>
+        </p>
+        <p class="all-results">You are currently browsing
+            <span class="myLastClicked" style="font-size:1.5em; color:#0080a4;">ALL</span> brands. Please scroll down to see all.
+        </p>
+
+
+        <ul class="list grid effect-8" id="grid">
+            <?php foreach ($ppmtenants as $ppmtenant): ?>
+                <?php
+                $rchars = array("+","'","-",".");
+                $ppmtenantnospace = preg_replace('/\s+/','',$ppmtenant['label']);
+                $ppmtenantamp = str_replace("&", "and", $ppmtenantnospace);
+                $ppmtenantclean = str_replace($rchars, "", $ppmtenantamp);
+                ?>
+                <li id="cudslybrand-<?php echo strtolower($ppmtenantclean); ?>">
+                    <span class="tenant">
+                        <span style="display: none;"><?php echo $ppmtenant['label'] ?></span>
+                        <a href="<?php echo $this->getUrl() ?><?php echo strtolower($ppmtenantclean); ?>">
+                            <?php
+                            $dealsimagepath = Mage::getBaseDir().'/media/wysiwyg/brands/'.strtolower($ppmtenantclean).'.png';
+                            if(file_exists($dealsimagepath))
+                            {
+                                ?>
+                                <img src="<?php echo $this->getUrl() ?>media/wysiwyg/brands/<?php echo strtolower($ppmtenantclean); ?>.png">
+                                <?php
+                            }
+                            else {
+                                ?>
+                                <img src="<?php echo $this->getUrl() ?>media/wysiwyg/brands/default.png">
+                                <?php
+                            }
+                            ?>
+                        </a>
+                    </span>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div>
+
+
+<script src="<?php echo $this->getUrl() ?>storegrid/js/jquery-1.11.0.min.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/jquery-listnav-grid.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/list.js"></script>
+
+<script type="text/javascript">
+    $.noConflict();
+    jQuery( document ).ready(function( $ ) {
+        $('#grid').listnav({
+            cookieName: 'ln-demo5',
+            includeNums: false,
+            onClick: function(letter) {
+                $(".myLastClicked").text(letter.toUpperCase());
+                $('.grid > li').removeAttr('style');
+                $('.grid').css('height','auto');
+                if(letter != 'all'){
+                    var x=parseInt($('.ln-'+letter).length);
+                    if(x == 0){
+                        $('.no-results-found').removeClass('hide');
+                        $('.showing-results').addClass('hide');
+                        $('.all-results').addClass('hide');
+                    }
+                    else{
+                        $('.all-results').addClass('hide');
+                        $('.no-results-found').addClass('hide');
+                        $('.showing-results').removeClass('hide');
+                    }
+                }
+                else{
+                    $('.no-results-found').addClass('hide');
+                    $('.showing-results').addClass('hide');
+                    $('.all-results').removeClass('hide');
+                }
+            }
+        });
+        $('.ln-letters .all').trigger('click');
+        $('.grid > li').toggleClass('shown');
+    });
+
+    var options = {
+        valueNames: ['tenant']
+    };
+    var userList = new List('stores', options);
+
+</script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/masonry.pkgd.min.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/imagesloaded.js"></script>
+<script src="<?php echo $this->getUrl() ?>storegrid/js/classie.js"></script>

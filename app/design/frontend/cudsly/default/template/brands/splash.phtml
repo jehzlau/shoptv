@@ -1,0 +1,17 @@
+<?php $splashGroup = Mage::getModel('attributeSplash/group')->load($splashGroupId) ?>
+<?php if ($splashGroup->getId()): ?>
+	<?php $splashHelper = Mage::helper('attributeSplash/image') ?>
+	<?php $splashPages = $splashGroup->getSplashPages()->addOrderByName()->load() ?>
+	<?php if (count($splashPages) > 0): ?>
+		<ul>
+			<?php foreach($splashPages as $splashPage): ?>
+				<?php $splashHelper->init($splashPage, 'thumbnail') ?>
+				<li class="item">
+					<a href="<?php echo $splashPage->getUrl() ?>" title="<?php echo $this->escapeHtml($splashPage->getName()) ?>">
+						<img src="<?php echo $splashHelper->resize(100, 100) ?>" alt="<?php echo $this->escapeHtml($splashPage->getName()) ?>" />
+					</a>
+				</li>
+			<?php endforeach; ?>
+		</ul>
+	<?php endif; ?>
+<?php endif; ?>

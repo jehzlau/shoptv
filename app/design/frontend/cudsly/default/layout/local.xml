@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="footer">
+            <remove name="footer_links"/>
+            <remove name="footer_links2"/>
+            <remove name="footer_links_company"/>
+            <remove name="footer_links_sm"/>
+
+            <block type="cms/block" name="footer_cudsly">
+                <action method="setBlockId"><block_id>footer_cudsly</block_id></action>
+            </block>
+            <block type="cms/block" name="footer_customer_services">
+                    <action method="setBlockId"><block_id>footer_customer_services</block_id></action>
+            </block>
+            <block type="cms/block" name="footer_shipping_returns">
+                    <action method="setBlockId"><block_id>footer_shipping_returns</block_id></action>
+            </block>
+            <block type="cms/block" name="footer_security_privacy">
+                    <action method="setBlockId"><block_id>footer_security_privacy</block_id></action>
+            </block>
+            <block type="cms/block" name="footer_social_links">
+                    <action method="setBlockId"><block_id>footer_social_links</block_id></action>
+            </block>
+            <block type="cms/block" name="footer_info">
+                <action method="setBlockId"><block_id>footer_info</block_id></action>
+            </block>
+        </reference>
+    </default>
+
+    <cms_index_index>
+        <reference name="root">
+            <remove name="breadcrumbs"/>
+        </reference>
+    </cms_index_index>
+    <checkout_cart_index>
+        <remove name="checkout.cart.shipping" />
+    </checkout_cart_index>
+
+</layout>

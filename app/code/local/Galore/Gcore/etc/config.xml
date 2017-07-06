@@ -1,0 +1,65 @@
+<config>
+    <modules>
+        <Galore_Gcore>
+            <version>0.1</version>
+        </Galore_Gcore>
+    </modules>
+    <global>
+        <models>
+            <gcore>
+				<class>Galore_Gcore_Model</class>
+            </gcore>
+        </models>
+        <events>
+        	<sales_order_save_before>
+        		<observers>
+            		<gcore_sms_notification>
+       					<type>singleton</type>
+        				<class>gcore/observer</class>
+       					 <method>sales_order_save_before_sms_notification</method>            			
+            		</gcore_sms_notification>
+        		</observers>
+        	</sales_order_save_before>
+        	
+        	<sales_order_save_after>
+        		<observers>
+        		   <gcore_sales_order_pull>
+       					<type>singleton</type>
+        				<class>gcore/observer</class>
+        				<method>sales_order_save_after_pull</method>              			
+            		</gcore_sales_order_pull>
+            	</observers>
+        	</sales_order_save_after>
+        	
+        </events>
+        <helpers>
+        	<gcore>
+        		<class>Galore_Gcore_Helper</class>
+        	</gcore>
+        </helpers>        
+    </global>
+	<adminhtml>
+	    <acl>
+	        <resources>
+	            <all>
+	                <title>Allow Everything</title>
+	            </all>
+	            <admin>
+	                <children>
+	                    <system>
+	                        <children>
+	                            <config>
+	                                <children>
+	                                    <gcore_config>
+	                                        <title>GCore Configurations</title>
+	                                    </gcore_config>
+	                                </children>
+	                            </config>
+	                        </children>
+	                    </system>
+	                </children>
+	            </admin>
+	        </resources>
+	    </acl>
+	</adminhtml>    
+</config>

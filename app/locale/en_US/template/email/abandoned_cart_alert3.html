@@ -1,0 +1,65 @@
+<!--
+/**
+ * Abandoned Carts Alerts Pro
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Cartalert
+ * @version      3.6.2
+ * @license:     n/a
+ * @copyright:   Copyright (c) 2015 AITOC, Inc. (http://www.aitoc.com)
+ */
+--><!--@subject Email - Header @-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+<table style="font-family: 'Avenir Next', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.65; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; background: #efefef; height: 100%; line-height: 1.65; margin: 50px 0 0; padding: 0; width: 100% !important" bgcolor="#efefef">
+    <tr style="margin: 0; padding: 0">
+        <td style="-moz-box-shadow: 0px 4px 10px 2px rgba(0,0,0,0.35); -webkit-box-shadow: 0px 4px 10px 2px rgba(0,0,0,0.35); box-shadow: 0px 4px 10px 2px rgba(0,0,0,0.35); clear: both !important; display: block !important; margin: 0 auto; max-width: 720px !important; padding: 0">
+            <table style="border-collapse: collapse; margin: 0; padding: 0; width: 100% !important">
+                <tr>
+                    <td align="center" style="background: #2196F3; color: white; margin: 0; padding: 40px 0" bgcolor="#2196F3">
+                        <h1 style="font-family: 'Avenir Next', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 26px; line-height: 1.25; margin: 0 auto; max-width: 90%; padding: 0; text-transform: uppercase">Did you forget to check out at {{var website_name}}?</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background: #fff; margin: 0; padding: 20px 0" bgcolor="#fff"><a href="{{var store_url}}"><img style="display: block; margin: 0 auto; max-width: 100%; padding: 0" src="{{var logo_url}}" alt="{{var logo_alt}}" /></a></td>
+                </tr>
+                <tr>
+                    <td style="background: white; margin: 0; padding: 20px 35px" bgcolor="white">
+                        <p><strong>Hello {{var customer_name}},</strong></p>
+                        <p>Thank you for shopping at {{var store_name}} and considering us for your purchase. We noticed that during your visit to our store you added the following item(s) to the cart, but did not complete the checkout.</p>
+                        <p>Shopping Cart Contents:</p>
+                        <p>{{var products}}</p>
+                        {{depend real_quote}}
+                        <p>If you simply forgot to check out, you can still complete the transaction(s) at this time. </p>
+                        <p><a href="{{var recover_url}}" >Click to complete your purchase</a></p><br>
+                        {{/depend}}
+                        {{depend coupon}}
+                        <p>Also, feel free to use this coupon code to get a {{var discount_amount}} discount: </br>
+                            <strong>{{var coupon}}</strong></br>
+                            *The coupon expires in {{var coupon_days}} day(s).</p>
+                        {{/depend}}
+                        <h5>Was this a technical glitch?</h5>
+                        <p>If you experienced a technical difficulty while shopping at our site, we’d like to know about it. Thank you in advance for helping us improve our store!</p>
+                        <p>Important: this email means the orders listed above have not been completed, and that you have not been charged. If you believe this is a mistake, please let us know.</p>
+                        <p>Sincerely, </br> The {{var store_name}} team</p>
+                        <p style="text-align: center;padding-top: 20px;"><a href="{{var store_url}}" style="display: inline-block;color: white;background: #71bc37;border: solid #71bc37;border-width: 10px 20px 8px;font-weight: bold;border-radius: 4px;">View {{var store_name}}</a></p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table style="font-family: 'Avenir Next', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.65; margin: 0; padding: 20px 0; text-align: center; width: 100%">
+    <tr >
+        <td>
+            If you no longer wish to receive emails from us, click to <a style=" color: #888;text-decoration: none;font-weight: bold;" href="{{var unsubscribe_url}}">Unsubscribe</a>.
+        </td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,117 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUJO02VX53G-1,,simple,1.0000,215.2000,21.5200,215.2000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUJO02VX53G-1,,simple,1.0000,215.2000,21.5200,215.2000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUHU01UB8O5-1,,simple,1.0000,1165.8400,116.5800,1165.8400,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUME02GG4E1-1,,simple,1.0000,319.8000,31.9800,319.8000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUHU01UB8O5-1,,simple,1.0000,1165.8400,116.5800,1165.8400,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUME02GG4E1-1,,simple,1.0000,319.8000,31.9800,319.8000,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUCE02B1TVX-1,,simple,1.0000,113.5300,11.3600,113.5300,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:31:26",ctan@ckmjgreenovation.ph,CU400015960,CUCE02B1TVX-1,,simple,1.0000,113.5300,11.3600,113.5300,,,0.0000,,paypal_express,,10.0000,verified,0.0000,"21-H Araneta Avenue
+Dona Imelda","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",1632.9300,
+"2017-03-26 00:30:03",mian_munoz@yahoo.com,CU400015961,CUSA05PLNAE-1,,simple,1.0000,314.7800,0.0000,314.7800,CU400014393,1.0000,0.0000,314.7800,paypal_express,,0.0000,shipped,100.0000,"2 Roberto Villanueva St, Classic Homes
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",414.7800,414.7800
+"2017-03-26 00:30:03",mian_munoz@yahoo.com,CU400015961,CUSA05PLNAE-1,,simple,1.0000,314.7800,0.0000,314.7800,CU400014393,1.0000,0.0000,314.7800,paypal_express,,0.0000,shipped,100.0000,"2 Roberto Villanueva St, Classic Homes
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",414.7800,414.7800
+"2017-03-26 04:36:53",bernadette.bulanadi08@gmail.com,CU400015962,CUZW01FPPJG-1,,simple,4.0000,22.2800,0.0000,89.1200,CU400014392,4.0000,0.0000,89.1200,cashondelivery,,0.0000,shipped,100.0000,"344 Alonzo Velasquez St. Binondo Manila
+Barangay 276","San Nicolas","Metro Manila",01012,"Standard Delivery - Shipping Fee",260.3700,260.3700
+"2017-03-26 04:36:53",bernadette.bulanadi08@gmail.com,CU400015962,CUZW01FPPJG-1,,simple,4.0000,22.2800,0.0000,89.1200,CU400014392,4.0000,0.0000,89.1200,cashondelivery,,0.0000,shipped,100.0000,"344 Alonzo Velasquez St. Binondo Manila
+Barangay 276","San Nicolas","Metro Manila",01012,"Standard Delivery - Shipping Fee",260.3700,260.3700
+"2017-03-26 04:36:53",bernadette.bulanadi08@gmail.com,CU400015962,CUSA01JTRUC-1,,simple,1.0000,71.2500,0.0000,71.2500,CU400014392,1.0000,0.0000,71.2500,cashondelivery,,0.0000,shipped,100.0000,"344 Alonzo Velasquez St. Binondo Manila
+Barangay 276","San Nicolas","Metro Manila",01012,"Standard Delivery - Shipping Fee",260.3700,260.3700
+"2017-03-26 04:36:53",bernadette.bulanadi08@gmail.com,CU400015962,CUSA01JTRUC-1,,simple,1.0000,71.2500,0.0000,71.2500,CU400014392,1.0000,0.0000,71.2500,cashondelivery,,0.0000,shipped,100.0000,"344 Alonzo Velasquez St. Binondo Manila
+Barangay 276","San Nicolas","Metro Manila",01012,"Standard Delivery - Shipping Fee",260.3700,260.3700
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01CZWPT-1,,simple,1.0000,1767.0000,353.4000,1767.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01UVIIG-1,,simple,1.0000,1767.0000,353.4000,1767.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUPI01HALVE-1,,simple,1.0000,879.6000,175.9200,879.6000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01FFI20-1,,simple,1.0000,1710.0000,342.0000,1710.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01UVIIG-1,,simple,1.0000,1767.0000,353.4000,1767.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUCI02VFYXN-1,,simple,1.0000,179.7750,35.9600,179.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUPI01HALVE-1,,simple,1.0000,879.6000,175.9200,879.6000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01FFI20-1,,simple,1.0000,1710.0000,342.0000,1710.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUCI02VFYXN-1,,simple,1.0000,179.7750,35.9600,179.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01I3LXT-1,,simple,1.0000,1824.0000,364.8000,1824.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUPA02CCYRR-1,,simple,1.0000,540.0000,108.0000,540.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUME0297UCZ-1,,simple,1.0000,319.8000,63.9600,319.8000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01I3LXT-1,,simple,1.0000,1824.0000,364.8000,1824.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUPA02CCYRR-1,,simple,1.0000,540.0000,108.0000,540.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUME0297UCZ-1,,simple,1.0000,319.8000,63.9600,319.8000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHAAA003GZUYP-1,,simple,1.0000,235.0000,47.0000,235.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHU01CZWPT-1,,simple,1.0000,1767.0000,353.4000,1767.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 05:43:08",deyto.sy@gmail.com,CU400015963,CUHAAA003GZUYP-1,,simple,1.0000,235.0000,47.0000,235.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",7377.7400,
+"2017-03-26 12:48:53",abineps@gmail.com,CU400015964,CUHU01CZWPT-1,,simple,1.0000,1767.0000,265.0500,1767.0000,,,0.0000,,banktransfer,,15.0000,bank_pending,0.0000,"67 Rodeo St Rancho Estate II 
+Concepcion Dos","Marikina City","Metro Manila",1811,"Standard Delivery - Shipping Fee",2564.4500,
+"2017-03-26 12:48:53",abineps@gmail.com,CU400015964,CUHU01MQWHX-1,,simple,2.0000,625.0000,187.5000,1250.0000,,,0.0000,,banktransfer,,15.0000,bank_pending,0.0000,"67 Rodeo St Rancho Estate II 
+Concepcion Dos","Marikina City","Metro Manila",1811,"Standard Delivery - Shipping Fee",2564.4500,
+"2017-03-26 12:48:53",abineps@gmail.com,CU400015964,CUHU01MQWHX-1,,simple,2.0000,625.0000,187.5000,1250.0000,,,0.0000,,banktransfer,,15.0000,bank_pending,0.0000,"67 Rodeo St Rancho Estate II 
+Concepcion Dos","Marikina City","Metro Manila",1811,"Standard Delivery - Shipping Fee",2564.4500,
+"2017-03-26 12:48:53",abineps@gmail.com,CU400015964,CUHU01CZWPT-1,,simple,1.0000,1767.0000,265.0500,1767.0000,,,0.0000,,banktransfer,,15.0000,bank_pending,0.0000,"67 Rodeo St Rancho Estate II 
+Concepcion Dos","Marikina City","Metro Manila",1811,"Standard Delivery - Shipping Fee",2564.4500,
+"2017-03-26 14:37:34",liezel.shayne@yahoo.com,CU400015965,CUPH02KTWH2-1,,simple,1.0000,1279.8000,127.9800,1279.8000,CU400014395,1.0000,127.9800,1279.8000,cashondelivery,,10.0000,invoiced,0.0000,"talaga, tanauan city, batangas
+Talaga","Tanauan City",Batangas,4232,"Standard Delivery - Shipping Fee",1365.5700,1365.5700
+"2017-03-26 14:37:34",liezel.shayne@yahoo.com,CU400015965,CUNI01IRDKB-1,,simple,2.0000,118.7500,23.7500,237.5000,CU400014395,2.0000,23.7500,237.5000,cashondelivery,,10.0000,invoiced,0.0000,"talaga, tanauan city, batangas
+Talaga","Tanauan City",Batangas,4232,"Standard Delivery - Shipping Fee",1365.5700,1365.5700
+"2017-03-26 14:37:34",liezel.shayne@yahoo.com,CU400015965,CUNI01IRDKB-1,,simple,2.0000,118.7500,23.7500,237.5000,CU400014395,2.0000,23.7500,237.5000,cashondelivery,,10.0000,invoiced,0.0000,"talaga, tanauan city, batangas
+Talaga","Tanauan City",Batangas,4232,"Standard Delivery - Shipping Fee",1365.5700,1365.5700
+"2017-03-26 14:37:34",liezel.shayne@yahoo.com,CU400015965,CUPH02KTWH2-1,,simple,1.0000,1279.8000,127.9800,1279.8000,CU400014395,1.0000,127.9800,1279.8000,cashondelivery,,10.0000,invoiced,0.0000,"talaga, tanauan city, batangas
+Talaga","Tanauan City",Batangas,4232,"Standard Delivery - Shipping Fee",1365.5700,1365.5700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUHU01MQWHX-1,,simple,1.0000,625.0000,62.5000,625.0000,CU400014396,1.0000,62.5000,625.0000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUSM01RWGKY-1,,simple,1.0000,85.5000,8.5500,85.5000,CU400014396,1.0000,8.5500,85.5000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUGI01XLPK6-1,,simple,1.0000,76.0000,7.6000,76.0000,CU400014396,1.0000,7.6000,76.0000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUGI01JSRHS-1,,simple,1.0000,76.0000,7.6000,76.0000,CU400014396,1.0000,7.6000,76.0000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUGI01XLPK6-1,,simple,1.0000,76.0000,7.6000,76.0000,CU400014396,1.0000,7.6000,76.0000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUGI01JSRHS-1,,simple,1.0000,76.0000,7.6000,76.0000,CU400014396,1.0000,7.6000,76.0000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUCI02LEUED-1,,simple,1.0000,179.7750,17.9800,179.7800,CU400014396,1.0000,17.9800,179.7800,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUTH03BVYHM-1,,simple,1.0000,799.8000,79.9800,799.8000,CU400014396,1.0000,79.9800,799.8000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUCI02LEUED-1,,simple,1.0000,179.7750,17.9800,179.7800,CU400014396,1.0000,17.9800,179.7800,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUTH03BVYHM-1,,simple,1.0000,799.8000,79.9800,799.8000,CU400014396,1.0000,79.9800,799.8000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUHU01MQWHX-1,,simple,1.0000,625.0000,62.5000,625.0000,CU400014396,1.0000,62.5000,625.0000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 16:01:28",annebinu@gmail.com,CU400015966,CUSM01RWGKY-1,,simple,1.0000,85.5000,8.5500,85.5000,CU400014396,1.0000,8.5500,85.5000,paypal_express,,10.0000,invoiced,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1657.8700,1657.8700
+"2017-03-26 17:09:58",angelicafatimabanez@gmail.com,CU400015967,CUEQ02CQDH4-1,,simple,1.0000,386.5500,0.0000,386.5500,CU400014394,1.0000,0.0000,386.5500,cashondelivery,,0.0000,invoiced,100.0000,"Block 7 Lot 3, Mercedes Homes 3
+Santo Tomas (Calabuso)","Binan City",Laguna,4024,"Standard Delivery - Shipping Fee",1066.5500,1066.5500
+"2017-03-26 17:09:58",angelicafatimabanez@gmail.com,CU400015967,CUEQ02CQDH4-1,,simple,1.0000,386.5500,0.0000,386.5500,CU400014394,1.0000,0.0000,386.5500,cashondelivery,,0.0000,invoiced,100.0000,"Block 7 Lot 3, Mercedes Homes 3
+Santo Tomas (Calabuso)","Binan City",Laguna,4024,"Standard Delivery - Shipping Fee",1066.5500,1066.5500
+"2017-03-26 17:09:58",angelicafatimabanez@gmail.com,CU400015967,CUPA02DGUOG-1,,simple,1.0000,580.0000,0.0000,580.0000,CU400014394,1.0000,0.0000,580.0000,cashondelivery,,0.0000,invoiced,100.0000,"Block 7 Lot 3, Mercedes Homes 3
+Santo Tomas (Calabuso)","Binan City",Laguna,4024,"Standard Delivery - Shipping Fee",1066.5500,1066.5500
+"2017-03-26 17:09:58",angelicafatimabanez@gmail.com,CU400015967,CUPA02DGUOG-1,,simple,1.0000,580.0000,0.0000,580.0000,CU400014394,1.0000,0.0000,580.0000,cashondelivery,,0.0000,invoiced,100.0000,"Block 7 Lot 3, Mercedes Homes 3
+Santo Tomas (Calabuso)","Binan City",Laguna,4024,"Standard Delivery - Shipping Fee",1066.5500,1066.5500

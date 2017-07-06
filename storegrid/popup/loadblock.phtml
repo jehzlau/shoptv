@@ -1,0 +1,47 @@
+<?php
+require_once('../../app/Mage.php'); 
+umask(0);
+Mage::app();
+
+$block_identifier = "popup_7forallmankind";
+$staticBlock = Mage::app()->getLayout()->createBlock('cms/block')->setBlockId($block_identifier);
+//echo $staticBlock->toHtml();
+//popup_7forallmankind
+echo $_GET["brand"];
+?>
+
+<style type="text/css">
+.popupbt {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+}
+.ajax-text-and-image {
+    max-width: 800px;
+    background: #FFF;
+    line-height: 0;
+    height: auto;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ajcol {
+    width: 50%; float:left;
+}
+.ajcol img {
+    width: 100%; height: auto;
+}
+@media all and (max-width:30em) {
+    .ajcol { 
+        width: 100%;
+        float:none;
+    }
+}
+</style>
+<div class="ajax-text-and-image white-popup-block">
+<?php echo $staticBlock->toHtml(); ?>
+</div>

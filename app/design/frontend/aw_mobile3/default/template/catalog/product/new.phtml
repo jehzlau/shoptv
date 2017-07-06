@@ -1,0 +1,41 @@
+<?php
+/**
+ * Custom New List Template for Mobile
+ * by: jehzlau
+ */
+?>
+<?php
+$imgCdn = '/scripts/mini.php?src=http://s3.cudsly.com/images/';
+?>
+<?php if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
+
+    <?php $i=0; foreach ($_products->getItems() as $_product): ?>
+                    <?php $priceHtml = $this->getPriceHtml($_product, true); ?>
+        <a class="product-card product-card--horizontal product-card--in-list" href="<?php echo $_product->getProductUrl() ?>">
+                <p class="product-card__image-wrapper">
+		    <?php $sku = explode('-', $_product->getSku()); ?>
+		    <?php $_sku = $sku[0];?>
+                    <img class="product-card__image" src="<?php echo $imgCdn . $_sku . '/' . $_sku; ?>-1.jpg&w=90" srcset="<?php echo $imgCdn . $_sku . '/' . $_sku; ?>-1.jpg&w=180 2x" width="90" height="90">
+                </p>
+                <div class="product-card__info">
+                    <h3 class="product-card__title">
+                        <?php echo $this->stripTags($_product->getName(), null, true) ?>
+                    </h3>
+
+                    <?php if (AW_Mobile3_Helper_Config::isCanDisplayStockStatusAtCatalog()):?>
+                        <?php if($_product->isSaleable()): ?>
+                            <p class="product-card__availability"><?php echo $this->__('In stock') ?></p>
+                        <?php else: ?>
+                            <p class="product-card__availability"><?php echo $this->__('Out of stock') ?></p>
+                        <?php endif; ?>
+                    <?php endif;?>
+
+                    <div class="product-card__prices">
+                        <?php echo $priceHtml;?>
+                    </div>
+                </div><!-- .product-card__info -->
+            </a><!-- .product-card -->
+        
+    <?php endforeach; ?>
+<?php endif; ?>
+

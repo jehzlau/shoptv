@@ -1,0 +1,41 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-10 12:35:10",charcylicious@gmail.com,CU400016025,CUBI01NCEBUZJ-100ML,,simple,1.0000,48.6500,4.8700,48.6500,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"23 P Francisco St.
+Krus Na Ligas","Quezon City","Metro Manila",1101,"Standard Delivery - Shipping Fee",244.0400,
+"2017-04-10 12:35:10",charcylicious@gmail.com,CU400016025,CUBI01NCEBUZJ-100ML,,simple,1.0000,48.6500,4.8700,48.6500,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"23 P Francisco St.
+Krus Na Ligas","Quezon City","Metro Manila",1101,"Standard Delivery - Shipping Fee",244.0400,
+"2017-04-10 12:35:10",charcylicious@gmail.com,CU400016025,CUZW01FPPJG-1,,simple,5.0000,22.2800,11.1400,111.4000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"23 P Francisco St.
+Krus Na Ligas","Quezon City","Metro Manila",1101,"Standard Delivery - Shipping Fee",244.0400,
+"2017-04-10 12:35:10",charcylicious@gmail.com,CU400016025,CUZW01FPPJG-1,,simple,5.0000,22.2800,11.1400,111.4000,,,0.0000,,cashondelivery,,10.0000,verified,100.0000,"23 P Francisco St.
+Krus Na Ligas","Quezon City","Metro Manila",1101,"Standard Delivery - Shipping Fee",244.0400,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUBI01NCEBUZJ-100ML,,simple,1.0000,48.6500,9.2500,48.6500,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUGR05RUDGT-1,,simple,1.0000,72.0000,13.6800,72.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUDO03WZKCM-1,,simple,1.0000,102.9200,19.5600,102.9200,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUNI01RPSYB-1,,simple,1.0000,548.1500,104.1500,548.1500,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUIN01LPURM-1,,simple,1.0000,404.7800,76.9100,404.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUNI01RPSYB-1,,simple,1.0000,548.1500,104.1500,548.1500,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUIN01LPURM-1,,simple,1.0000,404.7800,76.9100,404.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUCR02RVP7L-1,,simple,2.0000,125.8300,47.8100,251.6600,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUIN01DLHXL-1,,simple,1.0000,161.7800,30.7300,161.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUCR02RVP7L-1,,simple,2.0000,125.8300,47.8100,251.6600,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUIN01DLHXL-1,,simple,1.0000,161.7800,30.7300,161.7800,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUBI01NCEBUZJ-100ML,,simple,1.0000,48.6500,9.2500,48.6500,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUGR05RUDGT-1,,simple,1.0000,72.0000,13.6800,72.0000,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 08:05:19",co.wendiii@gmail.com,CU400016026,CUDO03WZKCM-1,,simple,1.0000,102.9200,19.5600,102.9200,,,0.0000,,paypal_express,,20.0000,verified,0.0000,"500-33 Piña Ave. Piña Estate Sta. Mesa
+Barangay 585",Sampaloc,"Metro Manila",1016,"Standard Delivery - Shipping Fee",1287.8500,
+"2017-04-11 10:49:09",pinkpassion1213@yahoo.com,CU400016027,CUZW01XBRHA-1,,simple,5.0000,79.6500,0.0000,398.2500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"alta tierra napolan
+Napolan","Pagadian City","Zamboanga Del Sur",7016,"Standard Delivery - Shipping Fee",498.2500,
+"2017-04-11 10:49:09",pinkpassion1213@yahoo.com,CU400016027,CUZW01XBRHA-1,,simple,5.0000,79.6500,0.0000,398.2500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"alta tierra napolan
+Napolan","Pagadian City","Zamboanga Del Sur",7016,"Standard Delivery - Shipping Fee",498.2500,

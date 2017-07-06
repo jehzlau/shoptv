@@ -1,0 +1,360 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/**
+ * Product view template
+ *
+ * @see Mage_Catalog_Block_Product_View
+ * @see Mage_Review_Block_Product_View
+ */
+?>
+
+<style type="text/css">
+.alert-stock, .amxnotif-block {
+clear: both;
+display: none;
+}
+</style>
+
+
+<?php $_helper = $this->helper('catalog/output'); ?>
+<?php $_product = $this->getProduct(); ?>
+<?php $cat_id = Mage::getModel('catalog/layer')->getCurrentCategory()->getId(); ?>
+<?php $category = Mage::getModel('catalog/category')->load($cat_id); ?>
+
+<?php $color_variants = $_product->getColorVariants(); ?>
+<?php
+	$mt = microtime(true);
+	$mt =  $mt*1000;
+	$imgs= " ";
+?>
+
+<?php if ($_product->getData('brand') == "354"): ?>
+    <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('facebook_pixel')->toHtml() ?>
+<?php endif; ?>
+
+<script type="text/javascript">
+    var optionsPrice = new Product.OptionsPrice(<?php echo $this->getJsonConfig() ?>);
+</script>
+<div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+<div class="product-view">
+    <div class="product-essential">    
+        <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
+            <?php echo $this->getBlockHtml('formkey') ?>
+            <div class="no-display">
+                <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
+                <input type="hidden" name="related_product" id="related-products-field" value="" />
+            </div>
+
+            <div class="product-img-box">
+                <div class="product-name">
+                    <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+                </div>
+                <?php echo $this->getChildHtml('media') ?>
+
+                <div class="youtube_video" style="padding-top: 30px;">
+                    <div> <?php $video = $_product->getData('youtube_video') ; ?>
+
+                        <div style="z-index: 1;margin: auto;">
+                            <iframe width="480" height="315" src="<?php echo $video; ?>" frameborder="0" allowfullscreen></iframe></div>
+                    </div>
+                </div>
+            </div>
+            
+                         
+        <?php
+        $brand = $_product->getAttributeText('brand');
+        $brandnospace = preg_replace('/\s+/','',$brand);
+        $brandamp = str_replace("&", "and", $brandnospace);
+        $brandclean = str_replace("'", "", $brandamp);
+        $brandslug = strtolower($brandclean);        
+        ?>
+
+            <div class="product-shop">
+                <div class="product-name">
+                    <span class="h1"><a href="<?php echo $this->getUrl() ?><?php echo $brandslug; ?>"><?php echo $brand; ?></a></span><br/>
+                    <span class="label-name"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></span>
+                    <p style="font-size: 13px;margin-bottom: 10px;"><?php echo nl2br($_product->getSku()) ?></p>
+                </div>
+
+                <div class="price-info">
+                    <?php echo $this->getReviewsSummaryHtml($_product, 'default', false)?>
+                    <p><?php echo $this->getChildHtml('product_type_availability'); ?></p>
+                </div>
+                
+
+                <div class="extra-info">
+                    <?php echo $this->getPriceHtml($_product); ?>
+                    <?php echo $this->getChildHtml('bundle_prices') ?>
+                    <?php echo $this->getTierPriceHtml() ?>
+                </div>
+
+                <?php echo $this->getChildHtml('alert_urls') ?>
+                <?php echo $this->getChildHtml('other');?>
+
+                <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                    <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
+                <?php endif;?>
+                
+                
+                 
+
+            </div>
+            
+            
+            
+         
+
+            
+
+            <div class="add-to-cart-wrapper">
+                <?php echo $this->getChildHtml('product_type_data') ?>
+                <?php echo $this->getChildHtml('extrahint') ?>
+				<?php $imgCdn = Mage::getStoreConfig('mediaurl/mediasource/mediaurlfield'); ?>
+				
+	            <?php if($color_variants): ?>
+		            <div class="more-color-container">
+			            <h4>Other Colors</h4>
+			            <div class="color-slider">
+	                <?php $variants = array_map('trim', explode(',',$color_variants)); ?>
+				            <ul>
+			                <?php foreach($variants as $sku): ?>
+				                <?php $variant_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $sku); ?>
+				                <?php if(!$variant_product) continue; ?>
+				                <?php if(!$variant_product->isSaleAble()) continue; ?>
+				                <?php $url = $variant_product->getUrlPath(); ?>
+				                <?php $config = explode('-', $sku);?>
+								
+								<?php
+									$imgs = "http:" . $imgCdn . trim($sku) . "/" . trim($sku) . "-1.jpg?n=" . $mt;
+								?>
+								
+				                <li class="product">
+					                <a class="tooltip" data-tooltip="<?php echo $variant_product->getColour() ?>" href="/<?php echo $url; ?>">
+						                <img id="image-main"
+											src="http:<?php echo $imgs ?>" 
+											alt="<?php echo $this->escapeHtml($this->getImageLabel()) ?>"
+											title="<?php echo $this->escapeHtml($this->getImageLabel()); ?>" 
+										/>
+					                </a>
+				                </li>
+		                    <?php endforeach; ?>
+				            </ul>
+			            </div>
+			            <div class="clearfix"></div>
+		            </div>
+	            <?php endif; ?>
+
+                <?php if (!$this->hasOptions()):?>
+                    <div class="add-to-box">
+                        <?php if($_product->isSaleable()): ?>
+                            <?php echo $this->getChildHtml('addtocart') ?>
+                            <?php if( $this->helper('wishlist')->isAllow() || $_compareUrl=$this->helper('catalog/product_compare')->getAddUrl($_product)): ?>
+                                <span class="or"><?php echo $this->__('OR') ?></span>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php echo $this->getChildHtml('addto') ?>
+                        <?php echo $this->getChildHtml('sharing') ?>
+                    </div>
+                    <?php echo $this->getChildHtml('extra_buttons') ?>
+                <?php elseif (!$_product->isSaleable()): ?>
+                    <div class="add-to-box">
+                        <?php echo $this->getChildHtml('addto') ?>
+                        <?php echo $this->getChildHtml('sharing') ?>
+                    </div>
+                <?php endif; ?>
+                
+          
+                <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                    <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+                <?php endif;?>
+                <div class="desc-nav short-description">
+                    <dl class="product-accordion ">					
+                        <h4>DETAILS</h4>
+                        <dt id="product_accordion_custom" class="first"><a href=""><img src="/skin/frontend/cudsly/default/images/up-arrow.png" ></a></dt>
+                        <dd id="product_tabs_custom_contents"><div class="description" id="description"><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div></dd>
+
+                        <?php foreach ($this->getTabs() as $_index => $_tab): ?>
+                            <?php if($this->getChildHtml($_tab['alias'])): ?>
+                                <dt id="product_accordion_<?php echo $_tab['alias'] ?>" class="<?php echo !$_index?$first:(($_index==count($this->getTabs())-1)? $last :'')?>"><a href=""><?php echo $_tab['title']?></a></dt>
+                                <dd id="product_accordion_<?php echo $_tab['alias'] ?>_contents"><?php echo $this->getChildHtml($_tab['alias']) ?></dd>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </dl>
+                </div>
+                <div class="desc-nav reviews">
+                    <dl class="product-accordion ">
+                        <h4>REVIEW</h4>
+                        <dt id="product_accordion_custom" class="first"><a href=""><img src="/skin/frontend/cudsly/default/images/up-arrow.png" ></a></dt>
+                        <dd id="product_tabs_custom_contents"><?php echo $this->getChildHtml('reviews') ?></dd>
+
+                        <?php foreach ($this->getTabs() as $_index => $_tab): ?>
+                            <?php if($this->getChildHtml($_tab['alias'])): ?>
+                                <dt id="product_accordion_<?php echo $_tab['alias'] ?>" class="<?php echo !$_index?$first:(($_index==count($this->getTabs())-1)? $last :'')?>"><a href=""><?php echo $_tab['title']?></a></dt>
+                                <dd id="product_accordion_<?php echo $_tab['alias'] ?>_contents"><?php echo $this->getChildHtml($_tab['alias']) ?></dd>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </dl>
+                </div>
+                <div class="desc-nav need">
+                    <dl class="product-accordion ">
+                        <h4>NEED HELP?</h4>
+                        <dt id="product_accordion_custom" class="first"><a href=""><img src="/skin/frontend/cudsly/default/images/up-arrow.png" ></a></dt>
+                        <dd id="product_tabs_custom_contents"><?php echo "<p>Email: customercare@cudsly.com</p>" ?></dd>
+
+                        <?php foreach ($this->getTabs() as $_index => $_tab): ?>
+                            <?php if($this->getChildHtml($_tab['alias'])): ?>
+                                <dt id="product_accordion_<?php echo $_tab['alias'] ?>" class="<?php echo !$_index?$first:(($_index==count($this->getTabs())-1)? $last :'')?>"><a href=""><?php echo $_tab['title']?></a></dt>
+                                <dd id="product_accordion_<?php echo $_tab['alias'] ?>_contents"><?php echo $this->getChildHtml($_tab['alias']) ?></dd>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </dl>
+                </div>
+
+                <script type="text/javascript">
+                    //<![CDATA[
+                    (function($) {
+                        var allPanels = $('.product-accordion > dd').hide();
+                        $('.product-accordion > dt > a').click(function(e) {
+                            e.preventDefault();
+                            var panel = $(this).parent().next();
+                            if(panel.hasClass('active')) panel.removeClass('active').slideUp();
+                            else {
+                                $('.product-accordion > dd.active').removeClass('active').slideUp();
+                                panel.addClass('active').slideDown();
+                            }
+                        });
+                    })(jQuery);
+                    //]]>
+                </script>
+
+                <div id="media">
+                    <h4>SHARE THIS ITEM!</h4>
+<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('cudsly_social_share')->toHtml(); ?>
+                </div>
+
+                <div class="more-info">
+                    <p> MORE FROM:<br>
+                    <span>BRANDS</span> > <span><?php echo '<a href="/brands.html">' .  $brand .'</a>';  ?></span><br>
+                    <span><?php echo '<a href="">'.$category->getName() .'</a>'; ?></span> > <span>OTHER <?php echo '<a href="">' . $category->getName() . '</a>'; ?></span></p>
+                </div>
+
+
+            </div>
+
+
+
+            <?php echo $this->getChildHtml('related_products') ?>
+
+            <div class="clearer"></div>
+
+
+
+        </form>
+        <script type="text/javascript">
+            //<![CDATA[
+            var productAddToCartForm = new VarienForm('product_addtocart_form');
+            productAddToCartForm.submit = function(button, url) {
+                if (this.validator.validate()) {
+                    var form = this.form;
+                    var oldUrl = form.action;
+
+                    if (url) {
+                        form.action = url;
+                    }
+                    var e = null;
+                    try {
+                        this.form.submit();
+                    } catch (e) {
+                    }
+                    this.form.action = oldUrl;
+                    if (e) {
+                        throw e;
+                    }
+
+                    if (button && button != 'undefined') {
+                        button.disabled = true;
+                    }
+                }
+            }.bind(productAddToCartForm);
+
+            productAddToCartForm.submitLight = function(button, url){
+                if(this.validator) {
+                    var nv = Validation.methods;
+                    delete Validation.methods['required-entry'];
+                    delete Validation.methods['validate-one-required'];
+                    delete Validation.methods['validate-one-required-by-name'];
+                    // Remove custom datetime validators
+                    for (var methodName in Validation.methods) {
+                        if (methodName.match(/^validate-datetime-.*/i)) {
+                            delete Validation.methods[methodName];
+                        }
+                    }
+
+                    if (this.validator.validate()) {
+                        if (url) {
+                            this.form.action = url;
+                        }
+                        this.form.submit();
+                    }
+                    Object.extend(Validation.methods, nv);
+                }
+            }.bind(productAddToCartForm);
+            //]]>
+        </script>
+    </div>
+
+    <div class="product-collateral toggle-content tabs">
+        <?php if ($detailedInfoGroup = $this->getChildGroup('detailed_info', 'getChildHtml')):?>
+            <dl id="collateral-tabs" class="collateral-tabs">
+                <?php foreach ($detailedInfoGroup as $alias => $html):?>
+                    <dt class="tab"><span><?php echo $this->escapeHtml($this->getChildData($alias, 'title')) ?></span></dt>
+                    <dd class="tab-container">
+                        <div class="tab-content"><?php echo $html ?></div>
+                    </dd>
+                <?php endforeach;?>
+            </dl>
+        <?php endif; ?>
+    </div>
+
+    <?php echo $this->getChildHtml('upsell_products') ?>
+    <?php echo $this->getChildHtml('product_additional_data') ?>
+
+</div>
+
+<script type="text/javascript">
+    $('#desc').click(function(){
+        $('#description').toggle("slow");
+    });
+
+    $('#review').click(function(){
+        $('#rev-result').toggle("slow");
+    });
+
+    $('#need').click(function(){
+        $('#content').toggle("slow");
+    })
+</script>

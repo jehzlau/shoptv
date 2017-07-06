@@ -1,0 +1,329 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-01-06 13:16:12",camillesy2811@gmail.com,CU400014238,CUCY01NCUBKGX-800ML,,simple,1.0000,254.0000,0.0000,254.0000,CU400013443,1.0000,0.0000,254.0000,cashondelivery,,0.0000,shipped,0.0000,"Lot 2 Blk 125 Kaginhawaan Street Karangalan village Brgy Manggahan Pasig city ( Baliwag Lechon Mismo )
+Manggahan","Pasig City","Metro Manila",1611,"Standard Delivery - Shipping Fee",1043.8800,1043.8800
+"2017-01-06 13:16:12",camillesy2811@gmail.com,CU400014238,CUCY01NCUBKGX-800ML,,simple,1.0000,254.0000,0.0000,254.0000,CU400013443,1.0000,0.0000,254.0000,cashondelivery,,0.0000,shipped,0.0000,"Lot 2 Blk 125 Kaginhawaan Street Karangalan village Brgy Manggahan Pasig city ( Baliwag Lechon Mismo )
+Manggahan","Pasig City","Metro Manila",1611,"Standard Delivery - Shipping Fee",1043.8800,1043.8800
+"2017-01-06 13:16:12",camillesy2811@gmail.com,CU400014238,CUCY01NCUBMMA-1L5,,simple,1.0000,398.0000,0.0000,398.0000,CU400013443,1.0000,0.0000,398.0000,cashondelivery,,0.0000,shipped,0.0000,"Lot 2 Blk 125 Kaginhawaan Street Karangalan village Brgy Manggahan Pasig city ( Baliwag Lechon Mismo )
+Manggahan","Pasig City","Metro Manila",1611,"Standard Delivery - Shipping Fee",1043.8800,1043.8800
+"2017-01-06 13:16:12",camillesy2811@gmail.com,CU400014238,CUCY01NCUBMMA-1L5,,simple,1.0000,398.0000,0.0000,398.0000,CU400013443,1.0000,0.0000,398.0000,cashondelivery,,0.0000,shipped,0.0000,"Lot 2 Blk 125 Kaginhawaan Street Karangalan village Brgy Manggahan Pasig city ( Baliwag Lechon Mismo )
+Manggahan","Pasig City","Metro Manila",1611,"Standard Delivery - Shipping Fee",1043.8800,1043.8800
+"2017-01-06 13:16:12",camillesy2811@gmail.com,CU400014238,CUOR03TLXLH-1,,simple,1.0000,391.8800,0.0000,391.8800,CU400013443,1.0000,0.0000,391.8800,cashondelivery,,0.0000,shipped,0.0000,"Lot 2 Blk 125 Kaginhawaan Street Karangalan village Brgy Manggahan Pasig city ( Baliwag Lechon Mismo )
+Manggahan","Pasig City","Metro Manila",1611,"Standard Delivery - Shipping Fee",1043.8800,1043.8800
+"2017-01-06 13:16:12",camillesy2811@gmail.com,CU400014238,CUOR03TLXLH-1,,simple,1.0000,391.8800,0.0000,391.8800,CU400013443,1.0000,0.0000,391.8800,cashondelivery,,0.0000,shipped,0.0000,"Lot 2 Blk 125 Kaginhawaan Street Karangalan village Brgy Manggahan Pasig city ( Baliwag Lechon Mismo )
+Manggahan","Pasig City","Metro Manila",1611,"Standard Delivery - Shipping Fee",1043.8800,1043.8800
+"2017-01-07 01:05:33",kernweichang@yahoo.com,CU400014509,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,CU400013445,2.0000,0.0000,0.0000,paypal_express,,0.0000,shipped,0.0000,"Unit 20-D Gilmore Townhomes Valencia St.","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",2079.6000,2079.6000
+"2017-01-07 01:05:33",kernweichang@yahoo.com,CU400014509,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,CU400013445,2.0000,0.0000,0.0000,paypal_express,,0.0000,shipped,0.0000,"Unit 20-D Gilmore Townhomes Valencia St.","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",2079.6000,2079.6000
+"2017-01-07 01:05:33",kernweichang@yahoo.com,CU400014509,CUPI01A1BJH-1,,simple,2.0000,1299.7500,519.9000,2599.5000,CU400013445,2.0000,519.9000,2599.5000,paypal_express,,20.0000,shipped,0.0000,"Unit 20-D Gilmore Townhomes Valencia St.","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",2079.6000,2079.6000
+"2017-01-07 01:05:33",kernweichang@yahoo.com,CU400014509,CUPI01A1BJH-1,,simple,2.0000,1299.7500,519.9000,2599.5000,CU400013445,2.0000,519.9000,2599.5000,paypal_express,,20.0000,shipped,0.0000,"Unit 20-D Gilmore Townhomes Valencia St.","Quezon City","Metro Manila",1100,"Standard Delivery - Shipping Fee",2079.6000,2079.6000
+"2017-01-06 06:07:20",joannacapati08@gmail.com,CU400014797,CUPL01NCUASMK-ONE,,simple,1.0000,329.7500,0.0000,329.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Harvard corner Bangkok Street, Site University Village
+Ibabang Dupay","Lucena City",Quezon,4301,"Standard Delivery - Shipping Fee",1079.5000,
+"2017-01-06 06:07:20",joannacapati08@gmail.com,CU400014797,CUOR04JAL64-1,,simple,1.0000,749.7500,0.0000,749.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Salamillas compound 2,  Purok Narra (in front of barangay hall)
+Isabang","Lucena City",Quezon,4301,"Standard Delivery - Shipping Fee",1079.5000,
+"2017-01-06 06:07:20",joannacapati08@gmail.com,CU400014797,CUOR04JAL64-1,,simple,1.0000,749.7500,0.0000,749.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Harvard corner Bangkok Street, Site University Village
+Ibabang Dupay","Lucena City",Quezon,4301,"Standard Delivery - Shipping Fee",1079.5000,
+"2017-01-06 06:07:20",joannacapati08@gmail.com,CU400014797,CUPL01NCUASMK-ONE,,simple,1.0000,329.7500,0.0000,329.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"Salamillas compound 2,  Purok Narra (in front of barangay hall)
+Isabang","Lucena City",Quezon,4301,"Standard Delivery - Shipping Fee",1079.5000,
+"2017-01-06 00:19:40",dioniciocastrojr0310@gmail.com,CU400014904,CUEQ02RCKHF-1,,simple,1.0000,311.0000,0.0000,311.0000,CU400013424,1.0000,0.0000,311.0000,paypal_express,,0.0000,shipped,100.0000,"938 Algeciras St
+Barangay 473",Sampaloc,"Metro Manila",1008,"Standard Delivery - Shipping Fee",411.0000,411.0000
+"2017-01-06 00:19:40",dioniciocastrojr0310@gmail.com,CU400014904,CUEQ02RCKHF-1,,simple,1.0000,311.0000,0.0000,311.0000,CU400013424,1.0000,0.0000,311.0000,paypal_express,,0.0000,shipped,100.0000,"938 Algeciras St
+Barangay 473",Sampaloc,"Metro Manila",1008,"Standard Delivery - Shipping Fee",411.0000,411.0000
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01EIBR2-1,,simple,1.0000,265.0000,0.0000,265.0000,CU400013411,1.0000,0.0000,265.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01YS4XA-1,,simple,1.0000,280.0000,0.0000,280.0000,CU400013411,1.0000,0.0000,280.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01EIBR2-1,,simple,1.0000,265.0000,0.0000,265.0000,CU400013411,1.0000,0.0000,265.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUPI01ATNIF-1,,simple,1.0000,199.7500,0.0000,199.7500,CU400013411,1.0000,0.0000,199.7500,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUPI01ATNIF-1,,simple,1.0000,199.7500,0.0000,199.7500,CU400013411,1.0000,0.0000,199.7500,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01NCWABTK-ONE,,simple,1.0000,99.0000,0.0000,99.0000,CU400013411,1.0000,0.0000,99.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01NOMPS-1,,simple,1.0000,433.0000,0.0000,433.0000,CU400013411,1.0000,0.0000,433.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01NCWABTK-ONE,,simple,1.0000,99.0000,0.0000,99.0000,CU400013411,1.0000,0.0000,99.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01NOMPS-1,,simple,1.0000,433.0000,0.0000,433.0000,CU400013411,1.0000,0.0000,433.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 00:29:46",kennierhae@yahoo.com,CU400014905,CUTI01YS4XA-1,,simple,1.0000,280.0000,0.0000,280.0000,CU400013411,1.0000,0.0000,280.0000,cashondelivery,,0.0000,shipped,0.0000,"purok 2, Poblacion, Tupi, South Cotabato 9505
+Poblacion",Tupi,"South Cotabato",9505,"Standard Delivery - Shipping Fee",1276.7500,1276.7500
+"2017-01-06 01:13:44",ernievillarico@ymail.com,CU400014906,CUPA02VUH24-1,,simple,1.0000,1596.0000,0.0000,1596.0000,CU400013430,1.0000,0.0000,1596.0000,cashondelivery,,0.0000,shipped,0.0000,"878 Purok 7, Maugat, San Antonio, Nueva Ecija
+Maugat","San Antonio","Nueva Ecija",3108,"Standard Delivery - Shipping Fee",1596.0000,1596.0000
+"2017-01-06 01:13:44",ernievillarico@ymail.com,CU400014906,CUPA02VUH24-1,,simple,1.0000,1596.0000,0.0000,1596.0000,CU400013430,1.0000,0.0000,1596.0000,cashondelivery,,0.0000,shipped,0.0000,"878 Purok 7, Maugat, San Antonio, Nueva Ecija
+Maugat","San Antonio","Nueva Ecija",3108,"Standard Delivery - Shipping Fee",1596.0000,1596.0000
+"2017-01-06 01:59:06",yfam@yahoo.com,CU400014907,CUBO02NCUCYGY-ONE,,simple,1.0000,275.0000,0.0000,275.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Fermina Extension Highway 2000 Brgy. Sta Ana Taytay, Rizal
+Santa Ana",Taytay,Rizal,1920,"Standard Delivery - Shipping Fee",1073.2000,
+"2017-01-06 01:59:06",yfam@yahoo.com,CU400014907,CUBO02NCUCYGY-ONE,,simple,1.0000,275.0000,0.0000,275.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Fermina Extension Highway 2000 Brgy. Sta Ana Taytay, Rizal
+Santa Ana",Taytay,Rizal,1920,"Standard Delivery - Shipping Fee",1073.2000,
+"2017-01-06 01:59:06",yfam@yahoo.com,CU400014907,CUCR01NCUBBTM-500ML,,simple,1.0000,239.0000,0.0000,239.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Fermina Extension Highway 2000 Brgy. Sta Ana Taytay, Rizal
+Santa Ana",Taytay,Rizal,1920,"Standard Delivery - Shipping Fee",1073.2000,
+"2017-01-06 01:59:06",yfam@yahoo.com,CU400014907,CUCR01NCUBBTM-500ML,,simple,1.0000,239.0000,0.0000,239.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Fermina Extension Highway 2000 Brgy. Sta Ana Taytay, Rizal
+Santa Ana",Taytay,Rizal,1920,"Standard Delivery - Shipping Fee",1073.2000,
+"2017-01-06 01:59:06",yfam@yahoo.com,CU400014907,CUBA21HYOTV-1,,simple,1.0000,559.2000,0.0000,559.2000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Fermina Extension Highway 2000 Brgy. Sta Ana Taytay, Rizal
+Santa Ana",Taytay,Rizal,1920,"Standard Delivery - Shipping Fee",1073.2000,
+"2017-01-06 01:59:06",yfam@yahoo.com,CU400014907,CUBA21HYOTV-1,,simple,1.0000,559.2000,0.0000,559.2000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Fermina Extension Highway 2000 Brgy. Sta Ana Taytay, Rizal
+Santa Ana",Taytay,Rizal,1920,"Standard Delivery - Shipping Fee",1073.2000,
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUHU01OBBCZ-1,,simple,1.0000,1288.2000,0.0000,1288.2000,CU400013437,1.0000,0.0000,1288.2000,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUBA15NCEBCYA-ONE,,simple,1.0000,279.7500,0.0000,279.7500,CU400013437,1.0000,0.0000,279.7500,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUBA15NCEBCYA-ONE,,simple,1.0000,279.7500,0.0000,279.7500,CU400013437,1.0000,0.0000,279.7500,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUNU03LQU0R-1,,simple,1.0000,159.7500,0.0000,159.7500,CU400013437,1.0000,0.0000,159.7500,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUHU01QDRJH-1,,simple,1.0000,435.0000,0.0000,435.0000,CU400013437,1.0000,0.0000,435.0000,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUNU03LQU0R-1,,simple,1.0000,159.7500,0.0000,159.7500,CU400013437,1.0000,0.0000,159.7500,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUHU01QDRJH-1,,simple,1.0000,435.0000,0.0000,435.0000,CU400013437,1.0000,0.0000,435.0000,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 05:59:29",deyto.sy@gmail.com,CU400014909,CUHU01OBBCZ-1,,simple,1.0000,1288.2000,0.0000,1288.2000,CU400013437,1.0000,0.0000,1288.2000,paypal_express,,0.0000,shipped,0.0000,"CitiSpire Building, 3rd floor residence, Imelda C. Roces Ave.
+Bgy. 38 - Gogon (Bgy. 54)","Legazpi City",Albay,4500,"Standard Delivery - Shipping Fee",2162.7000,2162.7000
+"2017-01-06 06:06:17",mlaldeza@yahoo.com,CU400014910,CUCR01NCUBBTM-500ML,,simple,4.0000,239.0000,0.0000,956.0000,CU400013431,4.0000,0.0000,956.0000,cashondelivery,,0.0000,shipped,0.0000,"Maharlika Highway","Tuguegarao City",Cagayan,3500,"Standard Delivery - Shipping Fee",1500.0000,1500.0000
+"2017-01-06 06:06:17",mlaldeza@yahoo.com,CU400014910,CUCR01NCUBBTM-500ML,,simple,4.0000,239.0000,0.0000,956.0000,CU400013431,4.0000,0.0000,956.0000,cashondelivery,,0.0000,shipped,0.0000,"Maharlika Highway","Tuguegarao City",Cagayan,3500,"Standard Delivery - Shipping Fee",1500.0000,1500.0000
+"2017-01-06 06:06:17",mlaldeza@yahoo.com,CU400014910,CUCY01NCUBHCE-1KG,,simple,2.0000,272.0000,0.0000,544.0000,CU400013431,2.0000,0.0000,544.0000,cashondelivery,,0.0000,shipped,0.0000,"Maharlika Highway","Tuguegarao City",Cagayan,3500,"Standard Delivery - Shipping Fee",1500.0000,1500.0000
+"2017-01-06 06:06:17",mlaldeza@yahoo.com,CU400014910,CUCY01NCUBHCE-1KG,,simple,2.0000,272.0000,0.0000,544.0000,CU400013431,2.0000,0.0000,544.0000,cashondelivery,,0.0000,shipped,0.0000,"Maharlika Highway","Tuguegarao City",Cagayan,3500,"Standard Delivery - Shipping Fee",1500.0000,1500.0000
+"2017-01-06 06:06:38",pamela.ann.olano@gmail.com,CU400014911,CUMU02NC5BAOH-ONE,,simple,1.0000,1295.0000,0.0000,1295.0000,CU400013440,1.0000,0.0000,1295.0000,cashondelivery,,0.0000,shipped,0.0000,"Blk13 Lot2 Saint Irene Street, Sto. Nino Village Phase 2 
+Tunasan","Muntinlupa City","Metro Manila",1773,"Standard Delivery - Shipping Fee",1295.0000,1295.0000
+"2017-01-06 06:06:38",pamela.ann.olano@gmail.com,CU400014911,CUMU02NC5BAOH-ONE,,simple,1.0000,1295.0000,0.0000,1295.0000,CU400013440,1.0000,0.0000,1295.0000,cashondelivery,,0.0000,shipped,0.0000,"Blk13 Lot2 Saint Irene Street, Sto. Nino Village Phase 2 
+Tunasan","Muntinlupa City","Metro Manila",1773,"Standard Delivery - Shipping Fee",1295.0000,1295.0000
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUPA02X1XDE-1,,simple,1.0000,282.7500,0.0000,282.7500,CU400013441,1.0000,0.0000,282.7500,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUBE13UYFWH-1,,simple,1.0000,62.7800,0.0000,62.7800,CU400013441,1.0000,0.0000,62.7800,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CURU01NC5AQFT-0XS,,simple,1.0000,99.7500,0.0000,99.7500,CU400013441,1.0000,0.0000,99.7500,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUST03ZEDXB-1,,simple,1.0000,180.0000,0.0000,180.0000,CU400013441,1.0000,0.0000,180.0000,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CURU01NC5AQFT-0XS,,simple,1.0000,99.7500,0.0000,99.7500,CU400013441,1.0000,0.0000,99.7500,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUST03ZEDXB-1,,simple,1.0000,180.0000,0.0000,180.0000,CU400013441,1.0000,0.0000,180.0000,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUSM01NCUBJKS-250ML,,simple,3.0000,87.0000,0.0000,261.0000,CU400013441,3.0000,0.0000,261.0000,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUSM01NCUBITJ-900G,,simple,1.0000,164.0000,0.0000,164.0000,CU400013441,1.0000,0.0000,164.0000,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUSM01NCUBJKS-250ML,,simple,3.0000,87.0000,0.0000,261.0000,CU400013441,3.0000,0.0000,261.0000,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUSM01NCUBITJ-900G,,simple,1.0000,164.0000,0.0000,164.0000,CU400013441,1.0000,0.0000,164.0000,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUPA02X1XDE-1,,simple,1.0000,282.7500,0.0000,282.7500,CU400013441,1.0000,0.0000,282.7500,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 06:15:00",jbdcruz07@yahoo.com.ph,CU400014912,CUBE13UYFWH-1,,simple,1.0000,62.7800,0.0000,62.7800,CU400013441,1.0000,0.0000,62.7800,paypal_express,,0.0000,invoiced,0.0000,"UNit 124 bldg 3 residencias de manila jesus st pandacan
+Barangay 835",Pandacan,"Metro Manila",1011,"Standard Delivery - Shipping Fee",1050.2800,
+"2017-01-06 08:28:31",baimardhiyaa@yahoo.com,CU400014913,CUMA01KKJNH-1,,simple,4.0000,96.0000,0.0000,384.0000,CU400013433,4.0000,0.0000,384.0000,paypal_express,,0.0000,shipped,100.0000,"26 Rosales Street RH 6 Cotabato City
+Rosary Heights Vi","Cotabato City",Cotabato,9600,"Standard Delivery - Shipping Fee",484.0000,484.0000
+"2017-01-06 08:28:31",baimardhiyaa@yahoo.com,CU400014913,CUMA01KKJNH-1,,simple,4.0000,96.0000,0.0000,384.0000,CU400013433,4.0000,0.0000,384.0000,paypal_express,,0.0000,shipped,100.0000,"26 Rosales Street RH 6 Cotabato City
+Rosary Heights Vi","Cotabato City",Cotabato,9600,"Standard Delivery - Shipping Fee",484.0000,484.0000
+"2017-01-06 08:26:06",ephraimmarizdraper@yahoo.com,CU400014914,CUHU012KTPB-1,,simple,4.0000,255.0000,0.0000,1020.0000,CU400013429,4.0000,0.0000,1020.0000,cashondelivery,,0.0000,shipped,0.0000,"64 Rizal Ave, Cawa cawa, dapitan city
+Cawa-Cawa (Pob.)","Dapitan City","Zamboanga Del Norte",7101,"Standard Delivery - Shipping Fee",1020.0000,1020.0000
+"2017-01-06 08:26:06",ephraimmarizdraper@yahoo.com,CU400014914,CUHU012KTPB-1,,simple,4.0000,255.0000,0.0000,1020.0000,CU400013429,4.0000,0.0000,1020.0000,cashondelivery,,0.0000,shipped,0.0000,"64 Rizal Ave, Cawa cawa, dapitan city
+Cawa-Cawa (Pob.)","Dapitan City","Zamboanga Del Norte",7101,"Standard Delivery - Shipping Fee",1020.0000,1020.0000
+"2017-01-06 08:49:05",kristine.ortile@yahoo.com,CU400014915,CUBA21GTMX0-1,,simple,1.0000,1279.2000,0.0000,1279.2000,CU400013439,1.0000,0.0000,1279.2000,cashondelivery,,0.0000,shipped,0.0000,"Room 204 B NIA BLDG. B EDSA DILIMAN QUEZON CITY
+Pinyahan","Quezon City","Metro Manila",1110,"Standard Delivery - Shipping Fee",1279.2000,1279.2000
+"2017-01-06 08:49:05",kristine.ortile@yahoo.com,CU400014915,CUBA21GTMX0-1,,simple,1.0000,1279.2000,0.0000,1279.2000,CU400013439,1.0000,0.0000,1279.2000,cashondelivery,,0.0000,shipped,0.0000,"Room 204 B NIA BLDG. B EDSA DILIMAN QUEZON CITY
+Pinyahan","Quezon City","Metro Manila",1110,"Standard Delivery - Shipping Fee",1279.2000,1279.2000
+"2017-01-06 12:48:53",mama_noraida@yahoo.com,CU400014916,CUTI01USPHS-1,,simple,1.0000,233.6000,0.0000,233.6000,CU400013432,1.0000,0.0000,233.6000,cashondelivery,,0.0000,shipped,100.0000,"STI College Cotabato, Alejandro Dorotheo St., Cotabato City
+Poblacion Vi","Cotabato City",Cotabato,9600,"Standard Delivery - Shipping Fee",788.6000,788.6000
+"2017-01-06 12:48:53",mama_noraida@yahoo.com,CU400014916,CUTI01QL1Z6-1,,simple,1.0000,455.0000,0.0000,455.0000,CU400013432,1.0000,0.0000,455.0000,cashondelivery,,0.0000,shipped,100.0000,"STI College Cotabato, Alejandro Dorotheo St., Cotabato City
+Poblacion Vi","Cotabato City",Cotabato,9600,"Standard Delivery - Shipping Fee",788.6000,788.6000
+"2017-01-06 12:48:53",mama_noraida@yahoo.com,CU400014916,CUTI01QL1Z6-1,,simple,1.0000,455.0000,0.0000,455.0000,CU400013432,1.0000,0.0000,455.0000,cashondelivery,,0.0000,shipped,100.0000,"STI College Cotabato, Alejandro Dorotheo St., Cotabato City
+Poblacion Vi","Cotabato City",Cotabato,9600,"Standard Delivery - Shipping Fee",788.6000,788.6000
+"2017-01-06 12:48:53",mama_noraida@yahoo.com,CU400014916,CUTI01USPHS-1,,simple,1.0000,233.6000,0.0000,233.6000,CU400013432,1.0000,0.0000,233.6000,cashondelivery,,0.0000,shipped,100.0000,"STI College Cotabato, Alejandro Dorotheo St., Cotabato City
+Poblacion Vi","Cotabato City",Cotabato,9600,"Standard Delivery - Shipping Fee",788.6000,788.6000
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CULI0514JHW-1,,simple,1.0000,699.7500,104.9600,699.7500,CU400013438,1.0000,104.9600,699.7500,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CU1S01NC5ALRW-12Z,,simple,1.0000,159.7500,23.9700,159.7500,CU400013438,1.0000,23.9700,159.7500,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CULI0514JHW-1,,simple,1.0000,699.7500,104.9600,699.7500,CU400013438,1.0000,104.9600,699.7500,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CU1S01NC5ALRW-12Z,,simple,1.0000,159.7500,23.9700,159.7500,CU400013438,1.0000,23.9700,159.7500,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CUCU03NC4BISU-375ML,,simple,1.0000,59.6100,8.9400,59.6100,CU400013438,1.0000,8.9400,59.6100,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,CU400013438,2.0000,0.0000,0.0000,paypal_express,LASTPC15,0.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CUCU03NC4BISU-375ML,,simple,1.0000,59.6100,8.9400,59.6100,CU400013438,1.0000,8.9400,59.6100,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CUHU01EZTKE-1,,simple,2.0000,0.0000,0.0000,0.0000,CU400013438,2.0000,0.0000,0.0000,paypal_express,LASTPC15,0.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CU1S01NCWALRW-12Z,,simple,1.0000,159.7500,23.9600,159.7500,CU400013438,1.0000,23.9600,159.7500,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CUDR01NCXABCD-MED,,simple,1.0000,159.8000,23.9700,159.8000,CU400013438,1.0000,23.9700,159.8000,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CU1S01NCWALRW-12Z,,simple,1.0000,159.7500,23.9600,159.7500,CU400013438,1.0000,23.9600,159.7500,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 13:13:42",olricaclaire@gmail.com,CU400014917,CUDR01NCXABCD-MED,,simple,1.0000,159.8000,23.9700,159.8000,CU400013438,1.0000,23.9700,159.8000,paypal_express,LASTPC15,15.0000,shipped,0.0000,"B3 L22 ZAGADTAZ ST INA HOMES VALLEY 1
+San Antonio","Paranaque City","Metro Manila",1715,"Standard Delivery - Shipping Fee",1052.8600,1052.8600
+"2017-01-06 14:54:23",marian_grace0315@yahoo.com,CU400014918,CUPA02VUH24-1,,simple,2.0000,1596.0000,0.0000,3192.0000,CU400013436,2.0000,0.0000,3192.0000,paypal_express,,0.0000,shipped,0.0000,"Ibaan Public Market
+Talaibon",Ibaan,Batangas,4230,"Standard Delivery - Shipping Fee",3192.0000,3192.0000
+"2017-01-06 14:54:23",marian_grace0315@yahoo.com,CU400014918,CUPA02VUH24-1,,simple,2.0000,1596.0000,0.0000,3192.0000,CU400013436,2.0000,0.0000,3192.0000,paypal_express,,0.0000,shipped,0.0000,"Ibaan Public Market
+Talaibon",Ibaan,Batangas,4230,"Standard Delivery - Shipping Fee",3192.0000,3192.0000
+"2017-01-06 16:43:23",laraevillardo@gmail.com,CU400014919,CUBA21SEWZK-1,,simple,1.0000,1560.0000,0.0000,1560.0000,,,0.0000,,banktransfer,,0.0000,bank_pending,0.0000,"991 Domingo Poblete street, PDP Executive Village
+B. F. Homes","Paranaque City","Metro Manila",1740,"Standard Delivery - Shipping Fee",1560.0000,
+"2017-01-06 16:43:23",laraevillardo@gmail.com,CU400014919,CUBA21SEWZK-1,,simple,1.0000,1560.0000,0.0000,1560.0000,,,0.0000,,banktransfer,,0.0000,bank_pending,0.0000,"991 Domingo Poblete street, PDP Executive Village
+B. F. Homes","Paranaque City","Metro Manila",1740,"Standard Delivery - Shipping Fee",1560.0000,
+"2017-01-06 17:27:06",cathy_2486@yahoo.com,CU400014920,CUHAAA003GZUYP-1,,simple,1.0000,235.0000,0.0000,235.0000,CU400013442,1.0000,0.0000,235.0000,cashondelivery,,0.0000,shipped,100.0000,"1 Governor Santiago Street Malinta,","Valenzuela City","Metro Manila",1440,"Standard Delivery - Shipping Fee",484.7500,484.7500
+"2017-01-06 17:27:06",cathy_2486@yahoo.com,CU400014920,CUSA02NDK6R-1,,simple,1.0000,149.7500,0.0000,149.7500,CU400013442,1.0000,0.0000,149.7500,cashondelivery,,0.0000,shipped,100.0000,"1 Governor Santiago Street Malinta,","Valenzuela City","Metro Manila",1440,"Standard Delivery - Shipping Fee",484.7500,484.7500
+"2017-01-06 17:27:06",cathy_2486@yahoo.com,CU400014920,CUSA02NDK6R-1,,simple,1.0000,149.7500,0.0000,149.7500,CU400013442,1.0000,0.0000,149.7500,cashondelivery,,0.0000,shipped,100.0000,"1 Governor Santiago Street Malinta,","Valenzuela City","Metro Manila",1440,"Standard Delivery - Shipping Fee",484.7500,484.7500
+"2017-01-06 17:27:06",cathy_2486@yahoo.com,CU400014920,CUHAAA003GZUYP-1,,simple,1.0000,235.0000,0.0000,235.0000,CU400013442,1.0000,0.0000,235.0000,cashondelivery,,0.0000,shipped,100.0000,"1 Governor Santiago Street Malinta,","Valenzuela City","Metro Manila",1440,"Standard Delivery - Shipping Fee",484.7500,484.7500
+"2017-01-07 01:58:53",tanjoan_101@yahoo.com,CU400014921,CULI060DUK7-1,,simple,1.0000,600.0000,0.0000,600.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"3351 Palosapis St. United Paranaque 2 Subd.
+San Martin De Porres","Paranaque City","Metro Manila",1713,"Standard Delivery - Shipping Fee",1935.4500,
+"2017-01-07 01:58:53",tanjoan_101@yahoo.com,CU400014921,CUSM01NCUBJKS-250ML,,simple,3.0000,87.0000,0.0000,261.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"3351 Palosapis St. United Paranaque 2 Subd.
+San Martin De Porres","Paranaque City","Metro Manila",1713,"Standard Delivery - Shipping Fee",1935.4500,
+"2017-01-07 01:58:53",tanjoan_101@yahoo.com,CU400014921,CUSM01NCUBJKS-250ML,,simple,3.0000,87.0000,0.0000,261.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"3351 Palosapis St. United Paranaque 2 Subd.
+San Martin De Porres","Paranaque City","Metro Manila",1713,"Standard Delivery - Shipping Fee",1935.4500,
+"2017-01-07 01:58:53",tanjoan_101@yahoo.com,CU400014921,CUPA02ZPH20-1,,simple,1.0000,1074.4500,0.0000,1074.4500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"3351 Palosapis St. United Paranaque 2 Subd.
+San Martin De Porres","Paranaque City","Metro Manila",1713,"Standard Delivery - Shipping Fee",1935.4500,
+"2017-01-07 01:58:53",tanjoan_101@yahoo.com,CU400014921,CUPA02ZPH20-1,,simple,1.0000,1074.4500,0.0000,1074.4500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"3351 Palosapis St. United Paranaque 2 Subd.
+San Martin De Porres","Paranaque City","Metro Manila",1713,"Standard Delivery - Shipping Fee",1935.4500,
+"2017-01-07 01:58:53",tanjoan_101@yahoo.com,CU400014921,CULI060DUK7-1,,simple,1.0000,600.0000,0.0000,600.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"3351 Palosapis St. United Paranaque 2 Subd.
+San Martin De Porres","Paranaque City","Metro Manila",1713,"Standard Delivery - Shipping Fee",1935.4500,
+"2017-01-07 03:13:48",encanto_melissa@yahoo.com,CU400014922,CUCE02VSA7U-1,,simple,1.0000,1548.0000,0.0000,1548.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"74 Ifugao street La Vista 
+Pansol","Quezon City","Metro Manila",1108,"Standard Delivery - Shipping Fee",1548.0000,
+"2017-01-07 03:13:48",encanto_melissa@yahoo.com,CU400014922,CUCE02VSA7U-1,,simple,1.0000,1548.0000,0.0000,1548.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"74 Ifugao street La Vista 
+Pansol","Quezon City","Metro Manila",1108,"Standard Delivery - Shipping Fee",1548.0000,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU01NIOEE-1,,configurable,1.0000,350.0000,0.0000,350.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAVSG-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAHAL-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUHU02ZBUGF-1,,simple,1.0000,749.7500,0.0000,749.7500,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJRD-FRSZ,,configurable,1.0000,89.9100,0.0000,89.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAQFB-0M3,,configurable,1.0000,170.9100,0.0000,170.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWANKM-FRSZ,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAVSG-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAHAL-0M3,,configurable,1.0000,206.9100,0.0000,206.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUHU02ZBUGF-1,,simple,1.0000,749.7500,0.0000,749.7500,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJRD-FRSZ,,configurable,1.0000,89.9100,0.0000,89.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAEVO-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWANKM-FRSZ,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAVSG-0M3,,configurable,1.0000,233.9100,0.0000,233.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE13O5GQ5-1,,simple,1.0000,134.7800,0.0000,134.7800,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAHAL-0M3,,configurable,1.0000,206.9100,0.0000,206.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU016N7HY-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJNU-FRSZ,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAEVO-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWANKM-FRSZ,,configurable,1.0000,89.9100,0.0000,89.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAVSG-0M3,,configurable,1.0000,233.9100,0.0000,233.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE13O5GQ5-1,,simple,1.0000,134.7800,0.0000,134.7800,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU01NIOEE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU016N7HY-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJNU-FRSZ,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAEVO-0M3,,configurable,1.0000,215.9100,0.0000,215.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWANKM-FRSZ,,configurable,1.0000,89.9100,0.0000,89.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAQFB-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAAAT-FRSZ,,simple,2.0000,179.9100,0.0000,359.8200,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU01NIOEE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU016N7HY-1,,configurable,1.0000,390.0000,0.0000,390.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJNU-FRSZ,,configurable,1.0000,89.9100,0.0000,89.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAEVO-0M3,,configurable,1.0000,215.9100,0.0000,215.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJRD-FRSZ,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAQFB-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAAAT-FRSZ,,simple,2.0000,179.9100,0.0000,359.8200,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU01NIOEE-1,,configurable,1.0000,350.0000,0.0000,350.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBU016N7HY-1,,configurable,1.0000,390.0000,0.0000,390.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJNU-FRSZ,,configurable,1.0000,89.9100,0.0000,89.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAHAL-0M3,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAJRD-FRSZ,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 03:54:56",jenniferbuenafe@yahoo.com,CU400014923,CUBE03CLWAQFB-0M3,,configurable,1.0000,170.9100,0.0000,170.9100,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Hotel Benilde Maison De La Salle (employee entrance) Arellano cor. Estrada St. Malate, Manila
+Barangay 733",Malate,"Metro Manila",1004,"Standard Delivery - Shipping Fee",3081.7200,
+"2017-01-07 04:49:56",i.am.raizelle@gmail.com,CU400014924,CUSU01NC5AEBG-ONE,,simple,1.0000,1599.7500,0.0000,1599.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"57-B 12th St., New Manila
+Mariana","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",1599.7500,
+"2017-01-07 04:49:56",i.am.raizelle@gmail.com,CU400014924,CUSU01NC5AEBG-ONE,,simple,1.0000,1599.7500,0.0000,1599.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"57-B 12th St., New Manila
+Mariana","Quezon City","Metro Manila",1112,"Standard Delivery - Shipping Fee",1599.7500,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUSM01NCUBXFD-400ML,,simple,1.0000,139.0000,0.0000,139.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUTI01D2IWR-1,,simple,1.0000,189.0000,0.0000,189.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUTI01D2IWR-1,,simple,1.0000,189.0000,0.0000,189.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUTI01IGLRU-1,,simple,1.0000,269.0000,0.0000,269.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUSM01NCUBJKS-250ML,,simple,1.0000,87.0000,0.0000,87.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUTI01IGLRU-1,,simple,1.0000,269.0000,0.0000,269.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUSM01NCUBJKS-250ML,,simple,1.0000,87.0000,0.0000,87.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 06:17:02",charry_flor18@yahoo.com,CU400014925,CUSM01NCUBXFD-400ML,,simple,1.0000,139.0000,0.0000,139.0000,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"Bahet, San Ildefonso, Ilocos Sur
+Bahet","San Ildefonso","Ilocos Sur",2828,"Standard Delivery - Shipping Fee",784.0000,
+"2017-01-07 07:09:35",louila_eleazar@yahoo.com,CU400014926,CUTO01NCXAARN-FAS,,simple,3.0000,329.7500,0.0000,989.2500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"B76 L11 Golden City Subd.
+Dila","Santa Rosa City",Laguna,4026,"Standard Delivery - Shipping Fee",1089.2500,
+"2017-01-07 07:09:35",louila_eleazar@yahoo.com,CU400014926,CUTO01NCXAARN-FAS,,simple,3.0000,329.7500,0.0000,989.2500,,,0.0000,,cashondelivery,,0.0000,verified,100.0000,"B76 L11 Golden City Subd.
+Dila","Santa Rosa City",Laguna,4026,"Standard Delivery - Shipping Fee",1089.2500,
+"2017-01-07 08:47:34",sanaiyah@gurnamal.com,CU400014927,CUOR030BHNR-1,,simple,2.0000,186.6800,0.0000,373.3600,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"22 Homonhon Street, Magallanes Village
+Magallanes","Makati City","Metro Manila",1232,"Standard Delivery - Shipping Fee",1129.3600,
+"2017-01-07 08:47:34",sanaiyah@gurnamal.com,CU400014927,CUTI01D2IWR-1,,simple,4.0000,189.0000,0.0000,756.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"22 Homonhon Street, Magallanes Village
+Magallanes","Makati City","Metro Manila",1232,"Standard Delivery - Shipping Fee",1129.3600,
+"2017-01-07 08:47:34",sanaiyah@gurnamal.com,CU400014927,CUTI01D2IWR-1,,simple,4.0000,189.0000,0.0000,756.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"22 Homonhon Street, Magallanes Village
+Magallanes","Makati City","Metro Manila",1232,"Standard Delivery - Shipping Fee",1129.3600,
+"2017-01-07 08:47:34",sanaiyah@gurnamal.com,CU400014927,CUOR030BHNR-1,,simple,2.0000,186.6800,0.0000,373.3600,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"22 Homonhon Street, Magallanes Village
+Magallanes","Makati City","Metro Manila",1232,"Standard Delivery - Shipping Fee",1129.3600,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUMU02NCPAAPC-ONE,,simple,1.0000,279.7500,0.0000,279.7500,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUTI01WYQCH-1,,simple,4.0000,155.0000,0.0000,620.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUTO01ZHROE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUTI01WYQCH-1,,simple,4.0000,155.0000,0.0000,620.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUTO01ZHROE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUPI01TCXJZ-1,,simple,1.0000,718.5000,0.0000,718.5000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUPI01TCXJZ-1,,simple,1.0000,718.5000,0.0000,718.5000,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 09:24:53",shirleyanneperez@gmail.com,CU400014928,CUMU02NCPAAPC-ONE,,simple,1.0000,279.7500,0.0000,279.7500,,,0.0000,,cashondelivery,,0.0000,verified,0.0000,"Block 15 Lot 3 Phase 5 Banahaw St. Greenwoods Executive Village
+Pinagbuhatan","Pasig City","Metro Manila",1601,"Standard Delivery - Shipping Fee",1618.2500,
+"2017-01-07 13:38:38",bellesembrano@gmail.com,CU400014929,CUDR02FYYGC-1,,simple,1.0000,643.4500,0.0000,643.4500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"424-b M. L. Quezon Street
+Poblacion Zone 19","Baybay City",Leyte,6521,"Standard Delivery - Shipping Fee",2143.2000,
+"2017-01-07 13:38:38",bellesembrano@gmail.com,CU400014929,CUDR02FYYGC-1,,simple,1.0000,643.4500,0.0000,643.4500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"424-b M. L. Quezon Street
+Poblacion Zone 19","Baybay City",Leyte,6521,"Standard Delivery - Shipping Fee",2143.2000,
+"2017-01-07 13:38:38",bellesembrano@gmail.com,CU400014929,CULI02NCUAEBW-ONE,,simple,1.0000,1499.7500,0.0000,1499.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"424-b M. L. Quezon Street
+Poblacion Zone 19","Baybay City",Leyte,6521,"Standard Delivery - Shipping Fee",2143.2000,
+"2017-01-07 13:38:38",bellesembrano@gmail.com,CU400014929,CULI02NCUAEBW-ONE,,simple,1.0000,1499.7500,0.0000,1499.7500,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"424-b M. L. Quezon Street
+Poblacion Zone 19","Baybay City",Leyte,6521,"Standard Delivery - Shipping Fee",2143.2000,

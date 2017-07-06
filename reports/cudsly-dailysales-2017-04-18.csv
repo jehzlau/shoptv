@@ -1,0 +1,105 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-16 03:16:52",verlynagustin@gmail.com,CU400016042,CUEQ02XDLCP-1,,simple,1.0000,386.5500,38.6600,386.5500,CU400014470,1.0000,38.6600,386.5500,paypal_express,,10.0000,shipped,100.0000,"3571 Clemente Compound Gen. T De Leon Valenzuela City
+Hen. T. De Leon","Valenzuela City","Metro Manila",1442,"Standard Delivery - Shipping Fee",447.8900,447.8900
+"2017-04-16 03:16:52",verlynagustin@gmail.com,CU400016042,CUEQ02XDLCP-1,,simple,1.0000,386.5500,38.6600,386.5500,CU400014470,1.0000,38.6600,386.5500,paypal_express,,10.0000,shipped,100.0000,"3571 Clemente Compound Gen. T De Leon Valenzuela City
+Hen. T. De Leon","Valenzuela City","Metro Manila",1442,"Standard Delivery - Shipping Fee",447.8900,447.8900
+"2017-04-16 08:59:43",annebinu@gmail.com,CU400016043,CUHU01UI1R5-1,,simple,1.0000,1653.0000,314.0700,1653.0000,CU400014469,1.0000,314.0700,1653.0000,paypal_express,,20.0000,shipped,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1338.9300,1338.9300
+"2017-04-16 08:59:43",annebinu@gmail.com,CU400016043,CUHU01UI1R5-1,,simple,1.0000,1653.0000,314.0700,1653.0000,CU400014469,1.0000,314.0700,1653.0000,paypal_express,,20.0000,shipped,0.0000,"Unit 315 Windsor Tower, 163 Legaspi St. Legaspi Village
+San Lorenzo","Makati City","Metro Manila",1229,"Standard Delivery - Shipping Fee",1338.9300,1338.9300
+"2017-04-16 15:19:17",llebanod@yahoo.com,CU400016044,CUPA02PJRLX-1,,simple,3.0000,420.0000,239.4000,1260.0000,CU400014473,3.0000,239.4000,1260.0000,cashondelivery,,20.0000,shipped,0.0000,"40 Unit 5B Narra St.,
+Marikina Heights (Concepcion)","Marikina City","Metro Manila",1810,"Standard Delivery - Shipping Fee",1520.3700,1520.3700
+"2017-04-16 15:19:17",llebanod@yahoo.com,CU400016044,CUPA02EHADO-1,,simple,1.0000,617.0000,117.2300,617.0000,CU400014473,1.0000,117.2300,617.0000,cashondelivery,,20.0000,shipped,0.0000,"40 Unit 5B Narra St.,
+Marikina Heights (Concepcion)","Marikina City","Metro Manila",1810,"Standard Delivery - Shipping Fee",1520.3700,1520.3700
+"2017-04-16 15:19:17",llebanod@yahoo.com,CU400016044,CUPA02EHADO-1,,simple,1.0000,617.0000,117.2300,617.0000,CU400014473,1.0000,117.2300,617.0000,cashondelivery,,20.0000,shipped,0.0000,"40 Unit 5B Narra St.,
+Marikina Heights (Concepcion)","Marikina City","Metro Manila",1810,"Standard Delivery - Shipping Fee",1520.3700,1520.3700
+"2017-04-16 15:19:17",llebanod@yahoo.com,CU400016044,CUPA02PJRLX-1,,simple,3.0000,420.0000,239.4000,1260.0000,CU400014473,3.0000,239.4000,1260.0000,cashondelivery,,20.0000,shipped,0.0000,"40 Unit 5B Narra St.,
+Marikina Heights (Concepcion)","Marikina City","Metro Manila",1810,"Standard Delivery - Shipping Fee",1520.3700,1520.3700
+"2017-04-16 16:12:47",mian_munoz@yahoo.com,CU400016045,CUHU019GS6P-1,,simple,1.0000,1909.5000,448.7400,1909.5000,CU400014472,1.0000,448.7400,1909.5000,paypal_express,,25.0000,shipped,0.0000,"2 Roberto Villanueva Street, Classic Homes
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",2768.9100,2768.9100
+"2017-04-16 16:12:47",mian_munoz@yahoo.com,CU400016045,CUHU01AQ0W9-1,,simple,1.0000,1710.0000,401.8500,1710.0000,CU400014472,1.0000,401.8500,1710.0000,paypal_express,,25.0000,shipped,0.0000,"2 Roberto Villanueva Street, Classic Homes
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",2768.9100,2768.9100
+"2017-04-16 16:12:47",mian_munoz@yahoo.com,CU400016045,CUHU01AQ0W9-1,,simple,1.0000,1710.0000,401.8500,1710.0000,CU400014472,1.0000,401.8500,1710.0000,paypal_express,,25.0000,shipped,0.0000,"2 Roberto Villanueva Street, Classic Homes
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",2768.9100,2768.9100
+"2017-04-16 16:12:47",mian_munoz@yahoo.com,CU400016045,CUHU019GS6P-1,,simple,1.0000,1909.5000,448.7400,1909.5000,CU400014472,1.0000,448.7400,1909.5000,paypal_express,,25.0000,shipped,0.0000,"2 Roberto Villanueva Street, Classic Homes
+B. F. Homes","Paranaque City","Metro Manila",1720,"Standard Delivery - Shipping Fee",2768.9100,2768.9100
+"2017-04-17 04:20:29",vsarmiento31@gmail.com,CU400016047,CUHU01ONUFO-1,,simple,3.0000,1767.0000,1484.2800,5301.0000,CU400014475,3.0000,1484.2800,5301.0000,cashondelivery,,30.0000,shipped,0.0000,"123 M CRUZ ST
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",3816.7200,3816.7200
+"2017-04-17 04:20:29",vsarmiento31@gmail.com,CU400016047,CUHU01ONUFO-1,,simple,3.0000,1767.0000,1484.2800,5301.0000,CU400014475,3.0000,1484.2800,5301.0000,cashondelivery,,30.0000,shipped,0.0000,"123 M CRUZ ST
+Santo Nino","Marikina City","Metro Manila",1800,"Standard Delivery - Shipping Fee",3816.7200,3816.7200
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUME02S811D-1,,simple,1.0000,319.8000,75.1500,319.8000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUJO03NTHBD-1,,simple,1.0000,138.2300,32.4900,138.2300,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUVA01NXCTL-1,,simple,1.0000,89.1000,20.9400,89.1000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUHU01PURCH-1,,simple,1.0000,435.0000,102.2300,435.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUZW01YJWBX-1,,simple,2.0000,64.3500,30.2400,128.7000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUJO03NTHBD-1,,simple,1.0000,138.2300,32.4900,138.2300,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUHU01SW8ZC-1,,simple,2.0000,160.0000,75.2000,320.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUVA01NXCTL-1,,simple,1.0000,89.1000,20.9400,89.1000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUHU01FBQ8G-1,,simple,3.0000,307.0000,216.4300,921.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUZW01YJWBX-1,,simple,2.0000,64.3500,30.2400,128.7000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUNI01IGTVN-1,,simple,1.0000,233.7000,54.9100,233.7000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUHU01SW8ZC-1,,simple,2.0000,160.0000,75.2000,320.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUCE03JFTDO-1,,simple,1.0000,189.0000,44.4200,189.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUHU01FBQ8G-1,,simple,3.0000,307.0000,216.4300,921.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUSA05NQLIR-1,,simple,1.0000,314.7800,73.9800,314.7800,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUNI01IGTVN-1,,simple,1.0000,233.7000,54.9100,233.7000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUME02TX7ZH-1,,simple,1.0000,319.8000,75.1500,319.8000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUCE03JFTDO-1,,simple,1.0000,189.0000,44.4200,189.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUSA05NQLIR-1,,simple,1.0000,314.7800,73.9800,314.7800,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUJO03VTZIU-1,,simple,4.0000,35.8600,33.7100,143.4400,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUME02TX7ZH-1,,simple,1.0000,319.8000,75.1500,319.8000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUCE03FMDIY-1,,simple,3.0000,144.0000,101.5200,432.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUDO03RBPZD-1,,simple,1.0000,153.0000,35.9500,153.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUJO03VTZIU-1,,simple,4.0000,35.8600,33.7100,143.4400,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUME02S811D-1,,simple,1.0000,319.8000,75.1500,319.8000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUCE03FMDIY-1,,simple,3.0000,144.0000,101.5200,432.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUDO03RBPZD-1,,simple,1.0000,153.0000,35.9500,153.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:29:56",kath_gon@yahoo.com,CU400016049,CUHU01PURCH-1,,simple,1.0000,435.0000,102.2300,435.0000,,,0.0000,,cashondelivery,,25.0000,verified,0.0000,"Unit 3A Strata Suites 300 P. Guevarra street San juan, Manila
+Santa Lucia","San Juan City","Metro Manila",1500,"Standard Delivery - Shipping Fee",3165.2300,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUEQ02PTGWK-1,,simple,4.0000,258.6200,243.1000,1034.4800,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUPH02LPDJV-1,,simple,1.0000,959.6000,225.5100,959.6000,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUEQ02U3FKE-1,,simple,5.0000,130.2800,153.0800,651.4000,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUEQ02U3FKE-1,,simple,5.0000,130.2800,153.0800,651.4000,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUEQ02XDLCP-1,,simple,1.0000,386.5500,90.8300,386.5500,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUEQ02XDLCP-1,,simple,1.0000,386.5500,90.8300,386.5500,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUHU01EZTKE-1,,simple,1.0000,0.0000,0.0000,0.0000,,,0.0000,,paypal_express,,0.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUEQ02PTGWK-1,,simple,4.0000,258.6200,243.1000,1034.4800,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,
+"2017-04-17 15:50:51",jacstones@yahoo.com,CU400016050,CUPH02LPDJV-1,,simple,1.0000,959.6000,225.5100,959.6000,,,0.0000,,paypal_express,,25.0000,verified,0.0000,"745 Amistad St., Buena Vida, Merville Park
+Merville","Paranaque City","Metro Manila",1709,"Standard Delivery - Shipping Fee",2319.5100,

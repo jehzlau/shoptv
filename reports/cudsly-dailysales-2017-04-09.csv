@@ -1,0 +1,29 @@
+created_at,customer_email,order_no,sku,base_tax_refunded,product_type,qty_ordered,original_price,order_discount,order_subtotal,invoice_no,qty_invoiced,invoiced_discount,invoiced_total,payment_method,coupon_code,discount_percent,order_status,shipping_amount,street,city,region,postcode,shipping_description,grand_total,total_paid
+"2017-04-07 06:49:06",melodyimendoza@yahoo.com,CU400016016,CUHU01VZ8UT-1,,simple,2.0000,670.0000,0.0000,1340.0000,CU400014451,2.0000,0.0000,1340.0000,paypal_express,,0.0000,shipped,0.0000,"Unit 801 B Spianada Residences, Rahmann St., cor Benedicto, Cebu City
+Zapatera","Cebu City",Cebu,6000,"Standard Delivery - Shipping Fee",1340.0000,1340.0000
+"2017-04-07 06:49:06",melodyimendoza@yahoo.com,CU400016016,CUHU01VZ8UT-1,,simple,2.0000,670.0000,0.0000,1340.0000,CU400014451,2.0000,0.0000,1340.0000,paypal_express,,0.0000,shipped,0.0000,"Unit 801 B Spianada Residences, Rahmann St., cor Benedicto, Cebu City
+Zapatera","Cebu City",Cebu,6000,"Standard Delivery - Shipping Fee",1340.0000,1340.0000
+"2017-04-07 08:03:25",jomadeltan@ymail.com,CU400016017,CUEQ02XJHFF-1,,simple,1.0000,1718.0100,326.4200,1718.0100,CU400014450,1.0000,326.4200,1718.0100,cashondelivery,,20.0000,shipped,0.0000,"Block 13 Lot 18 phase 7 package 11 crystal st. Bagong Silang
+Barangay 176","Caloocan City","Metro Manila",1428,"Standard Delivery - Shipping Fee",1391.5900,1391.5900
+"2017-04-07 08:03:25",jomadeltan@ymail.com,CU400016017,CUEQ02XJHFF-1,,simple,1.0000,1718.0100,326.4200,1718.0100,CU400014450,1.0000,326.4200,1718.0100,cashondelivery,,20.0000,shipped,0.0000,"Block 13 Lot 18 phase 7 package 11 crystal st. Bagong Silang
+Barangay 176","Caloocan City","Metro Manila",1428,"Standard Delivery - Shipping Fee",1391.5900,1391.5900
+"2017-04-07 22:11:12",lorriecaccam@gmail.com,CU400016018,CUPI01IJEAA-1,,simple,6.0000,479.8000,546.9700,2878.8000,CU400014452,6.0000,546.9700,2878.8000,cashondelivery,,20.0000,shipped,0.0000,"Unit 104 Banahaw Building, Rainbow Ridge 1 Condominiums, Manuel L. Quezon Avenue
+San Miguel","Taguig City","Metro Manila",1636,"Standard Delivery - Shipping Fee",2331.8300,2331.8300
+"2017-04-07 22:11:12",lorriecaccam@gmail.com,CU400016018,CUPI01IJEAA-1,,simple,6.0000,479.8000,546.9700,2878.8000,CU400014452,6.0000,546.9700,2878.8000,cashondelivery,,20.0000,shipped,0.0000,"Unit 104 Banahaw Building, Rainbow Ridge 1 Condominiums, Manuel L. Quezon Avenue
+San Miguel","Taguig City","Metro Manila",1636,"Standard Delivery - Shipping Fee",2331.8300,2331.8300
+"2017-04-07 22:11:12",lorriecaccam@gmail.com,CU400016018,CUHU01EZTKE-1,,simple,6.0000,0.0000,0.0000,0.0000,CU400014452,6.0000,0.0000,0.0000,cashondelivery,,0.0000,shipped,0.0000,"Unit 104 Banahaw Building, Rainbow Ridge 1 Condominiums, Manuel L. Quezon Avenue
+San Miguel","Taguig City","Metro Manila",1636,"Standard Delivery - Shipping Fee",2331.8300,2331.8300
+"2017-04-07 22:11:12",lorriecaccam@gmail.com,CU400016018,CUHU01EZTKE-1,,simple,6.0000,0.0000,0.0000,0.0000,CU400014452,6.0000,0.0000,0.0000,cashondelivery,,0.0000,shipped,0.0000,"Unit 104 Banahaw Building, Rainbow Ridge 1 Condominiums, Manuel L. Quezon Avenue
+San Miguel","Taguig City","Metro Manila",1636,"Standard Delivery - Shipping Fee",2331.8300,2331.8300
+"2017-04-08 00:41:40",Kking1272@yahoo.com,CU400016019,CUHU017UXZ9-1,,simple,4.0000,480.0000,364.8000,1920.0000,,,0.0000,,banktransfer,,20.0000,bank_pending,0.0000,"44 McKinley road Forbes park
+Forbes Park","Makati City","Metro Manila",1222,"Standard Delivery - Shipping Fee",1555.2000,
+"2017-04-08 00:41:40",Kking1272@yahoo.com,CU400016019,CUHU017UXZ9-1,,simple,4.0000,480.0000,364.8000,1920.0000,,,0.0000,,banktransfer,,20.0000,bank_pending,0.0000,"32 ilongot street la vista 
+Pansol","Quezon City","Metro Manila",1108,"Standard Delivery - Shipping Fee",1555.2000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUEQ02VQVKE-1,,simple,3.0000,282.6000,161.0800,847.8000,CU400014453,3.0000,161.0800,847.8000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUEQ02VQVKE-1,,simple,3.0000,282.6000,161.0800,847.8000,CU400014453,3.0000,161.0800,847.8000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUHU01YTCRP-1,,simple,2.0000,414.0000,157.3200,828.0000,CU400014453,2.0000,157.3200,828.0000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
+"2017-04-08 02:37:20",mariankriselleatienza@yahoo.com,CU400016020,CUHU01YTCRP-1,,simple,2.0000,414.0000,157.3200,828.0000,CU400014453,2.0000,157.3200,828.0000,paypal_express,,20.0000,invoiced,0.0000,"8 Venetia Drive, The Venice Luxury Residences, Mckinley Hill Taguig City 
+Fort Bonifacio","Taguig City","Metro Manila",1634,"Standard Delivery - Shipping Fee",1357.4000,
